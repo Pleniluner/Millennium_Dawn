@@ -216,7 +216,6 @@ technologies = {
 			tank_battlestation_1
 			afv_battlestation_1
 			art_battlestation_gen1
-			additional_machine_guns
 			smoke_launchers
 		}
 
@@ -1376,7 +1375,6 @@ technologies = {
 			afv_coax_machine_gun
 			afv_torsion_bar_suspension
 			afv_tracked_suspension
-			afv_additional_machine_guns
 			afv_gun_ports
 			afv_reverse_doors
 			afv_mine_protection

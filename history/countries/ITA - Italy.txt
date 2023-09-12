@@ -619,7 +619,7 @@ set_research_slots = 6
 				reload_type_slot = manual_loading
 				special_type_slot_1 = additional_machine_guns
 				special_type_slot_2 = smoke_launchers
-				special_type_slot_3 = smoke_launchers
+				special_type_slot_3 = empty
 				special_type_slot_4 = tank_battlestation_1
 			}
 			upgrades = {
@@ -684,9 +684,9 @@ set_research_slots = 6
 				armor_type_slot = tank_composite_armor_gen2
 				engine_type_slot = tank_diesel_engine_gen4
 				reload_type_slot = manual_loading
-				special_type_slot_1 = additional_machine_guns
+				special_type_slot_1 = additional_machine_guns_2
 				special_type_slot_2 = smoke_launchers_2
-				special_type_slot_3 = smoke_launchers_2
+				special_type_slot_3 = wet_ammo_storage
 				special_type_slot_4 = tank_battlestation_3
 				special_type_slot_5 = spaced_armor_gen2
 			}
@@ -708,7 +708,7 @@ set_research_slots = 6
 				armor_type_slot = afv_steel_armor_gen1
 				special_type_slot_1 = afv_gun_ports
 				special_type_slot_2 = smoke_launchers
-				special_type_slot_3 = smoke_launchers
+				special_type_slot_3 = empty
 				special_type_slot_4 = afv_battlestation_1
 			}
 			upgrades = {
@@ -731,7 +731,7 @@ set_research_slots = 6
 				special_armament_type_slot = afv_coax_machine_gun
 				special_type_slot_1 = afv_gun_ports
 				special_type_slot_2 = smoke_launchers
-				special_type_slot_3 = smoke_launchers
+				special_type_slot_3 = empty
 				special_type_slot_4 = afv_battlestation_1
 			}
 			upgrades = {

@@ -42,6 +42,8 @@ technologies = {
 		enable_equipment_modules = {
 			afv_machine_gun
 			afv_coax_machine_gun
+			additional_machine_guns
+			afv_additional_machine_guns
 		}
 		enable_subunits = {
 			Militia_Bat
@@ -111,6 +113,10 @@ technologies = {
 		enable_equipment_modules = {
 			afv_machine_gun_2
 			afv_coax_machine_gun_2
+			additional_machine_guns_2
+			afv_additional_machine_guns_2
+			additional_grenade_launchers
+			afv_additional_grenade_launchers
 		}
 
 		path = {
@@ -138,6 +144,9 @@ technologies = {
 
 		enable_equipments = {
 			infantry_weapons3
+		}
+		enable_equipment_modules = {
+			additional_chaingun
 		}
 
 		path = {

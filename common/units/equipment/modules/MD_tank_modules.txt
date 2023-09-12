@@ -1877,7 +1877,7 @@ equipment_modules = {
 	## Machine guns ##
 	additional_machine_guns = {
 		abbreviation = "mg"
-		category = tank_special_module
+		category = tank_top_mounted
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -1887,6 +1887,52 @@ equipment_modules = {
 			build_cost_ic = 0.25
 		}
 		xp_cost = 3
+	}
+
+	additional_machine_guns_2 = {
+		abbreviation = "mg2"
+		category = tank_top_mounted
+		sfx = sfx_ui_sd_module_turret
+		parent = additional_machine_guns
+
+		add_stats = {
+			soft_attack = 1.5
+			defense = 1.5
+			air_attack = 0.35
+			build_cost_ic = 0.35
+		}
+		xp_cost = 3
+	}
+
+	additional_grenade_launchers = {
+		abbreviation = "mg"
+		category = tank_top_mounted
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 2
+			breakthrough = 0.75
+			build_cost_ic = 0.35
+		}
+		xp_cost = 3
+	}
+
+	additional_chaingun = {
+		abbreviation = "mg"
+		category = tank_top_mounted
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 1.25
+			hard_attack = 1.25
+			breakthrough = 0.5
+			defense = 0.5
+			build_cost_ic = 0.45
+		}
+		xp_cost = 3
+		build_cost_resources = {
+			steel = 1
+		}
 	}
 
 	## Blow out panels
@@ -3594,7 +3640,7 @@ equipment_modules = {
 	# Special modules
 	afv_additional_machine_guns = {
 		abbreviation = "amg"
-		category = light_afv_special_module
+		category = afv_top_mounted
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -3602,6 +3648,34 @@ equipment_modules = {
 			defense = 1
 			air_attack = 0.25
 			build_cost_ic = 0.2
+		}
+		xp_cost = 3
+	}
+
+	afv_additional_machine_guns_2 = {
+		abbreviation = "mg2"
+		category = afv_top_mounted
+		sfx = sfx_ui_sd_module_turret
+		parent = afv_additional_machine_guns
+
+		add_stats = {
+			soft_attack = 1.5
+			defense = 1.5
+			air_attack = 0.35
+			build_cost_ic = 0.35
+		}
+		xp_cost = 3
+	}
+
+	afv_additional_grenade_launchers = {
+		abbreviation = "mg"
+		category = afv_top_mounted
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 2
+			breakthrough = 0.75
+			build_cost_ic = 0.35
 		}
 		xp_cost = 3
 	}

@@ -40,11 +40,11 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_MBT_1_medium"
-		texturefile = "gfx/interface/technologies/SOV/LAND/MBT1.dds"
+		texturefile = "gfx/interface/technologies/Generic/NSB_AFV/MBT1.dds"
 	}
 	spriteType = {
 		name = "GFX_MBT_2_medium"
-		texturefile = "gfx/interface/technologies/SOV/LAND/MBT2.dds"
+		texturefile = "gfx/interface/technologies/Generic/NSB_AFV/MBT2.dds"
 	}
 	spriteType = {
 		name = "GFX_MBT_3_medium"
@@ -52,15 +52,15 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_MBT_4_medium"
-		texturefile = "gfx/interface/technologies/SOV/LAND/MBT4.dds"
+		texturefile = "gfx/interface/technologies/Generic/NSB_AFV/MBT4.dds"
 	}
 	spriteType = {
 		name = "GFX_MBT_5_medium"
-		texturefile = "gfx/interface/technologies/SOV/LAND/MBT5.dds"
+		texturefile = "gfx/interface/technologies/Generic/NSB_AFV/MBT5.dds"
 	}
 	spriteType = {
 		name = "GFX_MBT_7_medium"
-		texturefile = "gfx/interface/technologies/SOV/LAND/MBT6.dds"
+		texturefile = "gfx/interface/technologies/Generic/NSB_AFV/MBT7.dds"
 	}
 	spriteType = {
 		name = "GFX_MBT_8_medium"

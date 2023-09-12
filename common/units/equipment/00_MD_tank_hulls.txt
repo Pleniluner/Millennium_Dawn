@@ -62,6 +62,7 @@ equipments = {
 					tank_additional_armor_era
 					tank_additional_armor_spaced
 					tank_support_drone_module
+					tank_top_mounted
 				}
 			}
 			special_type_slot_2 = {
@@ -75,6 +76,7 @@ equipments = {
 					tank_additional_armor_era
 					tank_additional_armor_spaced
 					tank_support_drone_module
+					tank_top_mounted
 				}
 			}
 			special_type_slot_3 = {
@@ -88,6 +90,7 @@ equipments = {
 					tank_additional_armor_era
 					tank_additional_armor_spaced
 					tank_support_drone_module
+					tank_top_mounted
 				}
 			}
 			special_type_slot_4 = {
@@ -143,6 +146,14 @@ equipments = {
 		}
 		module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_smoke_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_top_mounted
 			count < 2
 		}
 
@@ -328,6 +339,7 @@ equipments = {
 					tank_smoke_module
 					tank_additional_armor_era
 					tank_additional_armor_spaced
+					afv_top_mounted
 				}
 			}
 			special_type_slot_1 = {
@@ -339,6 +351,7 @@ equipments = {
 					tank_smoke_module
 					tank_additional_armor_era
 					tank_additional_armor_spaced
+					afv_top_mounted
 				}
 			}
 			special_type_slot_2 = {
@@ -350,6 +363,7 @@ equipments = {
 					tank_smoke_module
 					tank_additional_armor_era
 					tank_additional_armor_spaced
+					afv_top_mounted
 				}
 			}
 			special_type_slot_3 = {
@@ -361,6 +375,7 @@ equipments = {
 					tank_smoke_module
 					tank_additional_armor_era
 					tank_additional_armor_spaced
+					afv_top_mounted
 				}
 			}
 			special_type_slot_4 = {
@@ -412,6 +427,14 @@ equipments = {
 		}
 		module_count_limit = {
 			category = afv_atgm_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_smoke_module
+			count < 2
+		}
+		module_count_limit = {
+			category = afv_top_mounted
 			count < 2
 		}
 
@@ -634,6 +657,7 @@ equipments = {
 					tank_smoke_module
 					tank_additional_armor_era
 					tank_additional_armor_spaced
+					afv_top_mounted
 				}
 			}
 			special_type_slot_2 = {
@@ -645,6 +669,7 @@ equipments = {
 					tank_smoke_module
 					tank_additional_armor_era
 					tank_additional_armor_spaced
+					afv_top_mounted
 				}
 			}
 			special_type_slot_3 = {
@@ -656,6 +681,7 @@ equipments = {
 					tank_smoke_module
 					tank_additional_armor_era
 					tank_additional_armor_spaced
+					afv_top_mounted
 				}
 			}
 			special_type_slot_4 = {
@@ -707,6 +733,14 @@ equipments = {
 		}
 		module_count_limit = {
 			module = afv_reverse_doors
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_smoke_module
+			count < 2
+		}
+		module_count_limit = {
+			category = afv_top_mounted
 			count < 2
 		}
 
