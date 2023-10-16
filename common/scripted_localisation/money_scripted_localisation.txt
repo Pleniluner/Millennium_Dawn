@@ -142,26 +142,6 @@ defined_text = {
 	text = { localization_key = tax_action_button_corp_disabled_TT }
 }
 
-# Print Money Localization
-defined_text = {
-	name = hundred_pp_req
-
-	text = {
-		trigger = { ROOT = { has_political_power > 99 } }
-		localization_key = hundred_pp_req_yes
-	}
-	text = { localization_key = hundred_pp_req_no }
-}
-
-defined_text = {
-	name = not_recently_printed_money
-
-	text = {
-		trigger = { ROOT = { NOT = { has_country_flag = printed_money_recently } } }
-		localization_key = not_recently_printed_money_yes
-	}
-	text = { localization_key = not_recently_printed_money_no }
-}
 
 defined_text = {
 	name = defence_00_cost
@@ -2045,6 +2025,14 @@ defined_text = {
 	text = {
 		trigger = { has_idea = PER_irgc_black_market_exploits }
 		localization_key = irgc_black_market_income_tt
+	}
+	text = { localization_key = "" }
+}
+defined_text = {
+	name = additional_income_summary_redirecting_money_from_proxies
+	text = {
+		trigger = { has_idea = PER_redirecting_money_from_proxies }
+		localization_key = PER_redirecting_money_from_proxies_tt
 	}
 	text = { localization_key = "" }
 }

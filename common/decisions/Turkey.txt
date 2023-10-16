@@ -489,7 +489,7 @@ TUR_domestic_politics_category = {
 		}
 
 	}
-	TUR_homeland_defence = {#FP/Islamist Decision
+	TUR_homeland_defence = { #FP/Islamist Decision
 
 		cost = 150
 
@@ -504,7 +504,7 @@ TUR_domestic_politics_category = {
 			add_ideas = TUR_homeland_defence
 		}
 	}
-	TUR_highways = {#FP/Islamist Decision
+	TUR_highways = { #FP/Islamist Decision
 
 		cost = 150
 
@@ -989,7 +989,7 @@ TUR_hizmet_gulen_struggle = {
 			custom_effect_tooltip = TUR_decreases_gulenist_support_5
 			add_to_variable = { var = hizmet_power value = -0.05 }
 			clamp_variable = { var = hizmet_power min = 0 max = 1 }
-			add_to_variable = { var = akp_power value =  0.05 }
+			add_to_variable = { var = akp_power value = 0.05 }
 			clamp_variable = { var = akp_power min = 0 max = 1 }
 		}
 
@@ -1162,7 +1162,7 @@ TUR_pan_turkic_dream = {
 }
 #
 TUR_mafia_category = {
-	TUR_mafia_fighting_back = {#Random mafia event where they attack
+	TUR_mafia_fighting_back = { #Random mafia event where they attack
 		fire_only_once = no
 		days_re_enable = 5
 		activation = { hidden_trigger = { has_country_flag = TUR_mafia_war_start } }
@@ -2181,7 +2181,7 @@ TUR_mafia_influence_mechanic = {
 			tax_gain_multiplier_modifier = -0.10
 		}
 
-		days_remove = 31
+		days_remove = 15
 
 		ai_will_do = {
 			factor = 1
@@ -2292,7 +2292,7 @@ TUR_mafia_influence_mechanic = {
 			political_power_factor = -0.10
 		}
 
-		days_remove = 31
+		days_remove = 15
 
 		ai_will_do = {
 			factor = 1
@@ -2479,7 +2479,7 @@ TUR_mafia_influence_mechanic = {
 			political_power_gain = -0.80
 		}
 
-		days_remove = 31
+		days_remove = 15
 
 		ai_will_do = {
 			factor = 1
@@ -2540,7 +2540,7 @@ TUR_mafia_influence_mechanic = {
 			}
 		}
 
-		days_remove = 31
+		days_remove = 15
 
 		ai_will_do = {
 			factor = 1
@@ -2579,7 +2579,7 @@ TUR_mafia_influence_mechanic = {
 			}
 		}
 
-		days_remove = 70
+		days_remove = 50
 
 		ai_will_do = {
 			factor = 1
@@ -2697,7 +2697,7 @@ TUR_mafia_influence_mechanic = {
 			clamp_variable = { var = mafia_holland min = 0 max = 1 }
 		}
 
-		days_remove = 31
+		days_remove = 15
 
 		ai_will_do = {
 			factor = 1
@@ -2766,7 +2766,7 @@ TUR_mafia_influence_mechanic = {
 			}
 		}
 
-		days_remove = 60
+		days_remove = 45
 
 		ai_will_do = {
 			factor = 1
@@ -2800,7 +2800,7 @@ TUR_mafia_influence_mechanic = {
 			}
 		}
 
-		days_remove = 60
+		days_remove = 45
 
 		ai_will_do = {
 			factor = 1
@@ -2835,7 +2835,7 @@ TUR_mafia_influence_mechanic = {
 			custom_effect_tooltip = additional_income_rate_percent_tt
 		}
 
-		days_remove = 60
+		days_remove = 120
 
 		ai_will_do = {
 			factor = 1
@@ -2911,7 +2911,7 @@ TUR_mafia_influence_mechanic = {
 			clamp_variable = { var = mafia_australia min = 0 max = 1 }
 		}
 
-		days_remove = 31
+		days_remove = 15
 		modifier = {
 			political_power_cost = 0.5
 			experience_gain_army = -0.5
@@ -2964,7 +2964,7 @@ TUR_mafia_influence_mechanic = {
 			social_cost_multiplier_modifier = 0.30
 			health_cost_multiplier_modifier = 0.30
 		}
-		days_remove = 90
+		days_remove = 50
 
 		ai_will_do = {
 			factor = 1
@@ -3003,7 +3003,7 @@ TUR_mafia_influence_mechanic = {
 			}
 		}
 
-		days_remove = 31
+		days_remove = 15
 
 		ai_will_do = {
 			factor = 1
@@ -3042,7 +3042,7 @@ TUR_mafia_influence_mechanic = {
 				}
 			}
 			AST = {
-				741 ={
+				741 = {
 					add_resource = {
 						type = tungsten
 						amount = -97
@@ -3129,7 +3129,7 @@ TUR_mafia_influence_mechanic = {
 			propaganda_campaign_cost_modifier = 0.20
 		}
 
-		days_remove = 31
+		days_remove = 15
 
 		ai_will_do = {
 			factor = 1
@@ -3269,7 +3269,7 @@ TUR_mafia_influence_mechanic = {
 			}
 		}
 		modifier = { research_speed_factor = -0.30 }
-		days_remove = 60
+		days_remove = 40
 
 		ai_will_do = {
 			factor = 1
@@ -3303,7 +3303,7 @@ TUR_mafia_influence_mechanic = {
 			puppet = BEL
 		}
 
-		days_remove = 40
+		days_remove = 120
 
 		ai_will_do = {
 			factor = 1
@@ -3794,14 +3794,14 @@ TUR_disaster_income = {
 			log = "[GetDateText]: [Root.GetName]: Decision TUR_incoming_collapse"
 			IF = {
 				limit = {
-					has_country_flag =Turkey_FP_banned
+					has_country_flag = Turkey_FP_banned
 				}
 				decrease_economic_growth = yes
 				add_stability = -0.10
 			}
 			IF = {
 				limit = {
-					NOT = { has_country_flag =Turkey_FP_banned }
+					NOT = { has_country_flag = Turkey_FP_banned }
 				}
 				custom_effect_tooltip = TUR_akp_formed
 				hidden_effect = {

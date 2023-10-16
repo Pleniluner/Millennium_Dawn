@@ -1517,12 +1517,20 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = attack_helicopter1 #AH-1 Cobra = Removed 200
+		type = attack_helicopter_hull_0 #AH-1 Cobra = Removed 200
+		variant_name = "AH-1 Cobra"
 		amount = 311
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = attack_helicopter2 #AH-64 Apache = Removed 200
+		type = attack_helicopter_hull_1 #Removed 150
+		variant_name = "AH-1W SuperCobra"
+		amount = 38
+		producer = USA
+	}
+	add_equipment_to_stockpile = {
+		type = attack_helicopter_hull_1 #AH-64 Apache = Removed 200
+		variant_name = "AH-64 A/D Apache Longbow"
 		amount = 543
 		producer = USA
 	}
@@ -1543,7 +1551,8 @@ instant_effect = {
 		#version_name = "Boeing CH-47D Chinook"
 	}
 	add_equipment_to_stockpile = {
-		type = attack_helicopter2 #OH-58D Kiowa Warrior = Removed 600
+		type = attack_helicopter_hull_1 #OH-58D Kiowa Warrior = Removed 600
+		variant_name = "OH-58D Kiowa Warrior"
 		amount = 253
 		producer = USA
 		#version_name = "OH-58D Kiowa Warrior"
@@ -1555,62 +1564,75 @@ instant_effect = {
 		#version_name = "Bell 206"
 	}
 
-	####################
-	###Naval Aviation###
-	####################
-
 	add_equipment_to_stockpile = {
 		type = transport_helicopter1 #Bell UH-1 Iroquois
-		amount = 179
-		producer = USA
+		amount = 101
 	}
 	add_equipment_to_stockpile = {
 		type = transport_helicopter1 #Sikorsky CH-53 Sea Stallion
-		amount = 359
-		producer = USA
+		amount = 239
 		#version_name = "Sikorsky CH-53 Sea Stallion"
 	}
 	add_equipment_to_stockpile = {
 		type = transport_helicopter2 #Sikorsky UH-60 Black Hawk
 		amount = 278
-		producer = USA
 	}
 	add_equipment_to_stockpile = {
 		type = transport_helicopter1 #CH-46D
-		amount = 356
-		producer = USA
+		amount = 256
 		#version_name = 'CH-46D"
 	}
 	add_equipment_to_stockpile = {
 		type = transport_helicopter1 #Bell 206
 		amount = 120
-		producer = USA
 		#version_name = "Bell 206"
 	}
 	add_equipment_to_stockpile = {
-		type = attack_helicopter2 #AH-1W SuperCobra = Removed 100
-		amount = 95
-		producer = USA
+		type = attack_helicopter_hull_1 #AH-1W SuperCobra
+		variant_name = "AH-1W SuperCobra"
+		amount = 195
 		#version_name = "AH-1W SuperCobra"
 	}
-	##########
-	###USMC###
-	##########
+	#Land Vehicles
+	add_equipment_to_stockpile = {
+		type = ifv_hull_1
+		variant_name = "M2 Bradley"
+		amount = 5710
+		producer = USA
+	}
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1
+		variant_name = "M1A1 Abrams"
+		amount = 3879
+		producer = USA
+	}
+	add_equipment_to_stockpile = {
+		type = mbt_hull_1
+		variant_name = "M1A2 Abrams"
+		amount = 5214
+		producer = USA
+	}
 	add_equipment_to_stockpile = {
 		type = apc_hull_1
-		#version_name = "Stryker"
+		variant_name = "LAV-25"
+		amount = 400
+		producer = USA
+	}
+	add_equipment_to_stockpile = {
+		type = apc_hull_1
+		variant_name = "Stryker"
 		amount = 4466
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
 		type = apc_hull_0
-		#version_name = "M113A2"
-		amount = 6000
+		variant_name = "M113A2"
+		amount = 15200
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
 		type = apc_hull_1
-		#version_name = "LAV-III Bison"
+		variant_name = "LAV-III Bison"
 		amount = 870
 		producer = CAN
 	}
@@ -1630,18 +1652,30 @@ instant_effect = {
 		producer = USA
 		#version_name = "M198 howitzer"
 	}
+	add_equipment_to_stockpile = {
+		type = spart_hull_0
+		variant_name = "M109A2"
+		amount = 1100
+		producer = USA
+	}
+	add_equipment_to_stockpile = {
+		type = spart_hull_0
+		variant_name = "M109A5"
+		amount = 1412
+		producer = USA
+	}
+	add_equipment_to_stockpile = {
+		type = spart_hull_1
+		variant_name = "M270"
+		amount = 1075
+		producer = USA
+	}
 
 	#MOR 81mm: 586 M-252 (incl 50 LAV-M)
 	#ATGW 1,083 TOW, 1,121 Dragon, 95 LAV-TOW
 	#RL 83mm: 1,650 SMAW; 84mm: 1,300 AT-4
 	#SURV 23 AN/TPQ-36 (arty)
 
-	add_equipment_to_stockpile = {
-		type = attack_helicopter2 #AH-1W SuperCobra = Removed 150
-		amount = 38
-		producer = USA
-		#version_name = "AH-1W SuperCobra"
-	}
 	add_equipment_to_stockpile = {
 		type = transport_helicopter1 #Bell UH-1 Iroquois
 		amount = 58
@@ -1654,13 +1688,8 @@ instant_effect = {
 		#version_name = 'CH-46D"
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #CH-53E Sea Stallion
-		amount = 205
-		producer = USA
-	}
-	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #CH-53E Sea Stallion
-		amount = 205
+		type = transport_helicopter3 #CH-53E Sea Stallion
+		amount = 805
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
@@ -1669,19 +1698,13 @@ instant_effect = {
 		producer = USA
 	}
 
-	################
-	###US Aiforce###
-	################
-
 	add_equipment_to_stockpile = {
 		type = transport_helicopter1 #MH-53-J
 		amount = 153
-		producer = USA
 	}
 	add_equipment_to_stockpile = {
 		type = transport_helicopter1 #Bell UH-1 Iroquois
 		amount = 63
-		producer = USA
 	}
 
 	if = {
@@ -1818,5 +1841,5 @@ instant_effect = {
 			efficiency = 100
 			amount = 5
 		}
-	}	
+	}
 }

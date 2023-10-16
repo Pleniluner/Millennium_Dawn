@@ -10,6 +10,14 @@
 		}
 	}
 
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "CHE_2000_bba"
+		else = {
+			set_air_oob = "CHE_2000_nonbba"
+		}
+	}
+
 	add_ideas = {
 				CHE_energy_problem
 		unrestrained_corruption
@@ -154,6 +162,7 @@
 }
 
 2017.1.1 = {
+	capital = 672
 	#oob = "SOV_2017"
 	add_ideas = {
 		unrestrained_corruption

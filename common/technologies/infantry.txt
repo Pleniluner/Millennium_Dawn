@@ -720,31 +720,37 @@ technologies = {
 
 		#custom_effect_tooltip = tank_art_upgrade
 		L_Recce_Comp = {
-			recon = 0.33
+			recon = 0.25
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Mot_Recce_Comp = {
-			recon = 0.33
+			recon = 0.31
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Mech_Recce_Comp = {
-			recon = 0.33
+			recon = 0.4
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Arm_Recce_Comp = {
-			recon = 0.33
+			recon = 0.4
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		armor_Recce_Comp = {
-			recon = 0.33
+			recon = 0.5
+			need = {
+				command_control_equipment = 2
+			}
+		}
+		attack_helo_comp = {
+			recon = 0.6
 			need = {
 				command_control_equipment = 2
 			}
@@ -785,31 +791,37 @@ technologies = {
 		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech land_Drone_equipment1" }
 
 		L_Recce_Comp = {
-			recon = 1
+			recon = 0.25
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Mot_Recce_Comp = {
-			recon = 1
+			recon = 0.31
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Mech_Recce_Comp = {
-			recon = 1
+			recon = 0.4
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Arm_Recce_Comp = {
-			recon = 1
+			recon = 0.4
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		armor_Recce_Comp = {
-			recon = 1
+			recon = 0.5
+			need = {
+				command_control_equipment = 2
+			}
+		}
+		attack_helo_comp = {
+			recon = 0.6
 			need = {
 				command_control_equipment = 2
 			}
@@ -851,31 +863,37 @@ technologies = {
 		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech land_Drone_equipment2" }
 
 		L_Recce_Comp = {
-			recon = 1
+			recon = 0.25
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Mot_Recce_Comp = {
-			recon = 1
+			recon = 0.31
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Mech_Recce_Comp = {
-			recon = 1
+			recon = 0.4
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Arm_Recce_Comp = {
-			recon = 1
+			recon = 0.4
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		armor_Recce_Comp = {
-			recon = 1
+			recon = 0.5
+			need = {
+				command_control_equipment = 2
+			}
+		}
+		attack_helo_comp = {
+			recon = 0.6
 			need = {
 				command_control_equipment = 2
 			}
@@ -928,31 +946,37 @@ technologies = {
 		}
 
 		L_Recce_Comp = {
-			recon = 1
+			recon = 0.25
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Mot_Recce_Comp = {
-			recon = 1
+			recon = 0.31
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Mech_Recce_Comp = {
-			recon = 1
+			recon = 0.4
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Arm_Recce_Comp = {
-			recon = 1
+			recon = 0.4
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		armor_Recce_Comp = {
-			recon = 1
+			recon = 0.5
+			need = {
+				command_control_equipment = 2
+			}
+		}
+		attack_helo_comp = {
+			recon = 0.6
 			need = {
 				command_control_equipment = 2
 			}
@@ -1005,31 +1029,37 @@ technologies = {
 		}
 
 		L_Recce_Comp = {
-			recon = 1
+			recon = 0.25
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Mot_Recce_Comp = {
-			recon = 1
+			recon = 0.31
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Mech_Recce_Comp = {
-			recon = 1
+			recon = 0.4
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Arm_Recce_Comp = {
-			recon = 1
+			recon = 0.4
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		armor_Recce_Comp = {
-			recon = 1
+			recon = 0.5
+			need = {
+				command_control_equipment = 2
+			}
+		}
+		attack_helo_comp = {
+			recon = 0.6
 			need = {
 				command_control_equipment = 2
 			}
@@ -1078,31 +1108,37 @@ technologies = {
 		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech land_Drone_equipment5" }
 
 		L_Recce_Comp = {
-			recon = 1
+			recon = 0.25
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Mot_Recce_Comp = {
-			recon = 1
+			recon = 0.31
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Mech_Recce_Comp = {
-			recon = 1
+			recon = 0.4
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		Arm_Recce_Comp = {
-			recon = 1
+			recon = 0.4
 			need = {
 				command_control_equipment = 2
 			}
 		}
 		armor_Recce_Comp = {
-			recon = 1
+			recon = 0.5
+			need = {
+				command_control_equipment = 2
+			}
+		}
+		attack_helo_comp = {
+			recon = 0.6
 			need = {
 				command_control_equipment = 2
 			}
