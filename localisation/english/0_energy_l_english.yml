@@ -30,6 +30,10 @@
  some_power_restrictions_spirit: "Moderate Power Restrictions"
  some_additional_consumption_spirit: "Moderate Power Consumption Subsidies"
  heavy_additional_consumption_spirit: "Heavy Power Consumption Subsidies"
+ no_automation_spirit: "No Factory Automation"
+ low_automation_spirit: "Low Factory Automation"
+ high_automation_spirit: "High Factory Automation"
+ very_high_automation_spirit: "Very High Factory Automation"
 
  # Tooltips
  energy_build_fossil_powerplant_TT: "Changes the number of §YFossil Fuel Powerplants§! by [?temp_change|0+] in [ROOT.GetNameWithFlag] (Current: [?number_of_fossil_pps|Y0])"
@@ -124,6 +128,16 @@
  OPEN_ENERGY_BUTTON: "Open Energy Screen"
  OPEN_ENERGY_BUTTON_TT: "This opens the energy screen where you can see the consumption, generation and fulfillment of your nation's energy requirements."
 
+ no_automation_button_tt: "§YNo Automation§!\n"
+ low_automation_button_tt: "§YLow Automation§!\n"
+ medium_automation_button_tt: "§YMedium Automation§!\n"
+ high_automation_button_tt: "§YHigh Automation§!\n"
+ very_high_automation_button_tt: "§YVery high Automation§!\n"
+ no_automation_button_delayed_tt: "§YPrerequisites:§!\n[!no_automation_button_click_enabled]\n§YEffects:§!\n[!no_automation_button_click]"
+ low_automation_button_delayed_tt: "§YPrerequisites:§!\n[!low_automation_button_click_enabled]\n§YEffects:§!\n[!low_automation_button_click]"
+ medium_automation_button_delayed_tt: "§YPrerequisites:§!\n[!medium_automation_button_click_enabled]\n§YEffects:§!\n[!medium_automation_button_click]"
+ high_automation_button_delayed_tt: "§YPrerequisites:§!\n[!high_automation_button_enabled]\n§YEffects:§!\n[!high_automation_button_click]"
+ very_high_automation_button_delayed_tt: "§YPrerequisites:§!\n[!very_high_automation_button_click_enabled]\n§YEffects:§!\n[!very_high_automation_button_click]"
  heavy_power_restrictions_button_tt: "§YHeavy Power Restrictions§!\nOur energy consumption is outpacing our energy generation. A possible temporary solution is to quickly restrict electrical consumption on the population until we can start to build out additional power plants, renewable energy, and more to assuage this growing crisis. Imposing heavy restrictions on the people will cause a significant reduction in economic growth, energy consumption, and political projection."
  heavy_power_restrictions_button_delayed_tt: "§YPrerequisites:§!\n[!heavy_power_restrictions_button_click_enabled]\n§YEffects:§!\n[!heavy_power_restrictions_button_click]"
  some_power_restrictions_button_tt: "§YSome Power Restrictions§!\nOur energy consumption is outpacing our energy generation. A possible temporary solution is to quickly restrict electrical consumption on the population until we can start to build out additional power plants, renewable energy, and more to assuage this growing crisis. Imposing some restrictions on the people will cause a small reduction in economic growth, energy consumption, and political projection."

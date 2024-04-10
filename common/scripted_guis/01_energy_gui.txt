@@ -37,6 +37,11 @@ scripted_gui = {
 			no_power_rules_button = { image = "[no_power_rules_button]" }
 			some_additional_consumption_button = { image = "[some_additional_consumption_button]" }
 			heavy_additional_consumption_button = { image = "[heavy_additional_consumption_button_image]" }
+			no_automation_button = { image = "[no_automation_button]" }
+			low_automation_button = { image = "[low_automation_button]" }
+			medium_automation_button = { image = "[medium_automation_button]" }
+			high_automation_button = { image = "[high_automation_button]" }
+			very_high_automation_button = { image = "[very_high_automation_button]" }
 		}
 
 		triggers = {
@@ -133,6 +138,57 @@ scripted_gui = {
 					some_power_restrictions_spirit
 					some_additional_consumption_spirit
 					heavy_power_restrictions_spirit
+				}
+				ingame_update_setup = yes
+			}
+			# Automation
+			no_automation_button_click = {
+				log = "[GetDateText]: [Root.GetName]: Energy GUI no_automation_button_click"
+				add_ideas = no_automation_spirit
+				remove_ideas = {
+					low_automation_spirit
+					high_automation_spirit
+					very_high_automation_spirit
+				}
+				ingame_update_setup = yes
+			}
+			low_automation_button_click = {
+				log = "[GetDateText]: [Root.GetName]: Energy GUI low_automation_button_click"
+				add_ideas = low_automation_spirit
+				remove_ideas = {
+					no_automation_spirit
+					high_automation_spirit
+					very_high_automation_spirit
+				}
+				ingame_update_setup = yes
+			}
+			medium_automation_button_click = {
+				log = "[GetDateText]: [Root.GetName]: Energy GUI medium_automation_button_click"
+				remove_ideas = {
+					no_automation_spirit
+					low_automation_spirit
+					high_automation_spirit
+					very_high_automation_spirit
+				}
+				ingame_update_setup = yes
+			}
+			high_automation_button_click = {
+				log = "[GetDateText]: [Root.GetName]: Energy GUI high_automation_button_button_click"
+				add_ideas = high_automation_spirit
+				remove_ideas = {
+					no_automation_spirit
+					low_automation_spirit
+					very_high_automation_spirit
+				}
+				ingame_update_setup = yes
+			}
+			very_high_automation_button_click = {
+				log = "[GetDateText]: [Root.GetName]: Energy GUI very_high_automation_button_button_click"
+				add_ideas = very_high_automation_spirit
+				remove_ideas = {
+					no_automation_spirit
+					low_automation_spirit
+					high_automation_spirit
 				}
 				ingame_update_setup = yes
 			}

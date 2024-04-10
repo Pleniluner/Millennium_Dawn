@@ -80,6 +80,71 @@ defined_text = {
 	}
 }
 
+# Automation Section
+defined_text = {
+	name = no_automation_button
+	text = {
+		trigger = { has_idea = no_automation_spirit }
+		localization_key = GFX_double_negative_ON
+	}
+	text = {
+		localization_key = GFX_double_negative_power
+	}
+}
+
+defined_text = {
+	name = low_automation_button
+	text = {
+		trigger = { has_idea = low_automation_spirit }
+		localization_key = GFX_double_negative_ON
+	}
+	text = {
+		localization_key = GFX_negative_power
+	}
+}
+
+defined_text = {
+	name = medium_automation_button
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					has_idea = no_automation_spirit
+					has_idea = low_automation_spirit
+					has_idea = high_automation_spirit
+					has_idea = very_high_automation_spirit
+				}
+			}
+		}
+		localization_key = GFX_default_neutral_ON
+	}
+	text = {
+		localization_key = GFX_neutral_power
+	}
+}
+
+defined_text = {
+	name = high_automation_button
+	text = {
+		trigger = { has_idea = high_automation_spirit }
+		localization_key = GFX_positive_ON
+	}
+	text = {
+		localization_key = GFX_positive_power
+	}
+}
+
+defined_text = {
+	name = very_high_automation_button
+	text = {
+		trigger = { has_idea = very_high_automation_spirit }
+		localization_key = GFX_double_positive_ON
+	}
+	text = {
+		localization_key = GFX_double_positive_power
+	}
+}
+
 # Tax Rates
 defined_text = {
 	name = tax_button_req
