@@ -144,6 +144,7 @@ scripted_gui = {
 			# Automation
 			no_automation_button_click = {
 				log = "[GetDateText]: [Root.GetName]: Energy GUI no_automation_button_click"
+				set_country_flag = { flag = ai_recently_changed_automation_flag days = 30 value = 1 }
 				add_ideas = no_automation_spirit
 				remove_ideas = {
 					low_automation_spirit
@@ -154,6 +155,7 @@ scripted_gui = {
 			}
 			low_automation_button_click = {
 				log = "[GetDateText]: [Root.GetName]: Energy GUI low_automation_button_click"
+				set_country_flag = { flag = ai_recently_changed_automation_flag days = 30 value = 1 }
 				add_ideas = low_automation_spirit
 				remove_ideas = {
 					no_automation_spirit
@@ -164,6 +166,7 @@ scripted_gui = {
 			}
 			medium_automation_button_click = {
 				log = "[GetDateText]: [Root.GetName]: Energy GUI medium_automation_button_click"
+				set_country_flag = { flag = ai_recently_changed_automation_flag days = 30 value = 1 }
 				remove_ideas = {
 					no_automation_spirit
 					low_automation_spirit
@@ -174,6 +177,7 @@ scripted_gui = {
 			}
 			high_automation_button_click = {
 				log = "[GetDateText]: [Root.GetName]: Energy GUI high_automation_button_button_click"
+				set_country_flag = { flag = ai_recently_changed_automation_flag days = 30 value = 1 }
 				add_ideas = high_automation_spirit
 				remove_ideas = {
 					no_automation_spirit
@@ -184,6 +188,7 @@ scripted_gui = {
 			}
 			very_high_automation_button_click = {
 				log = "[GetDateText]: [Root.GetName]: Energy GUI very_high_automation_button_button_click"
+				set_country_flag = { flag = ai_recently_changed_automation_flag days = 30 value = 1 }
 				add_ideas = very_high_automation_spirit
 				remove_ideas = {
 					no_automation_spirit
@@ -319,27 +324,33 @@ scripted_gui = {
 		ai_check = {
 			# Need to Check Energy Sum Against Consumption
 			OR = {
-				has_fuel < 350000
-				AND = {
-					is_in_array = { global.enrichment_countries = ROOT.id }
-					check_variable = { var_reactor_material_stockpile < 5000 }
-				}
-
-				# Temp AI check to make sure they remove the spirit and go to standard for now
 				OR = {
+					has_fuel < 350000
 					AND = {
-						NOT = { original_tag = USA }
-						OR = {
-							has_idea = heavy_power_restrictions_spirit
-							has_idea = some_power_restrictions_spirit
-							has_idea = some_additional_consumption_spirit
-							has_idea = heavy_additional_consumption_spirit
+						is_in_array = { global.enrichment_countries = ROOT.id }
+						check_variable = { var_reactor_material_stockpile < 5000 }
+					}
+
+					# Temp AI check to make sure they remove the spirit and go to standard for now
+					OR = {
+						AND = {
+							NOT = { original_tag = USA }
+							OR = {
+								has_idea = heavy_power_restrictions_spirit
+								has_idea = some_power_restrictions_spirit
+								has_idea = some_additional_consumption_spirit
+								has_idea = heavy_additional_consumption_spirit
+							}
+						}
+						AND = {
+							original_tag = USA
+							NOT = { has_idea = heavy_additional_consumption_spirit }
 						}
 					}
-					AND = {
-						original_tag = USA
-						NOT = { has_idea = heavy_additional_consumption_spirit }
-					}
+				}
+				OR = {
+					check_variable = { total_unemployed_percentage_display < 0.01 }
+					check_variable = { total_unemployed_percentage_display > 0.10 }
 				}
 			}
 		}
@@ -383,6 +394,100 @@ scripted_gui = {
 					modifier = {
 						factor = 0
 						original_tag = USA
+					}
+				}
+			}
+			no_automation_button_click = {
+				ai_will_do = {
+					factor = 0
+					modifier = {
+						add = -200
+						has_country_flag = ai_recently_changed_automation_flag
+					}
+					modifier = {
+						add = 100
+						has_idea = low_automation_spirit
+						check_variable = { total_unemployed_percentage_display > 0.10 }
+					}
+				}
+			}
+			low_automation_button_click = {
+				ai_will_do = {
+					factor = 0
+					modifier = {
+						add = -200
+						has_country_flag = ai_recently_changed_automation_flag
+					}
+					modifier = {
+						add = 100
+						has_idea = no_automation_spirit
+						check_variable = { total_unemployed_percentage_display < 0.01 }
+					}
+					modifier = {
+						add = 100
+						NOT = { has_idea = no_automation_spirit }
+						NOT = { has_idea = low_automation_spirit }
+						NOT = { has_idea = high_automation_spirit }
+						NOT = { has_idea = very_high_automation_spirit }
+
+						check_variable = { total_unemployed_percentage_display > 0.10 }
+					}
+				}
+			}
+			medium_automation_button_click = {
+				ai_will_do = {
+					factor = 0
+					modifier = {
+						add = -200
+						has_country_flag = ai_recently_changed_automation_flag
+					}
+					modifier = {
+						add = 100
+						has_idea = low_automation_spirit
+						check_variable = { total_unemployed_percentage_display < 0.01 }
+					}
+					modifier = {
+						add = 100
+						has_idea = high_automation_spirit
+
+						check_variable = { total_unemployed_percentage_display > 0.10 }
+					}
+				}
+			}
+			high_automation_button_click = {
+				ai_will_do = {
+					factor = 0
+					modifier = {
+						add = -200
+						has_country_flag = ai_recently_changed_automation_flag
+					}
+					modifier = {
+						add = 100
+						NOT = { has_idea = no_automation_spirit }
+						NOT = { has_idea = low_automation_spirit }
+						NOT = { has_idea = high_automation_spirit }
+						NOT = { has_idea = very_high_automation_spirit }
+						check_variable = { total_unemployed_percentage_display < 0.01 }
+					}
+					modifier = {
+						add = 100
+						has_idea = very_high_automation_spirit
+
+						check_variable = { total_unemployed_percentage_display > 0.10 }
+					}
+				}
+			}
+			very_high_automation_button_click = {
+				ai_will_do = {
+					factor = 0
+					modifier = {
+						add = -200
+						has_country_flag = ai_recently_changed_automation_flag
+					}
+					modifier = {
+						add = 100
+						has_idea = high_automation_spirit
+						check_variable = { total_unemployed_percentage_display < 0.10 }
 					}
 				}
 			}

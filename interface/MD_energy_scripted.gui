@@ -43,7 +43,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "energy_scripted_gui"
 		position = { x = 545 y = 0 }
-		size = { width = 480 height = 360 }
+		size = { width = 480 height = 400 }
 		background = {
 			name = "Background"
 			spriteType ="GFX_energy_ui"
@@ -274,7 +274,7 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "no_automation_button"
-				position = {x=0 y=50}
+				position = {x=0 y=45}
 				spriteType = "GFX_double_negative_power"
 				orientation = "UPPER_RIGHT"
 				clicksound = click_default
@@ -283,7 +283,7 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "low_automation_button"
-				position = {x=44 y=50}
+				position = {x=44 y=45}
 				spriteType = "GFX_negative_power"
 				orientation = "UPPER_RIGHT"
 				clicksound = click_default
@@ -292,7 +292,7 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "medium_automation_button"
-				position = {x=88 y=50}
+				position = {x=88 y=45}
 				spriteType = "GFX_neutral_power"
 				orientation = "UPPER_RIGHT"
 				clicksound = click_default
@@ -301,7 +301,7 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "high_automation_button"
-				position = {x=132 y=50}
+				position = {x=132 y=45}
 				spriteType = "GFX_positive_power"
 				orientation = "UPPER_RIGHT"
 				clicksound = click_default
@@ -310,7 +310,7 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "very_high_automation_button"
-				position = {x=176 y=50}
+				position = {x=176 y=45}
 				spriteType = "GFX_double_positive_power"
 				orientation = "UPPER_RIGHT"
 				clicksound = click_default
