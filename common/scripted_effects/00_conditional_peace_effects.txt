@@ -1,0 +1,192 @@
+# war targets
+# 1 core states
+# 2 non-core states
+# 3 change government
+# 4 puppet
+# 5 reparations
+# 6 cut down to size
+# 7 demilitarize
+
+# cost = how much X wants
+
+conditional_peace_war_calculate_start_effect = {
+	ROOT = {
+		set_variable = { war_casualties = casualties_k }
+		# safeguard
+		if = {
+			limit = { check_variable = { war_casualties < 1 } }
+			set_variable = { war_casualties = 1 }
+		}
+	}
+	set_temp_variable = { res = 0 }
+	calculate_war_cost_for_attacker = yes
+	set_temp_variable = { attacker_cost = yes }
+	calculate_war_support_for_defender = yes
+
+	FROM = {
+		set_variable = { war_casualties = casualties_k }
+		# safeguard
+		if = {
+			limit = { check_variable = { war_casualties < 1 } }
+			set_variable = { war_casualties = 1 }
+		}
+	}
+	set_temp_variable = { res = 0 }
+	calculate_war_cost_for_defender = yes
+	set_temp_variable = { defender_cost = yes }
+	calculate_war_support_for_attacker = yes
+}
+
+calculate_war_cost_for_attacker = {
+	set_temp_variable = { buf = ROOT.num_of_claimed_cores }
+	divide_temp_variable = { buf = num_controlled_states }
+	multiply_temp_variable = { buf = 20 }
+	add_to_temp_variable = { res = buf }
+
+	set_temp_variable = { buf = ROOT.num_of_claimed_states }
+	divide_temp_variable = { buf = num_controlled_states }
+	multiply_temp_variable = { buf = 100 }
+	add_to_temp_variable = { res = buf }
+
+	if = {
+		limit = {
+			is_in_array = {
+				array = ROOT.war_targets
+				value = 3
+			}
+		}
+
+		add_to_temp_variable = { res = 35 }
+	}
+
+	if = {
+		limit = {
+			is_in_array = {
+				array = ROOT.war_targets
+				value = 4
+			}
+		}
+
+		add_to_temp_variable = { res = 60 }
+	}
+
+	if = {
+		limit = {
+			is_in_array = {
+				array = ROOT.war_targets
+				value = 5
+			}
+		}
+
+		add_to_temp_variable = { res = 10 }
+	}
+
+	if = {
+		limit = {
+			is_in_array = {
+				array = ROOT.war_targets
+				value = 6
+			}
+		}
+
+		add_to_temp_variable = { res = 50 }
+	}
+
+	if = {
+		limit = {
+			is_in_array = {
+				array = ROOT.war_targets
+				value = 7
+			}
+		}
+
+		add_to_temp_variable = { res = 30 }
+	}
+}
+
+calculate_war_cost_for_defender = {
+	set_temp_variable = { buf = FROM.num_of_claimed_cores }
+	divide_temp_variable = { buf = num_controlled_states }
+	multiply_temp_variable = { buf = 20 }
+	add_to_temp_variable = { res = buf }
+
+	set_temp_variable = { buf = FROM.num_of_claimed_states }
+	divide_temp_variable = { buf = num_controlled_states }
+	multiply_temp_variable = { buf = 100 }
+	add_to_temp_variable = { res = buf }
+
+	if = {
+		limit = {
+			is_in_array = {
+				array = FROM.war_targets
+				value = 3
+			}
+		}
+
+		add_to_temp_variable = { res = 35 }
+	}
+
+	if = {
+		limit = {
+			is_in_array = {
+				array = FROM.war_targets
+				value = 4
+			}
+		}
+
+		add_to_temp_variable = { res = 60 }
+	}
+
+	if = {
+		limit = {
+			is_in_array = {
+				array = FROM.war_targets
+				value = 5
+			}
+		}
+
+		add_to_temp_variable = { res = 10 }
+	}
+
+	if = {
+		limit = {
+			is_in_array = {
+				array = FROM.war_targets
+				value = 6
+			}
+		}
+
+		add_to_temp_variable = { res = 50 }
+	}
+
+	if = {
+		limit = {
+			is_in_array = {
+				array = FROM.war_targets
+				value = 7
+			}
+		}
+
+		add_to_temp_variable = { res = 30 }
+	}
+}
+
+calculate_war_support_for_defender = {
+	set_temp_variable = { temp_exhaustion = has_war_support }
+	multiply_temp_variable = { temp_exhaustion = res }
+	FROM = {
+		set_variable = { war_exhaustion = temp_exhaustion }
+	}
+}
+
+calculate_war_support_for_attacker = {
+	set_temp_variable = { temp_exhaustion = has_war_support }
+	multiply_temp_variable = { temp_exhaustion = res }
+	ROOT = {
+		set_variable = { war_exhaustion = temp_exhaustion }
+	}
+}
+
+calculate_monthly_exhaustion = {
+
+}

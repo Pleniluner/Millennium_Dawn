@@ -754,6 +754,11 @@ on_actions = {
 				set_country_flag = { flag = someone_has_wargoal_against_this_flag value = 1 days = 100 }
 			}
 
+			if = {
+				limit = { has_war = yes }
+				calculate_monthly_exhaustion = yes
+			}
+
 			# Egyptian Thing
 			country_event = egypt.100
 		}
@@ -2390,6 +2395,9 @@ on_actions = {
 					}
 				}
 			}
+
+			conditional_peace_war_calculate_start_effect = yes
+
 			hidden_effect = {
 				FROM = {
 					update_military_rate = yes
