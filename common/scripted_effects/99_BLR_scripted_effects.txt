@@ -85,6 +85,18 @@ modify_tracktors_support = {
 	}
 }
 
+modify_white_legion_support = {
+	add_to_variable = { white_legion = modify_white_legion }
+
+	custom_effect_tooltip = BLR_white_legions_TT
+
+	clamp_variable = {
+		var = white_legion
+		min = 0
+		max = 4000
+	}
+}
+
 batka_deleted = {
 	if = {
 		limit = {
@@ -139,6 +151,22 @@ KGB_idea_belarus = {
 	else_if = {
 		limit = { NOT = {has_idea = BLR_kgb }}
 		add_ideas = BLR_kgb1
+	}
+}
+AGRO_idea_belarus = {
+	if = {
+		limit = { has_idea = BLR_agriculture2 }
+		swap_ideas = {
+			remove_idea = BLR_agriculture2
+			add_idea = BLR_agriculture3
+		}
+	}
+	else_if = {
+		limit = { has_idea = BLR_agriculture }
+		swap_ideas = {
+			remove_idea = BLR_agriculture
+			add_idea = BLR_agriculture2
+		}
 	}
 }
 BLR_idea_army = {

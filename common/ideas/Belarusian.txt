@@ -198,7 +198,7 @@ ideas = {
 			picture = blr_agro_culture_idea
 			allowed_civil_war = { always = yes }
 			modifier = {
-				monthly_population = 0.09
+				monthly_population = 0.05
 				agricolture_productivity_modifier = 0.20
 				agriculture_tax_modifier = 0.10
 			}
@@ -819,6 +819,56 @@ ideas = {
 			}
 		}
 		##NAZBOLS
+		BLR_increased_social_spending_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BLR_increased_social_spending_idea" }
+			allowed = { always = no }
+			cancel = {
+				nationalist_fascist_are_in_power = yes
+			}
+			picture = social_06_idea
+			modifier = {
+				social_cost_multiplier_modifier = -0.07
+				health_cost_multiplier_modifier = -0.07
+				consumer_goods_factor = 0.02
+			}
+		}
+		#RNE
+		BLR_rne = {
+			cancel = {
+				nationalist_fascist_are_in_power = yes
+			}
+			picture = blr_rne_idea
+			modifier = {
+				mobilization_speed = 0.03
+				war_support_factor = 0.05
+				training_time_army_factor = -0.04
+				army_attack_factor = 0.10
+			}
+			targeted_modifier = {
+				tag = ISR
+				attack_bonus_against = 0.03
+				defense_bonus_against = 0.03
+				breakthrough_bonus_against = 0.05
+			}
+		}
+		BLR_sobor = {
+			cancel = {
+				nationalist_fascist_are_in_power = yes
+			}
+			picture = russian_sphere
+			modifier = {
+				stability_factor = 0.03
+				surrender_limit = 0.1
+				army_core_attack_factor = 0.07
+				army_core_defence_factor = 0.09
+			}
+			targeted_modifier = {
+				tag = USA
+				attack_bonus_against = 0.03
+				defense_bonus_against = 0.03
+				breakthrough_bonus_against = 0.05
+			}
+		}
 		GCO_idea = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GCO_idea" }
 			allowed_civil_war = {
@@ -955,6 +1005,9 @@ ideas = {
 				NOT = {
 					nationalist_fascist_are_in_power = yes
 				}
+			}
+			modifier = {
+				democratic_drift = -0.08
 			}
 			targeted_modifier = {
 				tag = ENG
@@ -1188,9 +1241,24 @@ ideas = {
 				nationalist_right_wing_populists_are_not_in_power = yes
 			}
 			allowed_civil_war = { always = yes }
-			picture = blr_national_security_service_org
+			picture = blr_nationalsecurity_idea
 			modifier = {
 				communism_drift = -0.03
+				encryption_factor = 0.3
+				root_out_resistance_effectiveness_factor = 0.15
+			}
+		}
+		#National Intelligence Service
+		BLR_National_Intelligence_Service = {
+			cancel = {
+				nationalist_right_wing_populists_are_not_in_power = yes
+			}
+			allowed_civil_war = { always = yes }
+			picture = blr_national_intelligence_service_idea
+			modifier = {
+				intelligence_agency_defense = 0.2
+				intel_network_gain_factor = 0.08
+				foreign_influence_defense_modifier = 0.09
 			}
 		}
 		#Taler
@@ -1216,14 +1284,61 @@ ideas = {
 
 			}
 		}
-		#Young Front
-		BLR_Young_Front = {
-			picture = blr_young_front_org
-			allowed_civil_war = { always = yes }
+		#Revansh
+		BLR_revanshh = {
+			cancel = {
+				nationalist_right_wing_populists_are_not_in_power = yes
+			}
+			picture = blr_revansh_idea
 			modifier = {
-				monthly_population = 0.01
-				drift_defence_factor = 0.03
-				political_power_gain = 0.01
+				political_power_factor = 0.01
+				nationalist_drift = 0.04
+			}
+			targeted_modifier = {
+				tag = POL
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+		}
+		#Revansh
+		BLR_revanshh1 = {
+			name = BLR_revanshh
+			cancel = {
+				nationalist_right_wing_populists_are_not_in_power = yes
+			}
+			picture = blr_revansh_idea
+			modifier = {
+				nationalist_drift = 0.02
+			}
+			targeted_modifier = {
+				tag = POL
+				attack_bonus_against = 0.02
+				defense_bonus_against = 0.02
+			}
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = 0.02
+				defense_bonus_against = 0.02
+			}
+			on_remove = {
+				add_ideas = BLR_revanshh
+			}
+		}
+		#Black cat
+		BLR_blackkcat = {
+			cancel = {
+				nationalist_right_wing_populists_are_not_in_power = yes
+			}
+			picture = blr_blackcat_idea
+			modifier = {
+				army_core_defence_factor = 0.07
+				war_support_factor = 0.03
+				training_time_army_factor = -0.03
 			}
 		}
 		#White legion
@@ -1239,7 +1354,6 @@ ideas = {
 				army_core_defence_factor = 0.03
 				war_support_factor = 0.01
 				training_time_army_factor = -0.02
-
 			}
 		}
 		#Russofobia
@@ -1577,9 +1691,26 @@ ideas = {
 		}
 		allowed_civil_war = { always = yes }
 		modifier = {
-			monthly_population = 0.11
+			monthly_population = 0.08
 			agricolture_productivity_modifier = 0.25
 			agriculture_tax_modifier = 0.15
+		}
+	}
+	BLR_agriculture3 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add BLR_agriculture3" }
+		picture = blr_agro_culture_idea
+		name = BLR_agriculture2
+		allowed = {
+			OR = {
+				original_tag = SOV
+				original_tag = BLR
+			}
+		}
+		allowed_civil_war = { always = yes }
+		modifier = {
+			monthly_population = 0.12
+			agricolture_productivity_modifier = 0.30
+			agriculture_tax_modifier = 0.20
 		}
 	}
 	#Oil Russian positive
@@ -2103,21 +2234,6 @@ ideas = {
 		}
 	}
 	############UNION STATE
-	#Putin Prime-Minister
-	BLR_putin_prime = {
-		on_add = { log = "[GetDateText]: [Root.GetName]: add BLR_putin_prime" }
-		picture = putin_prime
-		cancel = {
-			NOT = {
-				emerging_reactionaries_are_in_power = yes
-			}
-		}
-		allowed_civil_war = { always = yes }
-		modifier = {
-			foreign_influence_modifier = 0.2
-			political_power_factor = 0.15
-		}
-	}
 	#Lukashenko Prime-Minister
 	BLR_luka_prime = {
 		on_add = { log = "[GetDateText]: [Root.GetName]: add BLR_luka_prime" }
@@ -2427,31 +2543,7 @@ ideas = {
 			}
 		}
 	}
-	############S.A.R Belarus
-	Basic_Law_BLR = {
-		on_add = { log = "[GetDateText]: [Root.GetName]: add idea Basic_Law_BLR" }
-		picture = international_treaty
-		cancel = {
-			NOT = {
-				is_subject = yes
-				has_autonomy_state = autonomy_special_administrative_region_BLR
-			}
-		}
-		modifier = {
-			stability_factor = 0.1
-			Military_Spending_cost_factor = 100
-			Conscription_Law_cost_factor = 100
-			Foreign_Intervention_Law_cost_factor = 100
-		}
-	}
-	One_Country_Two_Systems_BLR = {
-		picture = democracy
-		on_add = { log = "[GetDateText]: [Root.GetName]: add idea One_Country_Two_Systems_BLR" }
-		modifier = {
-			communism_drift = 0.05
-			neutrality_drift = 0.04
-		}
-	}
+	#China related
 	BLR_military_exercises_CHI_idea = {
 		on_add = { log = "[GetDateText]: [Root.GetName]: add idea BLR_military_exercises_CHI" }
 		allowed_civil_war = { always = yes }
