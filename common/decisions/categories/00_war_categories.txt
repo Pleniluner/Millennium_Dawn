@@ -1,0 +1,4 @@
+war_category = {
+	icon = GFX_decision_generic_military
+	priority = 100
+}

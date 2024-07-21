@@ -918,3 +918,5 @@
  UAR_invitation_declined_tt: "§R[FROM.GetNameDef] might take hostile actions against us!§!"
  UAR_invite_country_tt: "If they accept, then\n"
  united_uar_for_coring_tt: "We have §YProclaimed The Unification of Arabs§!"
+ war_exhaustion_5_TT: "§GThis will decrease our war exhaustion by 5§!"
+ war_exhaustion_minus_3_TT: "§RThis will increase our war exhaustion by 3§!"

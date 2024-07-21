@@ -852,6 +852,11 @@ on_actions = {
 				}
 				country_event = { id = brotherhood.10 }
 			}
+
+			if = {
+				limit = { has_war = yes }
+				calculate_monthly_exhaustion = yes
+			}
 		}
 	}
 
@@ -4390,6 +4395,28 @@ on_actions = {
 					}
 				}
 			}
+		}
+	}
+
+	#ROOT = attacking side
+	#FROM = defending side
+	#fired when two countries end up at war with each other (on_war is fired when a country goes to war against anyone and is not fired again when it enters war against another country unless it went to peace first)
+	on_war_relation_added = { # ---> Fires in 2nd place (1st is on_declare_war) -> This one is triggered ALWAYS
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = country_has_war }
+				}
+
+				set_country_flag = country_has_war
+				conditional_peace_war_calculate_start_effect = yes
+			}
+		}
+	}
+
+	on_peace = {
+		effect = {
+			clr_country_flag = country_has_war
 		}
 	}
 }

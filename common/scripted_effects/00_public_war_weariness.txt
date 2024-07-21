@@ -82,11 +82,15 @@ conditional_peace_war_calculate_start_effect = {
 			limit = { check_variable = { war_casualties < 1 } }
 			set_variable = { war_casualties = 1 }
 		}
+
+		set_variable = { war_exhaustion = has_war_support }
+		if = {
+			limit = {
+				check_variable = { war_exhaustion < 10 }
+				set_variable = { war_exhaustion = 10 }
+			}
+		}
 	}
-	set_temp_variable = { res = 0 }
-	calculate_war_cost_for_attacker = yes
-	set_temp_variable = { attacker_cost = yes }
-	calculate_war_support_for_defender = yes
 
 	FROM = {
 		set_variable = { war_casualties = casualties_k }
@@ -95,22 +99,14 @@ conditional_peace_war_calculate_start_effect = {
 			limit = { check_variable = { war_casualties < 1 } }
 			set_variable = { war_casualties = 1 }
 		}
-	}
-}
 
-calculate_war_support_for_defender = {
-	set_temp_variable = { temp_exhaustion = has_war_support }
-	multiply_temp_variable = { temp_exhaustion = res }
-	FROM = {
-		set_variable = { war_exhaustion = temp_exhaustion }
-	}
-}
-
-calculate_war_support_for_attacker = {
-	set_temp_variable = { temp_exhaustion = has_war_support }
-	multiply_temp_variable = { temp_exhaustion = res }
-	ROOT = {
-		set_variable = { war_exhaustion = temp_exhaustion }
+		set_variable = { war_exhaustion = has_war_support }
+		if = {
+			limit = {
+				check_variable = { war_exhaustion < 10 }
+				set_variable = { war_exhaustion = 10 }
+			}
+		}
 	}
 }
 

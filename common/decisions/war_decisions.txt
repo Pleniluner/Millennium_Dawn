@@ -1,0 +1,183 @@
+war_category = {
+	war_support_campaigns = {
+		cost = 100
+		icon = eng_propaganda_campaigns
+		visible = {
+			has_war = yes
+			check_variable = { war_exhaustion < 80 }
+		}
+		days_remove = 90
+		days_re_enable = 30
+		fire_only_once = no
+		complete_effect = {
+			small_expenditure = yes
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision completed war_support_campaigns"
+			add_to_variable = { war_exhaustion = 5 }
+			custom_effect_tooltip = war_exhaustion_5_TT
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				add = 50
+				has_war_support < 0.40
+			}
+		}
+	}
+
+	war_promises_of_pecae = {
+		cost = 100
+		icon = decision
+		visible = {
+			has_war = yes
+			has_stability < 0.80
+		}
+		days_remove = 90
+		days_re_enable = 30
+		fire_only_once = no
+		modifier = {
+			stability_weekly = 0.001
+		}
+		complete_effect = {
+			small_expenditure = yes
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision completed war_support_campaigns"
+			subtract_from_variable = { war_exhaustion = 3 }
+			custom_effect_tooltip = war_exhaustion_minus_3_TT
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				add = 50
+				has_stability < 0.30
+			}
+		}
+	}
+
+	AB_offer_stalemate_Atk = {
+		icon = jap_conquer_china
+		target_array = enemies
+		days_re_enable = 30
+		target_trigger = {
+			FROM = { has_defensive_war_with = ROOT } #Defender
+			has_offensive_war_with = FROM #Attacker
+		}
+		available = {
+			has_offensive_war_with = FROM #attacker
+			NOT = { has_idea = recent_ceasefire_attempt }
+		}
+		visible = {
+			NOT = {
+				tag = ISI
+			}
+			has_offensive_war_with = FROM #attacker
+			check_variable = { war_exhaustion < 50 }
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision AB_offer_stalemate_Atk target: [From.GetName]"
+			hidden_effect = { save_event_target_as = AB_event_target set_country_flag = FC_with_@FROM }
+			FROM = {
+				hidden_effect = { set_country_flag = FC_with_@ROOT }
+				country_event = { id = anti_bully.5 days = 1 }
+			}
+			effect_tooltip = {
+				if = {
+					limit = { #If you're in a faction, not a major and not the leader
+						is_in_faction = yes
+						is_faction_leader = no
+						any_allied_country = { #Faction leader must have capitulated for me to see this decision
+							has_war_together_with = ROOT
+							is_faction_leader = yes
+							has_capitulated = no
+						}
+					}
+					custom_effect_tooltip = anti_bully.tt
+					if = {
+						limit = { has_idea = NATO_member }
+						remove_ideas = NATO_member
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 5
+				check_variable = { war_exhaustion < 0 }
+			}
+		}
+	}
+
+	AB_offer_stalemate_Def = {
+		icon = jap_conquer_china
+		target_array = enemies
+		target_trigger = {
+			from = { has_offensive_war_with = ROOT } #attacker
+			has_defensive_war_with = FROM #defender
+		}
+		available = {
+			has_defensive_war_with = FROM #attacker
+			NOT = { has_idea = recent_ceasefire_attempt }
+			custom_trigger_tooltip = {
+				tooltip = anti_bully2.tt
+			}
+		}
+
+		visible = {
+			has_defensive_war_with = FROM #attacker
+			if = {
+				limit = {
+					original_tag = AFG
+				}
+				NOT = {
+					has_war_with = TAL
+				}
+			}
+			if = {
+				limit = {
+					original_tag = TAL
+				}
+				NOT = {
+					has_war_with = AFG
+				}
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision AB_offer_stalemate_Def target: [From.GetName]"
+			hidden_effect = { save_event_target_as = AB_event_target set_country_flag = FC_with_@FROM }
+			from = {
+				hidden_effect = { set_country_flag = FC_with_@ROOT }
+				country_event = { id = anti_bully.5 days = 1 }
+			}
+			effect_tooltip = {
+				if = {
+					limit = { #If you're in a faction, not a major and not the leader
+						is_in_faction = yes
+						is_faction_leader = no
+						any_allied_country = { #Faction leader must have capitulated for me to see this decision
+							has_war_together_with = ROOT
+							is_faction_leader = yes
+							has_capitulated = no
+						}
+					}
+					custom_effect_tooltip = anti_bully.tt
+					if = {
+						limit = { has_idea = NATO_member }
+						remove_ideas = NATO_member
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 5
+				check_variable = { war_exhaustion < 0 }
+			}
+		}
+	}
+}
