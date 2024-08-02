@@ -1,11 +1,8 @@
 ideas = {
-
 	country = {
-
-
 		bfrozen_conflict_very_low = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea bfrozen_conflict_very_low" }
-			
+
 			allowed = {
 				always = no
 			}
@@ -14,8 +11,6 @@ ideas = {
 				always = no
 			}
 
-			
-			
 			modifier = {
 				trade_opinion_factor = 0.25
 			}
@@ -23,7 +18,7 @@ ideas = {
 
 		bfrozen_conflict_low = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea bfrozen_conflict_low" }
-			
+
 			allowed = {
 				always = no
 			}
@@ -32,16 +27,14 @@ ideas = {
 				always = no
 			}
 
-			
-			
 			modifier = {
 				trade_opinion_factor = 0.25
 			}
 		}
-	
+
 		bfrozen_conflict_medium = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea bfrozen_conflict_medium" }
-			
+
 			allowed = {
 				always = no
 			}
@@ -50,8 +43,6 @@ ideas = {
 				always = no
 			}
 
-			
-			
 			modifier = {
 				trade_opinion_factor = 0.25
 			}
@@ -59,7 +50,7 @@ ideas = {
 
 		bfrozen_conflict_high = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea bfrozen_conflict_high" }
-			
+
 			allowed = {
 				always = no
 			}
@@ -68,17 +59,14 @@ ideas = {
 				always = no
 			}
 
-			
-			
 			modifier = {
 				trade_opinion_factor = 0.25
 			}
 		}
 
-		
 		bfrozen_conflict_very_high = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea bfrozen_conflict_very_high" }
-			
+
 			allowed = {
 				always = no
 			}
@@ -87,17 +75,14 @@ ideas = {
 				always = no
 			}
 
-			
-			
 			modifier = {
 				trade_opinion_factor = 0.25
 			}
 		}
 
-		
 		bfrozen_conflict_dangerous = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea bfrozen_conflict_dangerous" }
-			
+
 			allowed = {
 				always = no
 			}
@@ -106,8 +91,6 @@ ideas = {
 				always = no
 			}
 
-			
-			
 			modifier = {
 				trade_opinion_factor = 0.25
 			}
@@ -380,6 +363,42 @@ ideas = {
 				army_speed_factor = -0.10
 				production_factory_max_efficiency_factor = -0.05
 				minimum_training_level = -0.05
+			}
+		}
+
+		war_weariness_penalty_1 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea war_weariness_penalty_1" }
+			name = war_weariness_penalty_1
+			picture = Disorganization_Military_5
+
+			modifier = {
+				army_attack_factor = -0.10
+				army_speed_factor = -0.10
+				army_defence_factor = -0.10
+			}
+		}
+
+		war_weariness_penalty_2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea war_weariness_penalty_2" }
+			name = war_weariness_penalty_1
+			picture = Disorganization_Military_5
+
+			modifier = {
+				army_attack_factor = -0.20
+				army_speed_factor = -0.20
+				army_defence_factor = -0.20
+			}
+		}
+
+		war_weariness_penalty_3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea war_weariness_penalty_3" }
+			name = war_weariness_penalty_1
+			picture = Disorganization_Military_5
+
+			modifier = {
+				army_attack_factor = -0.30
+				army_speed_factor = -0.30
+				army_defence_factor = -0.30
 			}
 		}
 	}

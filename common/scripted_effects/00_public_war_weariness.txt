@@ -123,6 +123,21 @@ compare_casualties = {
 		add_to_temp_variable = { THIS.war_casualties }
 	}
 
+	if = {
+		limit = {
+			check_variable = { buf = 0 }
+		}
+
+		set_temp_variable = { buf = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = { buf2 = 0 }
+		}
+
+		set_temp_variable = { buf2 = 1 }
+	}
+
 	divide_temp_variable = { buf = buf2 }
 
 	if = {
@@ -204,4 +219,89 @@ calculate_monthly_exhaustion = {
 	multiply_temp_variable = { temp_exhaustion = capitulation_mod }
 
 	subtract_from_variable = { THIS.war_exhaustion = temp_exhaustion }
+
+	apply_weariness_debuffs = yes
+}
+
+apply_weariness_debuffs = {
+	if = {
+		limit = {
+			check_variable = { THIS.war_exhaustion < -50 }
+		}
+
+		if = {
+			limit = {
+				has_idea = war_weariness_penalty_2
+			}
+
+			swap_ideas = {
+				remove_idea = war_weariness_penalty_2
+				add_idea = war_weariness_penalty_3
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = { has_idea = war_weariness_penalty_3 }
+			}
+
+			add_ideas = war_weariness_penalty_3
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { THIS.war_exhaustion < -25 }
+		}
+
+		# we increased our support
+		if = {
+			limit = {
+				has_idea = war_weariness_penalty_3
+			}
+
+			swap_ideas = {
+				remove_idea = war_weariness_penalty_3
+				add_idea = war_weariness_penalty_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = war_weariness_penalty_1
+			}
+
+			swap_ideas = {
+				remove_idea = war_weariness_penalty_1
+				add_idea = war_weariness_penalty_2
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = { has_idea = war_weariness_penalty_2 }
+			}
+
+			add_ideas = war_weariness_penalty_2
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { THIS.war_exhaustion < -0 }
+		}
+
+		if = {
+			limit = {
+				has_idea = war_weariness_penalty_2
+			}
+
+			swap_ideas = {
+				remove_idea = war_weariness_penalty_2
+				add_idea = war_weariness_penalty_1
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = { has_idea = war_weariness_penalty_1 }
+			}
+
+			add_ideas = war_weariness_penalty_1
+		}
+	}
 }

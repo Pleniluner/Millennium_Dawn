@@ -855,6 +855,15 @@ on_actions = {
 
 			if = {
 				limit = { has_war = yes }
+
+				# initial wars + edge cases
+				if = {
+					limit = { NOT = { has_country_flag = country_has_war } }
+
+					set_country_flag = country_has_war
+					conditional_peace_war_calculate_start_effect = yes
+				}
+
 				calculate_monthly_exhaustion = yes
 			}
 		}
@@ -4393,6 +4402,18 @@ on_actions = {
 	on_peace = {
 		effect = {
 			clr_country_flag = country_has_war
+			if = {
+				limit = { has_idea = war_weariness_penalty_1 }
+				remove_ideas = war_weariness_penalty_1
+			}
+			else_if = {
+				limit = { has_idea = war_weariness_penalty_2 }
+				remove_ideas = war_weariness_penalty_2
+			}
+			else_if = {
+				limit = { has_idea = war_weariness_penalty_3 }
+				remove_ideas = war_weariness_penalty_3
+			}
 		}
 	}
 }
