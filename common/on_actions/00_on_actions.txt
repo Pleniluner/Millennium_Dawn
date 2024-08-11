@@ -457,6 +457,8 @@ on_actions = {
 			AGRI_plow_the_fields = yes
 			# LITERACY STUFF
 			EDU_annual_pulse_for_learning_stuff = yes
+			# Tick Internal Factions
+			monthly_tick_internal_factions_opinion = yes
 
 			# GCC
 			if = { limit = { threat > 0.25 }
@@ -1140,6 +1142,12 @@ on_actions = {
 					drop_cosmetic_tag = yes
 					clr_country_flag = is_IRAQ
 				}
+				HEZ = {
+					country_event = {
+						id = iraq_md.100
+						days = 5
+					}
+				}
 			}
 			if = { # Sadrist Victory
 				limit = {
@@ -1151,6 +1159,12 @@ on_actions = {
 				IRQ = {
 					drop_cosmetic_tag = yes
 					clr_country_flag = is_IRAQ
+				}
+				HEZ = {
+					country_event = {
+						id = iraq_md.100
+						days = 5
+					}
 				}
 			}
 			if = {

@@ -1441,10 +1441,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_tax_agro"
-			swap_ideas = {
-				remove_idea = UKR_our_agricultrure
-				add_idea = UKR_our_agricultrure1
-			}
+			UKR_idea_ukraine_agriculture = yes
 		}
 
 		ai_will_do = {
@@ -1972,7 +1969,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_kosuik"
 			one_random_agriculture_district = yes
 			one_random_agriculture_district = yes
-			add_ideas = UKR_our_agricultrure
+			UKR_idea_ukraine_agriculture = yes
 			UKR_idea_kleptocratia_rise = yes
 		}
 
@@ -4211,7 +4208,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_commie_china_trade
-		icon = align_to_china
+		icon = blr_belchina_friend
 
 		x = -8
 		y = 4
@@ -12342,10 +12339,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_party_regions_decrease_agro"
-			swap_ideas = {
-				remove_idea = UKR_our_agricultrure1
-				add_idea = UKR_our_agricultrure2
-			}
+			UKR_idea_ukraine_agriculture = yes
 		}
 
 		ai_will_do = {
@@ -14320,7 +14314,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_our_ukraine_fight_corruption
-		icon = law_of_anti_corruption
+		icon = blr_anti_corruption_law
 
 		x = -3
 		y = 4
