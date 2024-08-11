@@ -84,11 +84,11 @@ conditional_peace_war_calculate_start_effect = {
 		}
 
 		set_variable = { war_exhaustion = has_war_support }
+		multiply_variable = { war_exhaustion = 100 }
+
 		if = {
-			limit = {
-				check_variable = { war_exhaustion < 10 }
-				set_variable = { war_exhaustion = 10 }
-			}
+			limit = { check_variable = { war_exhaustion < 10 } }
+			set_variable = { war_exhaustion = 10 }
 		}
 	}
 
@@ -101,11 +101,10 @@ conditional_peace_war_calculate_start_effect = {
 		}
 
 		set_variable = { war_exhaustion = has_war_support }
+		multiply_variable = { war_exhaustion = 100 }
 		if = {
-			limit = {
-				check_variable = { war_exhaustion < 10 }
-				set_variable = { war_exhaustion = 10 }
-			}
+			limit = { check_variable = { war_exhaustion < 10 } }
+			set_variable = { war_exhaustion = 10 }
 		}
 	}
 }
@@ -120,7 +119,7 @@ compare_casualties = {
 	set_temp_variable = { buf2 = 0 }
 	for_each_scope_loop = {
 		array = enemies
-		add_to_temp_variable = { THIS.war_casualties }
+		add_to_temp_variable = { buf = THIS.war_casualties }
 	}
 
 	if = {
@@ -141,39 +140,39 @@ compare_casualties = {
 	divide_temp_variable = { buf = buf2 }
 
 	if = {
-		limit = { buf > 5 }
+		limit = { check_variable = { buf > 5 } }
 		set_temp_variable = { casulaties_mod = 2 }
 	}
 	else_if = {
-		limit = { buf > 4 }
+		limit = { check_variable = { buf > 4 } }
 		set_temp_variable = { casulaties_mod = 1.75 }
 	}
 	else_if = {
-		limit = { buf > 3 }
+		limit = { check_variable = { buf > 3 } }
 		set_temp_variable = { casulaties_mod = 1.5 }
 	}
 	else_if = {
-		limit = { buf > 2 }
+		limit = { check_variable = { buf > 2 } }
 		set_temp_variable = { casulaties_mod = 1.25 }
 	}
 	else_if = {
-		limit = { buf > 1 }
+		limit = { check_variable = { buf > 1 } }
 		set_temp_variable = { casulaties_mod = 1.1 }
 	}
 	else_if = {
-		limit = { buf > 0.8 }
+		limit = { check_variable = { buf > 0.8 } }
 		set_temp_variable = { casulaties_mod = 0.9 }
 	}
 	else_if = {
-		limit = { buf > 0.6 }
+		limit = { check_variable = { buf > 0.6 } }
 		set_temp_variable = { casulaties_mod = 0.8 }
 	}
 	else_if = {
-		limit = { buf > 0.4 }
+		limit = { check_variable = { buf > 0.4 } }
 		set_temp_variable = { casulaties_mod = 0.7 }
 	}
 	else_if = {
-		limit = { buf > 0.2 }
+		limit = { check_variable = { buf > 0.2 } }
 		set_temp_variable = { casulaties_mod = 0.6 }
 	}
 	else = {
@@ -183,19 +182,19 @@ compare_casualties = {
 
 calculate_cap_mod = {
 	if = {
-		limit = { surrender_progress > 0.8 }
+		limit = { check_variable = { surender_progress > 0.8 } }
 		set_temp_variable = { capitulation_mod = 2 }
 	}
 	else_if = {
-		limit = { surrender_progress > 0.6 }
+		limit = { check_variable = { surender_progress > 0.6 } }
 		set_temp_variable = { capitulation_mod = 1.75 }
 	}
 	else_if = {
-		limit = { surrender_progress > 0.4 }
+		limit = { check_variable = { surender_progress > 0.4 } }
 		set_temp_variable = { capitulation_mod = 1.5 }
 	}
 	else_if = {
-		limit = { surrender_progress > 0.2 }
+		limit = { check_variable = { surender_progress > 0.2 } }
 		set_temp_variable = { capitulation_mod = 1.25 }
 	}
 }
@@ -207,7 +206,6 @@ calculate_monthly_exhaustion = {
 		add_to_temp_variable = { temp_exhaustion = 0.25 }
 	}
 
-	set_temp_variable = { opposing_tag = THIS.war_target_tag }
 	set_temp_variable = { casulaties_mod = 1 }
 	compare_casualties = yes
 

@@ -1086,3 +1086,5 @@
  order_ifv_for_ukraine: "Order IFVs On Behalf Of Ukraine"
  order_spart_for_ukraine: "Order SP Artillery On Behalf Of Ukraine"
  order_mbt_for_ukraine: "Order MBTs On Behalf Of Ukraine"
+ war_category: "War Weariness And Support"
+ war_category_desc: "Current war weriness is [?THIS.war_exhaustion]\nWar support is [?THIS.has_war_support]"
