@@ -76,11 +76,12 @@ public_war_weariness_penalty_effect = {
 
 conditional_peace_war_calculate_start_effect = {
 	ROOT = {
-		set_variable = { war_casualties = casualties_k }
+		set_variable = { times_used_propaganda = 0 }
+		set_variable = { initial_war_casualties = casualties_k }
 		# safeguard
 		if = {
-			limit = { check_variable = { war_casualties < 1 } }
-			set_variable = { war_casualties = 1 }
+			limit = { check_variable = { initial_war_casualties < 1 } }
+			set_variable = { initial_war_casualties = 1 }
 		}
 
 		set_variable = { war_exhaustion = has_war_support }
@@ -93,11 +94,12 @@ conditional_peace_war_calculate_start_effect = {
 	}
 
 	FROM = {
-		set_variable = { war_casualties = casualties_k }
+		set_variable = { times_used_propaganda = 0 }
+		set_variable = { initial_war_casualties = casualties_k }
 		# safeguard
 		if = {
-			limit = { check_variable = { war_casualties < 1 } }
-			set_variable = { war_casualties = 1 }
+			limit = { check_variable = { initial_war_casualties < 1 } }
+			set_variable = { initial_war_casualties = 1 }
 		}
 
 		set_variable = { war_exhaustion = has_war_support }
@@ -110,6 +112,9 @@ conditional_peace_war_calculate_start_effect = {
 }
 
 compare_casualties = {
+	set_variable = { THIS.war_casualties = casualties_k }
+	subtract_from_variable = { THIS.war_casualties = THIS.initial_war_casualties }
+
 	set_temp_variable = { buf = THIS.war_casualties }
 	for_each_scope_loop = {
 		array = allies
@@ -119,23 +124,25 @@ compare_casualties = {
 	set_temp_variable = { buf2 = 0 }
 	for_each_scope_loop = {
 		array = enemies
-		add_to_temp_variable = { buf = THIS.war_casualties }
+		add_to_temp_variable = { buf2 = THIS.war_casualties }
 	}
 
 	if = {
 		limit = {
-			check_variable = { buf = 0 }
+			check_variable = { buf < 1 }
 		}
 
 		set_temp_variable = { buf = 1 }
 	}
 	if = {
 		limit = {
-			check_variable = { buf2 = 0 }
+			check_variable = { buf2 < 1 }
 		}
 
 		set_temp_variable = { buf2 = 1 }
 	}
+
+	log = "[GetDateText]: [ROOT.GetName]: compare_casualties: [?buf]-[?buf2]"
 
 	divide_temp_variable = { buf = buf2 }
 
@@ -161,11 +168,11 @@ compare_casualties = {
 	}
 	else_if = {
 		limit = { check_variable = { buf > 0.8 } }
-		set_temp_variable = { casulaties_mod = 0.9 }
+		set_temp_variable = { casulaties_mod = 1 }
 	}
 	else_if = {
 		limit = { check_variable = { buf > 0.6 } }
-		set_temp_variable = { casulaties_mod = 0.8 }
+		set_temp_variable = { casulaties_mod = 0.85 }
 	}
 	else_if = {
 		limit = { check_variable = { buf > 0.4 } }
@@ -173,7 +180,7 @@ compare_casualties = {
 	}
 	else_if = {
 		limit = { check_variable = { buf > 0.2 } }
-		set_temp_variable = { casulaties_mod = 0.6 }
+		set_temp_variable = { casulaties_mod = 0.55 }
 	}
 	else = {
 		set_temp_variable = { casulaties_mod = 0.5 }
@@ -184,6 +191,7 @@ calculate_cap_mod = {
 	if = {
 		limit = { check_variable = { surender_progress > 0.8 } }
 		set_temp_variable = { capitulation_mod = 2 }
+
 	}
 	else_if = {
 		limit = { check_variable = { surender_progress > 0.6 } }
@@ -208,6 +216,7 @@ calculate_monthly_exhaustion = {
 
 	set_temp_variable = { casulaties_mod = 1 }
 	compare_casualties = yes
+	log = "[GetDateText]: [ROOT.GetName]: casulaties_mod: [?casulaties_mod]"
 
 	multiply_temp_variable = { temp_exhaustion = casulaties_mod }
 
@@ -215,6 +224,7 @@ calculate_monthly_exhaustion = {
 	calculate_cap_mod = yes
 
 	multiply_temp_variable = { temp_exhaustion = capitulation_mod }
+	log = "[GetDateText]: [ROOT.GetName]: capitulation_mod: [?capitulation_mod]"
 
 	subtract_from_variable = { THIS.war_exhaustion = temp_exhaustion }
 

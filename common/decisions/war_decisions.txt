@@ -5,12 +5,14 @@ war_category = {
 		visible = {
 			has_war = yes
 			check_variable = { war_exhaustion < 80 }
+			check_variable = { times_used_propaganda < 6 }
 		}
 		days_remove = 90
 		days_re_enable = 30
 		fire_only_once = no
 		complete_effect = {
 			small_expenditure = yes
+			add_to_variable = { times_used_propaganda = 1 }
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision completed war_support_campaigns"
@@ -21,17 +23,18 @@ war_category = {
 			factor = 5
 			modifier = {
 				add = 50
-				has_war_support < 0.40
+				check_variable = { THIS.war_exhaustion < 40 }
 			}
 		}
 	}
 
-	war_promises_of_pecae = {
+	war_promises_of_peace = {
 		cost = 100
 		icon = decision
 		visible = {
 			has_war = yes
 			has_stability < 0.80
+			check_variable = { times_used_propaganda < 6 }
 		}
 		days_remove = 90
 		days_re_enable = 30
@@ -41,17 +44,21 @@ war_category = {
 		}
 		complete_effect = {
 			small_expenditure = yes
+			add_to_variable = { times_used_propaganda = 1 }
 		}
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision completed war_support_campaigns"
+			log = "[GetDateText]: [Root.GetName]: Decision completed war_promises_of_peace"
 			subtract_from_variable = { war_exhaustion = 3 }
 			custom_effect_tooltip = war_exhaustion_minus_3_TT
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 0
 			modifier = {
 				add = 50
-				has_stability < 0.30
+				AND = {
+					has_stability < 0.30
+					check_variable = { THIS.war_exhaustion > 40 }
+				}
 			}
 		}
 	}
