@@ -1116,6 +1116,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/americas/north_america/united_states - USA/barack_obama_legislation.dds"
 	}
 	spriteType = {
+		name = "GFX_battleship_event_USA"
+		texturefile = "gfx/event_pictures/americas/north_america/united_states - USA/battleship_event_USA.dds"
+	}
+	spriteType = {
 		name = "GFX_bearstearns"
 		texturefile = "gfx/event_pictures/americas/north_america/united_states - USA/bearstearns.dds"
 	}
@@ -3272,16 +3276,16 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/europe/czechia - CZE/CW_end2.dds"
 	}
 	spriteType = {
+		name = "GFX_CZE_petr_pavel_new_president"
+		texturefile = "gfx/event_pictures/europe/czechia - CZE/CZE_petr_pavel_new_president.dds"
+	}
+	spriteType = {
 		name = "GFX_Cze_Skoda_event"
 		texturefile = "gfx/event_pictures/europe/czechia - CZE/Cze_Skoda_event.dds"
 	}
 	spriteType = {
 		name = "GFX_Cze_Skoda_event_news"
 		texturefile = "gfx/event_pictures/europe/czechia - CZE/Cze_Skoda_event_news.dds"
-	}
-	spriteType = {
-		name = "GFX_CZE_petr_pavel_new_president"
-		texturefile = "gfx/event_pictures/europe/czechia - CZE/CZE_petr_pavel_new_president.dds"
 	}
 	spriteType = {
 		name = "GFX_czub_building"
@@ -5410,6 +5414,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_subject_ural"
 		texturefile = "gfx/event_pictures/europe/russia - SOV/subjects/ural/subject_ural.dds"
+	}
+	spriteType = {
+		name = "GFX_URA_kazaks_rebellion"
+		texturefile = "gfx/event_pictures/europe/russia - SOV/subjects/ural/URA_kazaks_rebellion.dds"
 	}
 	spriteType = {
 		name = "GFX_URA_referendum_chelyaba"
@@ -7920,6 +7928,14 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/middle_east/iraq - IRQ/Post_sardam_news.dds"
 	}
 	spriteType = {
+		name = "GFX_saddam_alzheimers"
+		texturefile = "gfx/event_pictures/middle_east/iraq - IRQ/saddam_alzheimers.dds"
+	}
+	spriteType = {
+		name = "GFX_saddam_dead"
+		texturefile = "gfx/event_pictures/middle_east/iraq - IRQ/saddam_dead.dds"
+	}
+	spriteType = {
 		name = "GFX_Saddam_with_Islamic_leaders_in_Iraq"
 		texturefile = "gfx/event_pictures/middle_east/iraq - IRQ/Saddam_with_Islamic_leaders_in_Iraq.dds"
 	}
@@ -8056,6 +8072,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/middle_east/israel - ISR/israel_ben_givir_event.dds"
 	}
 	spriteType = {
+		name = "GFX_Isra_Syria_bombado"
+		texturefile = "gfx/event_pictures/middle_east/israel - ISR/Isra_Syria_bombado.dds"
+	}
+	spriteType = {
 		name = "GFX_liberman_event"
 		texturefile = "gfx/event_pictures/middle_east/israel - ISR/liberman_event.dds"
 	}
@@ -8110,6 +8130,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_torah_judaist_event"
 		texturefile = "gfx/event_pictures/middle_east/israel - ISR/torah_judaist_event.dds"
+	}
+	spriteType = {
+		name = "GFX_wom_of_wall"
+		texturefile = "gfx/event_pictures/middle_east/israel - ISR/wom_of_wall.dds"
 	}
 	spriteType = {
 		name = "GFX_kurd_rally"
