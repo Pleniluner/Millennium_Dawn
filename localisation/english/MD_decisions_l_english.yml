@@ -1088,6 +1088,8 @@
  order_mbt_for_ukraine: "Order MBTs On Behalf Of Ukraine"
  war_category: "War Weariness And Support"
  war_category_desc: "Current war weriness is [?THIS.war_exhaustion]\nWar support is [?THIS.has_war_support]"
+ war_support_campaigns: "War Support Campaigns"
+ war_promises_of_peace: "Promises Of Peace"
 
  sudan_second_civil_war_decisions_category: "The Second Sudanese Civil War"
  sudan_second_civil_war_decisions_category_desc: "The Second Sudanese Civil War started when the Sudanese Armed Forces and the National Islamic Front under Omar al-Bashir overthrew Sadiq al-Mahdi. Immediately, al-Bashir's government started re-implementing islamisation policies across the country (including South Sudan), which had been put on pause on the basis of a precarious ceasefire between al-Mahdi and the Southern Sudan People's Liberation Army. This caused the mainly Christian and Animist South Sudan to take up arms against the government."

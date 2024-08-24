@@ -125,36 +125,8 @@ country_event = {
 		ai_chance = {
 			factor = 1
 			modifier = {
-				add = 2
-				ROOT = { surrender_progress > 0.20 }
-			}
-			modifier = {
-				add = 2
-				ROOT = { surrender_progress > 0.30 }
-			}
-			modifier = {
-				add = 2
-				ROOT = { surrender_progress > 0.40 }
-			}
-			modifier = {
-				add = 2
-				ROOT = { surrender_progress > 0.50 }
-			}
-			modifier = {
-				add = 2
-				ROOT = { surrender_progress > 0.60 }
-			}
-			modifier = {
-				add = 2
-				ROOT = { surrender_progress > 0.70 }
-			}
-			modifier = {
-				add = 2
-				ROOT = { surrender_progress > 0.80 }
-			}
-			modifier = {
-				add = 2
-				ROOT = { surrender_progress > 0.90 }
+				add = 50
+				check_variable = { war_exhaustion < 0 }
 			}
 			modifier = {
 				factor = 5
@@ -174,24 +146,8 @@ country_event = {
 		ai_chance = {
 			factor = 1
 			modifier = {
-				add = 2
-				surrender_progress < 0.20
-			}
-			modifier = {
-				add = 2
-				FROM = { surrender_progress > 0.20 }
-			}
-			modifier = {
-				add = 4
-				FROM = { surrender_progress > 0.40 }
-			}
-			modifier = {
-				add = 4
-				FROM = { surrender_progress > 0.60 }
-			}
-			modifier = {
-				add = 4
-				FROM = { surrender_progress > 0.80 }
+				add = 5
+				check_variable = { war_exhaustion > 0 }
 			}
 			modifier = {
 				factor = 5
@@ -235,7 +191,7 @@ country_event = { #Decline Ceasefire
 }
 
 #Civil war debuff improvements
-country_event = { 
+country_event = {
 	id = civil_war_debuff.1
 	title = civil_war_debuff.1.t
 	desc = civil_war_debuff.1.d
@@ -271,7 +227,7 @@ country_event = {
 		}
 	}
 }
-country_event = { 
+country_event = {
 	id = civil_war_debuff.2
 	title = civil_war_debuff.2.t
 	desc = civil_war_debuff.2.d
@@ -307,7 +263,7 @@ country_event = {
 		}
 	}
 }
-country_event = { 
+country_event = {
 	id = civil_war_debuff.3
 	title = civil_war_debuff.3.t
 	desc = civil_war_debuff.3.d
@@ -343,7 +299,7 @@ country_event = {
 		}
 	}
 }
-country_event = { 
+country_event = {
 	id = civil_war_debuff.4
 	title = civil_war_debuff.4.t
 	desc = civil_war_debuff.4.d
@@ -379,7 +335,7 @@ country_event = {
 		}
 	}
 }
-country_event = { 
+country_event = {
 	id = civil_war_debuff.5
 	title = civil_war_debuff.5.t
 	desc = civil_war_debuff.5.d
