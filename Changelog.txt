@@ -10,6 +10,9 @@ v1.11.1
   - Reduced the frequency of the "Labour Unions Protest Migration"
   - Clamp the "Religious Group Request in Government" pp to a maximum of 500
 
+ Bugfixes
+  - Augmented Vision techs now correctly show after copmleting their special project
+
  Content:
   - Added a few Internal Faction Events
 
