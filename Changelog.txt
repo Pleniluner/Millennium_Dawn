@@ -21,11 +21,16 @@ v1.11.1
  Game Rules:
   - Fixed the AI Easy/Very Easy Energy options not allowing achievements
 
+ Interface
+  - Fixed misalignment between MIOs and nuclear policies
+  - Fixed facility list being cut-off at the bottom
+  - Fixed clippy
+
  Localization:
   - Fixed missing tooltip for Medium Naval Nuclear Engines
 
  Special Projects:
-  - Super Heavy Tank Turrets are now locked behind both "Large Gun Tech" && 4th Generation Tank Hulls
+  - Super Heavy Tank Turrets are now locked behind both "Large Gun Tech" & 4th Generation Tank Hulls
   - Increased the Civilian R&D Breakthrough cost for "Thorium Nuclear Fuel"
   - Added a resource cost to "Super Heavy Tank Turrets" to help make it more balanced
   - "Fully Autonomous Computer Frameworks" has now moved to "Human Imitation AI"
