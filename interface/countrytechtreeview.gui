@@ -102,6 +102,19 @@ guiTypes = {
 					pdx_tooltip = "INFANTRY_TITLE_SUPPORT_WEAPONS_DESC"
 				}
 				instantTextBoxType = {
+					name = "infantry_subtitle_support_drones"
+					position = { x = 1825 y = 395 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "INFANTRY_TITLE_SUPPORT_DRONES"
+					maxWidth = 200
+					maxHeight = 74
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "INFANTRY_TITLE_SUPPORT_DRONES_DESC"
+				}
+				instantTextBoxType = {
 					name = "infantry_subtitle_nvg"
 					position = { x = 85 y = 595 }
 					textureFile = ""
@@ -113,6 +126,19 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "INFANTRY_TITLE_nvg_DESC"
+				}
+				instantTextBoxType = {
+					name = "infantry_subtitle_augmented_vision"
+					position = { x = 1825 y = 560 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "INFANTRY_TITLE_AUGMENTED_VISION"
+					maxWidth = 200
+					maxHeight = 74
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "INFANTRY_TITLE_AUGMENTED_VISION_DESC"
 				}
 				instantTextBoxType = {
 					name = "infantry_subtitle_special_forces"
@@ -178,6 +204,19 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "INFANTRY_TITLE_BODY_ARMOUR_DESC"
+				}
+				instantTextBoxType = {
+					name = "infantry_subtitle_exoskeleton"
+					position = { x = 1615 y = 1105 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "INFANTRY_TITLE_EXOSKELETON"
+					maxWidth = 200
+					maxHeight = 74
+					format = center
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "INFANTRY_TITLE_EXOSKELETON_DESC"
 				}
 				instantTextBoxType = {
 					name = "infantry_subtitle_camouflage"
