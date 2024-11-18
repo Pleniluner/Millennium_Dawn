@@ -552,7 +552,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Generic/Land_Doctrines/up_armor_packages.dds"
 	}
 	SpriteType = {
-		name = "GFX_high_efficency_engines_medium"
+		name = "GFX_high_efficiency_engines_medium"
 		texturefile = "gfx/interface/technologies/Generic/Land_Doctrines/high_efficiency_engines.dds"
 	}
 	SpriteType = {
