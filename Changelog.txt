@@ -19,6 +19,7 @@ v1.11.1
   - Fixed an issue with localization for the Iranian nuclear tree if the U.S. does not exist
   - Augmented Vision techs now correctly show after copmleting their special project
   - Fixed the missing icon for High Efficiency Engines doctrine
+  - Fixed tank guns requiring heavy tank turret to be always mounted
 
  Content:
   - Added several new Internal Faction Events
@@ -32,7 +33,7 @@ v1.11.1
  Game Rules:
   - Fixed the AI Easy/Very Easy Energy options not allowing achievements
 
- Interface
+ Interface:
   - Fixed misalignment between MIOs and nuclear policies
   - Fixed facility list being cut-off at the bottom
   - Fixed clippy
