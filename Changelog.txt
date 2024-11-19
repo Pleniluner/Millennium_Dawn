@@ -40,6 +40,9 @@ v1.11.1
  Game Rules:
   - Fixed the AI Easy/Very Easy Energy options not allowing achievements
 
+ Graphics:
+  - Added an icon for twin barrel mortar conversion module
+
  Interface:
   - Fixed misalignment between MIOs and nuclear policies
   - Fixed facility list being cut-off at the bottom
@@ -57,6 +60,7 @@ v1.11.1
 
  Technology:
   - AFV steel and aluminium armour is now unlocked by both AFV hulls and light tank hulls
+  - Separated 1965 Artillery and SP Artillery into their own techs
 
  User Interface:
   - Fixed the free floating UI in the construction menu and made it even

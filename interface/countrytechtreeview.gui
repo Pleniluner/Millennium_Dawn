@@ -914,6 +914,32 @@ guiTypes = {
 					origo = center_up
 
 					instantTextBoxType = {
+						name = "artillery_subtitle_artillery"
+						position = { x = -570 y = 45 }
+						textureFile = ""
+						font = "hoi_33"
+						borderSize = {x = 0 y = 4}
+						text = "MD_ARTILLERY_TITLE"
+						maxWidth = 240
+						maxHeight = 74
+						format = center
+						Orientation = "UPPER_LEFT"
+						pdx_tooltip = "MD_ARTILLERY_TITLE_DESC"
+					}
+					instantTextBoxType = {
+						name = "artillery_subtitle_SP_artillery"
+						position = { x = -290 y = 45 }
+						textureFile = ""
+						font = "hoi_33"
+						borderSize = {x = 0 y = 4}
+						text = "ARTILLERY_SP_TITLE"
+						maxWidth = 240
+						maxHeight = 74
+						format = center
+						Orientation = "UPPER_LEFT"
+						pdx_tooltip = "ARTILLERY_SP_TITLE_DESC"
+					}
+					instantTextBoxType = {
 						name = "artillery_subtitle_anti_tank"
 						position = { x = 395 y = 50 }
 						textureFile = ""
@@ -921,30 +947,6 @@ guiTypes = {
 						borderSize = {x = 0 y = 4}
 						text = "ARTILLERY_TITLE_AT"
 						maxWidth = 300
-						maxHeight = 74
-						format = center
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "artillery_subtitle_artillery"
-						position = { x = -700 y = 160 }
-						textureFile = ""
-						font = "hoi_33"
-						borderSize = {x = 0 y = 4}
-						text = "ARTILLERY_TITLE"
-						maxWidth = 400
-						maxHeight = 74
-						format = center
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "artillery_subtitle_SP_artillery"
-						position = { x = -300 y = 160 }
-						textureFile = ""
-						font = "hoi_33"
-						borderSize = {x = 0 y = 4}
-						text = "ARTILLERY_SP_TITLE"
-						maxWidth = 400
 						maxHeight = 74
 						format = center
 						Orientation = "UPPER_LEFT"
@@ -1099,6 +1101,13 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "nsb_artillery_0_tree"
+				position = { x = -11% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "nsb_SP_arty_0_tree"
 				position = { x = -11% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
