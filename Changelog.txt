@@ -53,6 +53,10 @@ v1.11.1
   - Increased the Civilian R&D Breakthrough cost for "Thorium Nuclear Fuel"
   - Added a resource cost to "Super Heavy Tank Turrets" to help make it more balanced
   - "Fully Autonomous Computer Frameworks" has now moved to "Human Imitation AI"
+  - Moved "Double Cannons" module for AFVs from the hull tech into a special project and buffed the stats a little bit
+
+ Technology:
+  - AFV steel and aluminium armour is now unlocked by both AFV hulls and light tank hulls
 
  User Interface:
   - Fixed the free floating UI in the construction menu and made it even
