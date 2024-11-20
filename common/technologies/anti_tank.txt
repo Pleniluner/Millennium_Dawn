@@ -433,7 +433,13 @@ technologies = {
 	}
 	#2025
 	Anti_tank_3 = {
-		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech Anti_tank_3" }
+		on_research_complete = {
+			log = "[GetDateText]: [Root.GetName]: add tech Anti_tank_3"
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_emp_warhead
+			}
+		}
 
 		enable_equipments = {
 			Anti_tank_3
@@ -478,7 +484,13 @@ technologies = {
 	}
 	#2025
 	Heavy_Anti_tank_3 = {
-		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech Heavy_Anti_tank_3" }
+		on_research_complete = {
+			log = "[GetDateText]: [Root.GetName]: add tech Heavy_Anti_tank_3"
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_multipurpose_warhead
+			}
+		}
 
 		enable_equipments = {
 			Heavy_Anti_tank_3

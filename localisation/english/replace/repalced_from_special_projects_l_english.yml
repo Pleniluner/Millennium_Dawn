@@ -135,6 +135,10 @@
  ##########################
  sp_automatic_twin_barrel_mortar_turret: "Automatic Twin Barrel Mortar"
  sp_automatic_twin_barrel_mortar_turret_desc: "Mortar turrets are old news but if we mount two mortars in the same turret, we can achieve a much higher rater of fire and multiple round simultaneous impact."
+ sp_multipurpose_warhead: "Multipurpose Warheads"
+ sp_multipurpose_warhead_desc: "We have missiles against tanks and missiles against aircraft. But what if we could give our missiles effectiveness against both? This way, in a pinch, anti-tank and anti-air missiles could be used against others than their intended targets."
+ sp_emp_warhead: "EMP Warheads"
+ sp_emp_warhead_desc: "The biggest challenge for anti-tank and anti-air missiles is overcoming the armour plating of the target. However, there are ways to completely ignore armour. With a warhead that emits an EMP pulse, we could disable the target for at least a short period of time."
 
  ######################
  ### Naval Projects ###
@@ -328,8 +332,6 @@
  sp_railgun_cannon_2_reward_improved_barrel_desc: "While working on a barrel that can withstand the immense heat coming from a railgun, our engineers have managed to use some of their findings to improve our traditional gun barrels."
  sp_tank_based_laser_main_cannons_reward_air_defence: "Air Defence Laser"
  sp_tank_based_laser_main_cannons_reward_air_defence_desc: "With advancements into laser based weaponry, our engineers have developed a laser that can be used to shoot down aerial targets."
- sp_tank_based_laser_point_defense_reward_air_defence: "Air Defence Laser"
- sp_tank_based_laser_point_defense_reward_air_defence_desc: "With advancements into laser based weaponry, our engineers have developed a laser that can be used to shoot down aerial targets."
  sp_afv_double_cannons_reward_improved_autoloader: "Improved Autoloader"
  sp_afv_double_cannons_reward_improved_autoloader_desc: "Our engineers have developed an improved autoloader for our tanks while working on a double cannon reloading system."
  sp_truck_modular_seating_reward_quick_release_belt: "Quick Release Seat Belt"
@@ -339,6 +341,14 @@
  sp_utility_vehicle_electric_engines_reward_fuel_efficiency_option_tech_bonus: "Improved Fuel Efficiency"
  sp_automatic_twin_barrel_mortar_turret_reward_improved_mortars: "Improved Mortars"
  sp_automatic_twin_barrel_mortar_turret_reward_improved_mortars_desc: "Researching how to make two mortars fire in unison has allowed us to develop a better mortar system for our infantry."
+ sp_multipurpose_warhead_reward_improved_warhead: "Improved Warheads"
+ sp_multipurpose_warhead_reward_improved_warhead_desc: "While trying to figure out how to add anti-aircraft performance to anti-tank missiles, and anti-tank performance to anti-air missiles, our engineers have figured out how to improve the overall performance of one type of missiles."
+ sp_multipurpose_warhead_reward_improved_warhead_at: "Better anti-tank performance"
+ sp_multipurpose_warhead_reward_improved_warhead_aa: "Better anti-air performance"
+ sp_emp_warhead: "Improved Electronic Warfare"
+ sp_emp_warhead_desc: "Both tanks and airplanes have counter electronic warfare measures that can reduce the impact of EMP weapons. As different platforms use different architecture, we can only effectively focus on one type of target."
+ sp_emp_warhead_reward_improved_warhead_at: "Prioritise land targets"
+ sp_emp_warhead_reward_improved_warhead_aa: "Prioritise air targets"
 
  ###############################
  ### Naval Prototype Rewards ###

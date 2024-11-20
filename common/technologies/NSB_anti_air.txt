@@ -187,7 +187,17 @@ technologies = {
 	}
 	#2025
 	nsb_Anti_Air_3 = {
-		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech nsb_Anti_Air_3" }
+		on_research_complete = {
+			log = "[GetDateText]: [Root.GetName]: add tech nsb_Anti_Air_3"
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_multipurpose_warhead
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_emp_warhead
+			}
+		}
 
 		enable_equipments = {
 			Anti_Air_3
