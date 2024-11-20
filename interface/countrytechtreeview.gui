@@ -941,27 +941,55 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "artillery_subtitle_anti_tank"
-						position = { x = 395 y = 50 }
+						position = { x = 207 y = 50 }
 						textureFile = ""
 						font = "hoi_33"
 						borderSize = {x = 0 y = 4}
-						text = "ARTILLERY_TITLE_AT"
+						text = "ARTILLERY_TITLE_LIGHT_AT"
+						maxWidth = 260
+						maxHeight = 74
+						format = center
+						Orientation = "UPPER_LEFT"
+						pdx_tooltip = "ARTILLERY_TITLE_LIGHT_AT_DESC"
+					}
+					instantTextBoxType = {
+						name = "artillery_subtitle_heaby_anti_tank"
+						position = { x = 487 y = 50 }
+						textureFile = ""
+						font = "hoi_33"
+						borderSize = {x = 0 y = 4}
+						text = "ARTILLERY_TITLE_HEAVY_AT"
+						maxWidth = 260
+						maxHeight = 74
+						format = center
+						Orientation = "UPPER_LEFT"
+						pdx_tooltip = "ARTILLERY_TITLE_HEAVY_AT_DESC"
+					}
+					instantTextBoxType = {
+						name = "artillery_subtitle_sp_anti_air"
+						position = { x = 830 y = 50 }
+						textureFile = ""
+						font = "hoi_33"
+						borderSize = {x = 0 y = 4}
+						text = "ARTILLERY_TITLE_SP_AA"
+						maxWidth = 250
+						maxHeight = 74
+						format = center
+						Orientation = "UPPER_LEFT"
+						pdx_tooltip = "ARTILLERY_TITLE_SP_AA_DESC"
+					}
+					instantTextBoxType = {
+						name = "artillery_subtitle_anti_air"
+						position = { x = 1085 y = 50 }
+						textureFile = ""
+						font = "hoi_33"
+						borderSize = {x = 0 y = 4}
+						text = "ARTILLERY_TITLE_AA"
 						maxWidth = 300
 						maxHeight = 74
 						format = center
 						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "artillery_subtitle_anti_air"
-						position = { x = 1000 y = 50 }
-						textureFile = ""
-						font = "hoi_33"
-						borderSize = {x = 0 y = 4}
-						text = "ARTILLERT_TITLE_AA"
-						maxWidth = 200
-						maxHeight = 74
-						format = center
-						Orientation = "UPPER_LEFT"
+						pdx_tooltip = "ARTILLERY_TITLE_AA_DESC"
 					}
 				}
 				instantTextBoxType = {
@@ -1121,7 +1149,21 @@ guiTypes = {
 				format = "UP"
 			}
 			gridboxtype = {
+				name = "Heavy_Anti_tank_0_tree"
+				position = { x = -50 y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
 				name = "Anti_Air_0_tree"
+				position = { x = 500 y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "nsb_SP_Anti_Air_0_tree"
 				position = { x = 500 y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }

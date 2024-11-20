@@ -71,6 +71,9 @@ v1.11.1
  Technology:
   - AFV steel and aluminium armour is now unlocked by both AFV hulls and light tank hulls
   - Separated 1965 Artillery and SP Artillery into their own techs
+  - All vehicle machine gun modules are now unlocked by Small Arms 1965
+  - Moved SPAA Battlestations and Optical Guidance modules under Tank Computer Systems
+  - Moved SPAA Chassis modules to corresponding utility vehicle, tank hull and AFV hull techs
 
  User Interface:
   - Fixed the free floating UI in the construction menu and made it even
