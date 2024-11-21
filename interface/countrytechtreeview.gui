@@ -1729,38 +1729,64 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "naval_subtitle_mtg_corvettes"
-				position = { x = 200 y = 55 }
+				position = { x = 230 y = 55 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "NAVAL_TITLE_MTG_CORVETTES"
-				maxWidth = 600
+				maxWidth = 200
 				maxHeight = 74
 				format = left
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "NAVAL_TITLE_MTG_CORVETTES_DESC"
 			}
 			instantTextBoxType = {
+				name = "naval_subtitle_mtg_stealth_corvettes"
+				position = { x = 1330 y = 177 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_MTG_STEALTH_CORVETTES"
+				maxWidth = 200
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_TITLE_MTG_STEALTH_CORVETTES_DESC"
+			}
+			instantTextBoxType = {
 				name = "naval_subtitle_mtg_frigates"
-				position = { x = 200 y = 195 }
+				position = { x = 230 y = 225 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "NAVAL_TITLE_MTG_FRIGATES"
-				maxWidth = 600
+				maxWidth = 200
 				maxHeight = 74
 				format = left
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "NAVAL_TITLE_MTG_FRIGATES_DESC"
 			}
 			instantTextBoxType = {
+				name = "naval_subtitle_mtg_stealth_frigates"
+				position = { x = 1330 y = 347 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_MTG_STEALTH_FRIGATES"
+				maxWidth = 200
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_TITLE_MTG_STEALTH_FRIGATES_DESC"
+			}
+			instantTextBoxType = {
 				name = "naval_subtitle_mtg_destroyers"
-				position = { x = 200 y = 335 }
+				position = { x = 230 y = 395 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "NAVAL_TITLE_MTG_DESTROYERS"
-				maxWidth = 600
+				maxWidth = 200
 				maxHeight = 74
 				format = left
 				Orientation = "UPPER_LEFT"
@@ -1768,12 +1794,12 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "naval_subtitle_mtg_stealth_destroyers"
-				position = { x = 2270 y = 405 }
+				position = { x = 1450 y = 517 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "NAVAL_TITLE_MTG_STEALTH_DESTROYERS"
-				maxWidth = 600
+				maxWidth = 200
 				maxHeight = 74
 				format = left
 				Orientation = "UPPER_LEFT"
@@ -1781,25 +1807,38 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "naval_subtitle_mtg_cruisers"
-				position = { x = 200 y = 475 }
+				position = { x = 230 y = 565 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "NAVAL_TITLE_MTG_CRUISERS"
-				maxWidth = 600
+				maxWidth = 200
 				maxHeight = 74
 				format = left
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "NAVAL_TITLE_MTG_CRUISERS_DESC"
 			}
 			instantTextBoxType = {
+				name = "naval_subtitle_mtg_battleships"
+				position = { x = 230 y = 685 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_MTG_BATTLESHIPS"
+				maxWidth = 600
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_TITLE_MTG_BATTLESHIPS_DESC"
+			}
+			instantTextBoxType = {
 				name = "naval_subtitle_mtg_heli_operators"
-				position = { x = 200 y = 605 }
+				position = { x = 230 y = 805 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "NAVAL_TITLE_MTG_HELI_OPERATORS"
-				maxWidth = 600
+				maxWidth = 400
 				maxHeight = 74
 				format = left
 				Orientation = "UPPER_LEFT"
@@ -1807,7 +1846,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "naval_subtitle_mtg_carriers"
-				position = { x = 200 y = 755 }
+				position = { x = 230 y = 947 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -1820,7 +1859,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "naval_subtitle_mtg_attack_sub"
-				position = { x = 200 y = 965 }
+				position = { x = 230 y = 1067 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -1833,7 +1872,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "naval_subtitle_mtg_missile_sub"
-				position = { x = 200 y = 1105 }
+				position = { x = 230 y = 1207 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -1845,17 +1884,59 @@ guiTypes = {
 				pdx_tooltip = "NAVAL_TITLE_MTG_MISSILE_SUBMARINES_DESC"
 			}
 			instantTextBoxType = {
+				name = "naval_subtitle_mtg_sub_engines"
+				position = { x = 360 y = 1347 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_MTG_SUB_ENGINES"
+				maxWidth = 300
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_TITLE_MTG_SUB_ENGINES_DESC"
+			}
+			instantTextBoxType = {
 				name = "naval_subtitle_mtg_system_engineering"
-				position = { x = 200 y = 1300 }
+				position = { x = -12 y = 1710 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
 				text = "NAVAL_TITLE_MTG_SYSTEM_ENGINEERING"
-				maxWidth = 600
+				maxWidth = 200
+				maxHeight = 74
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "corvette_desc"
+				pdx_tooltip = "NAVAL_TITLE_MTG_SYSTEM_ENGINEERING_DESC"
+			}
+			instantTextBoxType = {
+				name = "naval_subtitle_mtg_engines"
+				position = { x = 360 y = 1470 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_MTG_ENGINES"
+				maxWidth = 300
 				maxHeight = 74
 				format = left
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "corvette_desc"
+				pdx_tooltip = "NAVAL_TITLE_MTG_ENGINES_DESC"
+			}
+			instantTextBoxType = {
+				name = "naval_subtitle_mtg_nuclear_engines"
+				position = { x = 360 y = 1607 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_MTG_NUCLEAR_ENGINES"
+				maxWidth = 300
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "corvette_desc"
+				pdx_tooltip = "NAVAL_TITLE_MTG_NUCLEAR_ENGINES_DESC"
 			}
 			instantTextBoxType = {
 				name = "naval_subtitle_mtg_armament"
@@ -2045,112 +2126,42 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "aircraft_carrier_engineering_tree"
-				position = { x = 150 y = 200 }
+				position = { x = 150 y = 390 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
-				name = "early_helicopter_tree"
-				position = { x = 340 y = 32 }
-				size = { width = 400 height = 1000 }
-				slotsize = { width = 70 height = 68 }
-				format = "UP"
-			}
-			gridboxtype = {
 				name = "tech_submarine_engineering_tree"
-				position = { x = 150 y = 200 }
+				position = { x = 150 y = 440 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "tech_naval_systems_engineering_tree"
-				position = { x = 150 y = 200 }
+				position = { x = 150 y = 490 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "tech_early_naval_weapon_systems_tree"
-				position = { x = 150 y = 200 }
+				position = { x = 150 y = 540 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
-				name = "tech_naval_armament_engineering_tree"
-				position = { x = 150 y = 200 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "tech_2020_railgun_tree"
-				position = { x = 150 y = 200 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "tech_asm_1965_tree"
-				position = { x = 150 y = 200 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "tech_1965_torpedo_tree"
-				position = { x = 150 y = 200 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "tech_1965_aa_guns_tree"
-				position = { x = 150 y = 200 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "tech_1975_aa_missile_tree"
-				position = { x = 150 y = 200 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "tech_radiowave_detection_tree"
-				position = { x = 150 y = 200 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "tech_1965_anti_submarine_mortar_tree"
-				position = { x = 150 y = 200 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "tech_naval_mine_warfare_tree"
-				position = { x = 150 y = 200 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "tech_modern_firefighting_equipment_tree"
-				position = { x = 150 y = 200 }
+				name = "tech_rail_guns_tree"
+				position = { x = 150 y = 560 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "tech_mtg_landing_craft_tree"
-				position = { x = 150 y = 200 }
+				position = { x = 150 y = 590 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

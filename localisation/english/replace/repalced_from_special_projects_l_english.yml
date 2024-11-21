@@ -152,17 +152,12 @@
  sp_stealth_frigate_desc: "The design transition on some of our frigates is beginning to change. We have decided it is for the best we invest into stealth designs to ensure our frigates are in the most advantageous positions."
  sp_stealth_destroyer: "Stealth Destroyer"
  sp_stealth_destroyer_desc: "A new wave of naval technology has begun to be developed by a variety of different manufacturers to no avail. We should sponsor this new technology to help ensure that our destroyers are nearly impervious to detection allowing us to strike long before the enemy knows our fleet is in the area."
- sp_stealth_corvette_tt: "Unlocks the §YStealth Corvette Hull§! Technology Line\n"
- sp_stealth_frigate_tt: "Unlocks the §YStealth Frigate Hull§! Technology Line\n"
- sp_stealth_destroyer_tt: "Unlocks the §YStealth Destroyer Hull§! Technology Line\n"
  sp_medium_naval_nuclear_engines: "Naval Nuclear Engineering"
  sp_medium_naval_nuclear_engines_desc: "After the invention of nuclear reactors and power we have started to explore and investigate the ability to mount nuclear engines onto our naval vessels. It will minimize the amount of time required in drydock"
- sp_medium_naval_nuclear_engines_tt: "Unlocks the following §YTechnology Lines§!:\n- §YNaval Nuclear Reactors§!"
  sp_advanced_ballistic_propulsion_systems: "Advanced Ballistic Propulsion Systems"
  sp_advanced_ballistic_propulsion_systems_desc: "The invention of some advanced ballistic propulsion systems has made our scientists contemplate the question, \"what if?\" They've begun developing new forms of ballistic propulsion systems using things such as electromagnetic propulsion to try to build weapons that are capable of firing a projectile faster than ever thought of before."
  sp_rail_gun_naval_cannons: "Railgun Naval Cannons"
  sp_rail_gun_naval_cannons_desc: "Railgun cannons use electromagnetic propulsion to propel a projectile through the air to inflict damage at massive speeds. The projectile itself does not contain any explosives and rather utilizes this intense speed to peel through armor."
- sp_rail_gun_naval_cannons_tt: "Unlocks the following §YTechnology Lines§!:\n- §YRailgun Naval Cannons§!"
 
  #########################
  ### Aircraft Projects ###

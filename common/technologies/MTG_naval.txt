@@ -29,42 +29,26 @@ technologies = {
 	@row5 = 3
 	@row6 = 4
 	@row7 = 5
-	@row75 = 13
-	@row8 = 14
-	@row85 = 15
-	@row9 = 16
-	@row95 = 17
-	@row10 = 18
-	@row105 = 19
-	@row11 = 20
-	@row115 = 21
-	@row12 = 22
-	@row125 = 23
-	@row13 = 24
-	@row135 = 25
-	@row14 = 26
-	@row145 = 27
-	@row15 = 28
-	@row155 = 29
-	@row16 = 30
-	@row165 = 31
-	@row17 = 32
-	@row175 = 33
-	@row18 = 34
-	@row185 = 35
-	@row19 = 36
-	@row195 = 37
-	@row20 = 38
-	@row205 = 39
-	@row21 = 40
-	@row215 = 41
-	@row22 = 42
-	@row225 = 43
-	@row23 = 44
-	@row24 = 46
-	@row25 = 48
-	@row26 = 50
-	@row27 = 52
+	@row8 = 6
+	@row9 = 7
+	@row10 = 8
+	@row11 = 9
+	@row12 = 11
+	@row13 = 13
+	@row14 = 14
+	@row15 = 16
+	@row16 = 18
+	@row17 = 20
+	@row18 = 22
+	@row19 = 23
+	@row20 = 24
+	@row21 = 26
+	@row22 = 28
+	@row23 = 30
+	@row24 = 32
+	@row25 = 34
+	@row26 = 36
+	@row27 = 37
 
 	#Corvette Hulls
 	corvette_hull_1 = {
@@ -1740,7 +1724,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row8 y = @1945 }
+			position = { x = @row9 y = @1945 }
 		}
 
 		ai_will_do = {
@@ -2107,7 +2091,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row9 y = @1965 }
+			position = { x = @row10 y = @1965 }
 		}
 
 		ai_will_do = {
@@ -2153,7 +2137,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row9 y = @1985 }
+			position = { x = @row10 y = @1985 }
 		}
 
 		ai_will_do = {
@@ -2199,7 +2183,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row9 y = @2005 }
+			position = { x = @row10 y = @2005 }
 		}
 
 		ai_will_do = {
@@ -2249,7 +2233,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row9 y = @2025 }
+			position = { x = @row10 y = @2025 }
 		}
 
 		ai_will_do = {
@@ -2294,7 +2278,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row9 y = @2045 }
+			position = { x = @row10 y = @2045 }
 		}
 
 		ai_will_do = {
@@ -2356,7 +2340,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row8 y = @1945 }
+			position = { x = @row12 y = @1945 }
 		}
 
 		ai_will_do = {
@@ -2397,7 +2381,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row9 y = @1965 }
+			position = { x = @row13 y = @1965 }
 		}
 
 		ai_will_do = {
@@ -2438,7 +2422,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row9 y = @1990 }
+			position = { x = @row13 y = @1990 }
 		}
 
 		ai_will_do = {
@@ -2479,7 +2463,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row9 y = @2015 }
+			position = { x = @row13 y = @2015 }
 		}
 
 		ai_will_do = {
@@ -2519,7 +2503,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row9 y = @2040 }
+			position = { x = @row13 y = @2040 }
 		}
 
 		ai_will_do = {
@@ -2566,7 +2550,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row75 y = @1965 }
+			position = { x = @row11 y = @1965 }
 		}
 
 		ai_will_do = {
@@ -2612,7 +2596,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row75 y = @1980 }
+			position = { x = @row11 y = @1980 }
 		}
 
 		ai_will_do = {
@@ -2658,7 +2642,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row75 y = @1995 }
+			position = { x = @row11 y = @1995 }
 		}
 
 		ai_will_do = {
@@ -2705,7 +2689,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row75 y = @2010 }
+			position = { x = @row11 y = @2010 }
 		}
 
 		ai_will_do = {
@@ -2755,7 +2739,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row75 y = @2025 }
+			position = { x = @row11 y = @2025 }
 		}
 
 		ai_will_do = {
@@ -2800,7 +2784,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row75 y = @2040 }
+			position = { x = @row11 y = @2040 }
 		}
 
 		ai_will_do = {
@@ -2850,7 +2834,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row85 y = @1965 }
+			position = { x = @row12 y = @1965 }
 		}
 
 		ai_will_do = {
@@ -2895,7 +2879,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row85 y = @1980 }
+			position = { x = @row12 y = @1980 }
 		}
 
 		ai_will_do = {
@@ -2940,7 +2924,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row85 y = @1995 }
+			position = { x = @row12 y = @1995 }
 		}
 
 		ai_will_do = {
@@ -2985,7 +2969,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row85 y = @2010 }
+			position = { x = @row12 y = @2010 }
 		}
 
 		ai_will_do = {
@@ -3034,7 +3018,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row85 y = @2025 }
+			position = { x = @row12 y = @2025 }
 		}
 
 		ai_will_do = {
@@ -3078,7 +3062,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row85 y = @2040 }
+			position = { x = @row12 y = @2040 }
 		}
 
 		ai_will_do = {
@@ -3105,7 +3089,13 @@ technologies = {
 
 	#Core Technology for Ships
 	tech_naval_systems_engineering = {
-		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech tech_naval_systems_engineering" }
+		on_research_complete = {
+			log = "[GetDateText]: [Root.GetName]: add tech tech_naval_systems_engineering"
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_medium_naval_nuclear_engines
+			}
+		}
 		enable_equipment_modules = {
 			module_fuel_tank
 			module_surface_oil_power
@@ -3134,7 +3124,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row11 y = @1945 }
+			position = { x = @row16 y = @1945 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3169,7 +3159,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row10 y = @1965 }
+			position = { x = @row14 y = @1965 }
 		}
 
 		categories = {
@@ -3211,7 +3201,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row10 y = @1990 }
+			position = { x = @row14 y = @1990 }
 		}
 
 		categories = {
@@ -3249,7 +3239,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row10 y = @2015 }
+			position = { x = @row14 y = @2015 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3286,7 +3276,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row10 y = @2040 }
+			position = { x = @row14 y = @2040 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3334,7 +3324,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row105 y = @1965 }
+			position = { x = @row15 y = @1965 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3379,7 +3369,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row105 y = @1990 }
+			position = { x = @row15 y = @1990 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3425,7 +3415,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row105 y = @2015 }
+			position = { x = @row15 y = @2015 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3469,7 +3459,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row105 y = @2040 }
+			position = { x = @row15 y = @2040 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3522,7 +3512,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row12 y = @1965 }
+			position = { x = @row17 y = @1965 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3557,7 +3547,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row11 y = @1965 }
+			position = { x = @row16 y = @1965 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3596,7 +3586,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row11 y = @1990 }
+			position = { x = @row16 y = @1990 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3635,7 +3625,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row11 y = @2015 }
+			position = { x = @row16 y = @2015 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3674,7 +3664,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row11 y = @2040 }
+			position = { x = @row16 y = @2040 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3711,7 +3701,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row115 y = @1980 }
+			position = { x = @row17 y = @1980 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3748,7 +3738,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row115 y = @1995 }
+			position = { x = @row17 y = @1995 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3785,7 +3775,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row115 y = @2005 }
+			position = { x = @row17 y = @2005 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3828,7 +3818,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row115 y = @2020 }
+			position = { x = @row17 y = @2020 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3869,7 +3859,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row115 y = @2035 }
+			position = { x = @row17 y = @2035 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3906,7 +3896,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row115 y = @2045 }
+			position = { x = @row17 y = @2045 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3946,7 +3936,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row125 y = @1980 }
+			position = { x = @row18 y = @1980 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3983,7 +3973,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row125 y = @1995 }
+			position = { x = @row18 y = @1995 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4020,7 +4010,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row125 y = @2005 }
+			position = { x = @row18 y = @2005 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4059,7 +4049,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row125 y = @2020 }
+			position = { x = @row18 y = @2020 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4098,7 +4088,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row125 y = @2035 }
+			position = { x = @row18 y = @2035 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4133,7 +4123,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row125 y = @2045 }
+			position = { x = @row18 y = @2045 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4183,7 +4173,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row145 y = @1945 }
+			position = { x = @row22 y = @1945 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4225,12 +4215,27 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = tech_missile_systems
+			leads_to_tech = tech_point_defense_system
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = tech_point_defense_system
+			leads_to_tech = tech_turret_missiles_aa
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = tech_turret_missiles_surface
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = tech_vls_surface
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = tech_vls_aa
 			research_cost_coeff = 1
 		}
 
@@ -4243,7 +4248,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row145 y = @1965 }
+			position = { x = @row22 y = @1965 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4281,7 +4286,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row135 y = @1975 }
+			position = { x = @row19 y = @1975 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4317,11 +4322,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = tech_rail_guns
-			research_cost_coeff = 1
-		}
-
 		research_cost = 1.25
 		start_year = 2000
 
@@ -4331,7 +4331,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row135 y = @2000 }
+			position = { x = @row19 y = @2000 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4370,7 +4370,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row135 y = @2025 }
+			position = { x = @row19 y = @2025 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4402,7 +4402,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row135 y = @2045 }
+			position = { x = @row19 y = @2045 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4421,6 +4421,8 @@ technologies = {
 	}
 
 	tech_rail_guns = {
+
+		is_special_project_tech = yes
 
 		allow = {
 			is_special_project_completed = sp:sp_rail_gun_naval_cannons
@@ -4443,7 +4445,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row14 y = @2015 }
+			position = { x = @row20 y = @2015 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4462,6 +4464,9 @@ technologies = {
 	}
 
 	tech_rail_guns_1 = {
+
+		is_special_project_tech = yes
+
 		enable_equipment_modules = {
 			module_railgun_2
 		}
@@ -4480,7 +4485,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row14 y = @2025 }
+			position = { x = @row20 y = @2025 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4499,6 +4504,9 @@ technologies = {
 	}
 
 	tech_rail_guns_2 = {
+
+		is_special_project_tech = yes
+
 		enable_equipment_modules = {
 			module_railgun_3
 		}
@@ -4517,7 +4525,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row14 y = @2035 }
+			position = { x = @row20 y = @2035 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4536,6 +4544,9 @@ technologies = {
 	}
 
 	tech_rail_guns_3 = {
+
+		is_special_project_tech = yes
+
 		enable_equipment_modules = {
 			module_railgun_4
 		}
@@ -4549,7 +4560,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row14 y = @2045 }
+			position = { x = @row20 y = @2045 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4586,7 +4597,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row155 y = @1970 }
+			position = { x = @row21 y = @1970 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4623,7 +4634,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row155 y = @1975 }
+			position = { x = @row21 y = @1975 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4660,7 +4671,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row155 y = @1990 }
+			position = { x = @row21 y = @1990 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4697,7 +4708,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row155 y = @2005 }
+			position = { x = @row21 y = @2005 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4734,7 +4745,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row155 y = @2020 }
+			position = { x = @row21 y = @2020 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4771,7 +4782,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row155 y = @2035 }
+			position = { x = @row21 y = @2035 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4803,7 +4814,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row155 y = @2045 }
+			position = { x = @row21 y = @2045 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -4819,53 +4830,6 @@ technologies = {
 			CAT_pds
 		}
 		special_project_specialization = { specialization_naval }
-	}
-
-	tech_missile_systems = {
-
-		path = {
-			leads_to_tech = tech_turret_missiles_aa
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = tech_turret_missiles_surface
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = tech_vls_surface
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = tech_vls_aa
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.25
-		start_year = 1970
-
-		xp_research_type = navy
-		xp_boost_cost = 50
-		xp_research_bonus = 1.00
-
-		folder = {
-			name = mtgnavalfolder
-			position = { x = @row18 y = @1970 }
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				num_of_naval_factories < 1
-			}
-		}
-		categories = {
-			CAT_Military
-			CAT_naval_misc
-			CAT_naval_armament
-		}
 	}
 
 	tech_turret_missiles_surface = {
@@ -4888,7 +4852,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row165 y = @1975 }
+			position = { x = @row22 y = @1975 }
 		}
 
 		categories = {
@@ -4928,7 +4892,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row165 y = @1985 }
+			position = { x = @row22 y = @1985 }
 		}
 
 		categories = {
@@ -4966,7 +4930,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row165 y = @2000 }
+			position = { x = @row22 y = @2000 }
 		}
 
 		categories = {
@@ -5006,7 +4970,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row165 y = @2015 }
+			position = { x = @row22 y = @2015 }
 		}
 
 		categories = {
@@ -5044,7 +5008,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row165 y = @2030 }
+			position = { x = @row22 y = @2030 }
 		}
 
 		categories = {
@@ -5079,7 +5043,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row165 y = @2045 }
+			position = { x = @row22 y = @2045 }
 		}
 
 		categories = {
@@ -5119,7 +5083,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row175 y = @1975 }
+			position = { x = @row23 y = @1975 }
 		}
 
 		categories = {
@@ -5159,7 +5123,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row175 y = @1985 }
+			position = { x = @row23 y = @1985 }
 		}
 
 		categories = {
@@ -5199,7 +5163,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row175 y = @2000 }
+			position = { x = @row23 y = @2000 }
 		}
 
 		categories = {
@@ -5239,7 +5203,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row175 y = @2015 }
+			position = { x = @row23 y = @2015 }
 		}
 
 		categories = {
@@ -5279,7 +5243,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row175 y = @2030 }
+			position = { x = @row23 y = @2030 }
 		}
 
 		categories = {
@@ -5314,7 +5278,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row175 y = @2045 }
+			position = { x = @row23 y = @2045 }
 		}
 
 		categories = {
@@ -5356,7 +5320,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row185 y = @1975 }
+			position = { x = @row24 y = @1975 }
 		}
 
 		categories = {
@@ -5398,7 +5362,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row185 y = @1985 }
+			position = { x = @row24 y = @1985 }
 		}
 
 		categories = {
@@ -5441,7 +5405,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row185 y = @2000 }
+			position = { x = @row24 y = @2000 }
 		}
 
 		categories = {
@@ -5484,7 +5448,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row185 y = @2015 }
+			position = { x = @row24 y = @2015 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -5529,7 +5493,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row185 y = @2030 }
+			position = { x = @row24 y = @2030 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -5569,7 +5533,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row185 y = @2045 }
+			position = { x = @row24 y = @2045 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -5611,7 +5575,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row195 y = @1975 }
+			position = { x = @row25 y = @1975 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -5649,7 +5613,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row195 y = @1985 }
+			position = { x = @row25 y = @1985 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -5687,7 +5651,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row195 y = @2000 }
+			position = { x = @row25 y = @2000 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -5725,7 +5689,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row195 y = @2015 }
+			position = { x = @row25 y = @2015 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -5767,7 +5731,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row195 y = @2030 }
+			position = { x = @row25 y = @2030 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -5804,7 +5768,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row195 y = @2045 }
+			position = { x = @row25 y = @2045 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -5847,7 +5811,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row21 y = @1975 }
+			position = { x = @row26 y = @1975 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -5885,7 +5849,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row21 y = @1990 }
+			position = { x = @row26 y = @1990 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -5924,7 +5888,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row21 y = @2010 }
+			position = { x = @row26 y = @2010 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -5966,7 +5930,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row21 y = @2020 }
+			position = { x = @row26 y = @2020 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -6008,7 +5972,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row21 y = @2035 }
+			position = { x = @row26 y = @2035 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -6045,7 +6009,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row21 y = @2045 }
+			position = { x = @row26 y = @2045 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -6092,7 +6056,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row22 y = @1965 }
+			position = { x = @row27 y = @1965 }
 		}
 
 		ai_will_do = {
@@ -6133,7 +6097,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row22 y = @1985 }
+			position = { x = @row27 y = @1985 }
 		}
 
 		ai_will_do = {
@@ -6173,7 +6137,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row22 y = @1990 }
+			position = { x = @row27 y = @1990 }
 		}
 
 		ai_will_do = {
@@ -6213,7 +6177,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row22 y = @2000 }
+			position = { x = @row27 y = @2000 }
 		}
 
 		categories = {
@@ -6253,7 +6217,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row22 y = @2015 }
+			position = { x = @row27 y = @2015 }
 		}
 
 		categories = {
@@ -6297,7 +6261,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row22 y = @2025 }
+			position = { x = @row27 y = @2025 }
 		}
 
 		categories = {
@@ -6346,7 +6310,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row22 y = @2035 }
+			position = { x = @row27 y = @2035 }
 		}
 
 		categories = {
@@ -6386,7 +6350,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row22 y = @2045 }
+			position = { x = @row27 y = @2045 }
 		}
 
 		categories = {
