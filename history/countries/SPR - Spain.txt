@@ -27,7 +27,7 @@
 			destroyer_hull_2 = 1
 
 			cruiser_hull_1 = 1
-			tech_battleship_hull_1 = 1
+			battleship_hull_1 = 1
 
 			helicopter_operator_hull_1 = 1
 			helicopter_operator_hull_2 = 1
@@ -1279,7 +1279,7 @@
 			destroyer_hull_2 = 1
 
 			cruiser_hull_1 = 1
-			tech_battleship_hull_1 = 1
+			battleship_hull_1 = 1
 
 			helicopter_operator_hull_1 = 1
 			helicopter_operator_hull_2 = 1

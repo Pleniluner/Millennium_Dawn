@@ -6,6 +6,7 @@ v1.11.1
   - Mutual Investment Treaties now reduce the AI's willingess to do the "Increase Autonomy" continuous focus
   - AI should now avoid raiding you again if they have paid reparations to you
   - AI will now evaluate what the assumption of debt will actually do to its interest rate
+  - Removed obsolete AI strategies that were causing the AI not to use PP for diplo actions
 
  Balance:
   - Reduced the taxing religious institutions income a little bit

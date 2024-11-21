@@ -3,69 +3,68 @@ technologies = {
 	#Years (x-axis)
 	@1945 = -1
 	@1965 = 3
-	@1970 = 5.5
-	@1975 = 8
-	@1980 = 10.5
-	@1985 = 13
-	@1990 = 15.5
-	@1995 = 18
-	@2000 = 20.5
-	@2005 = 23
-	@2010 = 25.5
-	@2015 = 28
-	@2020 = 30.5
-	@2025 = 33
-	@2030 = 35.5
-	@2035 = 38
-	@2040 = 40.5
-	@2045 = 43
+	@1970 = 5
+	@1975 = 7
+	@1980 = 9
+	@1985 = 11
+	@1990 = 13
+	@1995 = 15
+	@2000 = 17
+	@2005 = 19
+	@2010 = 21
+	@2015 = 23
+	@2020 = 25
+	@2025 = 27
+	@2030 = 29
+	@2035 = 31
+	@2040 = 33
+	@2045 = 35
 
 	#Rows (y-axis)
-	@row1 = -2
+	@row0 = -2
+	@row1 = -1
 	@row2 = 0
-	@row3 = 2
-	@row4 = 4
-	@row5 = 6
-	@row55 = 7
-	@row6 = 8
-	@row65 = 9
-	@row7 = 10
-	@row75 = 11
-	@row8 = 12
-	@row85 = 13
-	@row9 = 14.1
-	@row95 = 15
-	@row10 = 16
-	@row105 = 17
-	@row11 = 18
-	@row115 = 19
-	@row12 = 20
-	@row125 = 21
-	@row13 = 22
-	@row135 = 23
-	@row14 = 24
-	@row145 = 25
-	@row15 = 26
-	@row155 = 27
-	@row16 = 28
-	@row165 = 29
-	@row17 = 30
-	@row175 = 31
-	@row18 = 32
-	@row185 = 33
-	@row19 = 34
-	@row195 = 35
-	@row20 = 36
-	@row205 = 37
-	@row21 = 38
-	@row215 = 39
-	@row22 = 40
-	@row225 = 41
-	@row23 = 42
-	@row24 = 44
-	@row25 = 46
-	@row26 = 48
-	@row27 = 50
+	@row3 = 1
+	@row4 = 2
+	@row5 = 3
+	@row6 = 4
+	@row7 = 5
+	@row75 = 13
+	@row8 = 14
+	@row85 = 15
+	@row9 = 16
+	@row95 = 17
+	@row10 = 18
+	@row105 = 19
+	@row11 = 20
+	@row115 = 21
+	@row12 = 22
+	@row125 = 23
+	@row13 = 24
+	@row135 = 25
+	@row14 = 26
+	@row145 = 27
+	@row15 = 28
+	@row155 = 29
+	@row16 = 30
+	@row165 = 31
+	@row17 = 32
+	@row175 = 33
+	@row18 = 34
+	@row185 = 35
+	@row19 = 36
+	@row195 = 37
+	@row20 = 38
+	@row205 = 39
+	@row21 = 40
+	@row215 = 41
+	@row22 = 42
+	@row225 = 43
+	@row23 = 44
+	@row24 = 46
+	@row25 = 48
+	@row26 = 50
+	@row27 = 52
 
 	#Corvette Hulls
 	corvette_hull_1 = {
@@ -94,7 +93,7 @@ technologies = {
 		start_year = 1965
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row1 y = @1965 }
+			position = { x = @row0 y = @1965 }
 		}
 
 		categories = {
@@ -163,7 +162,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row1 y = @1980 }
+			position = { x = @row0 y = @1980 }
 		}
 
 		categories = {
@@ -207,7 +206,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row1 y = @1995 }
+			position = { x = @row0 y = @1995 }
 		}
 
 		categories = {
@@ -250,10 +249,6 @@ technologies = {
 			leads_to_tech = corvette_hull_5
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = stealth_corvette_hull_1
-			research_cost_coeff = 1
-		}
 
 		research_cost = 2.3
 
@@ -261,7 +256,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row1 y = @2010 }
+			position = { x = @row0 y = @2010 }
 		}
 
 		categories = {
@@ -309,7 +304,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row1 y = @2025 }
+			position = { x = @row0 y = @2025 }
 		}
 
 		categories = {
@@ -352,7 +347,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row1 y = @2040 }
+			position = { x = @row0 y = @2040 }
 		}
 
 		categories = {
@@ -381,7 +376,7 @@ technologies = {
 
 		is_special_project_tech = yes
 
-		allow_branch = {
+		allow = {
 			is_special_project_completed = sp:sp_stealth_corvette
 		}
 		enable_equipments = {
@@ -399,7 +394,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @2010 }
+			position = { x = @row1 y = @2010 }
 		}
 
 		categories = {
@@ -428,6 +423,10 @@ technologies = {
 
 		is_special_project_tech = yes
 
+		allow = {
+			is_special_project_completed = sp:sp_stealth_corvette
+		}
+
 		enable_equipments = {
 			stealth_corvette_hull_2
 		}
@@ -443,7 +442,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @2025 }
+			position = { x = @row1 y = @2025 }
 		}
 
 		categories = {
@@ -472,7 +471,7 @@ technologies = {
 
 		is_special_project_tech = yes
 
-		allow_branch = {
+		allow = {
 			is_special_project_completed = sp:sp_stealth_corvette
 		}
 
@@ -486,7 +485,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @2040 }
+			position = { x = @row1 y = @2040 }
 		}
 
 		ai_will_do = {
@@ -669,10 +668,6 @@ technologies = {
 			leads_to_tech = frigate_hull_5
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = stealth_frigate_hull_1
-			research_cost_coeff = 1
-		}
 
 		research_cost = 2.4
 
@@ -800,7 +795,7 @@ technologies = {
 
 		is_special_project_tech = yes
 
-		allow_branch = {
+		allow = {
 			is_special_project_completed = sp:sp_stealth_frigate
 		}
 		enable_equipments = {
@@ -818,7 +813,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @2010 }
+			position = { x = @row3 y = @2010 }
 		}
 
 		categories = {
@@ -847,6 +842,10 @@ technologies = {
 
 		is_special_project_tech = yes
 
+		allow = {
+			is_special_project_completed = sp:sp_stealth_frigate
+		}
+
 		enable_equipments = {
 			stealth_frigate_hull_2
 		}
@@ -862,7 +861,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @2025 }
+			position = { x = @row3 y = @2025 }
 		}
 
 		categories = {
@@ -891,7 +890,7 @@ technologies = {
 
 		is_special_project_tech = yes
 
-		allow_branch = {
+		allow = {
 			is_special_project_completed = sp:sp_stealth_frigate
 		}
 
@@ -905,7 +904,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @2040 }
+			position = { x = @row3 y = @2040 }
 		}
 
 		categories = {
@@ -957,7 +956,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row3 y = @1965 }
+			position = { x = @row4 y = @1965 }
 		}
 
 		ai_will_do = {
@@ -1001,7 +1000,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row3 y = @1990 }
+			position = { x = @row4 y = @1990 }
 		}
 
 		ai_will_do = {
@@ -1045,18 +1044,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = stealth_destroyer_hull_1
-			research_cost_coeff = 1
-		}
-
 		research_cost = 2.5
 
 		start_year = 2005
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row3 y = @2005 }
+			position = { x = @row4 y = @2005 }
 		}
 
 		categories = {
@@ -1104,7 +1098,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @2025 }
+			position = { x = @row4 y = @2025 }
 		}
 
 		ai_will_do = {
@@ -1147,7 +1141,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @2045 }
+			position = { x = @row4 y = @2045 }
 		}
 
 		ai_will_do = {
@@ -1176,7 +1170,7 @@ technologies = {
 
 		is_special_project_tech = yes
 
-		allow_branch = {
+		allow = {
 			is_special_project_completed = sp:sp_stealth_destroyer
 		}
 
@@ -1195,7 +1189,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = @2015 }
+			position = { x = @row5 y = @2015 }
 		}
 
 		ai_will_do = {
@@ -1224,6 +1218,10 @@ technologies = {
 
 		is_special_project_tech = yes
 
+		allow = {
+			is_special_project_completed = sp:sp_stealth_destroyer
+		}
+
 		enable_equipments = {
 			stealth_destroyer_hull_2
 		}
@@ -1239,7 +1237,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = @2030 }
+			position = { x = @row5 y = @2030 }
 		}
 
 		ai_will_do = {
@@ -1268,7 +1266,7 @@ technologies = {
 
 		is_special_project_tech = yes
 
-		allow_branch = {
+		allow = {
 			is_special_project_completed = sp:sp_stealth_destroyer
 		}
 
@@ -1282,7 +1280,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = @2045 }
+			position = { x = @row5 y = @2045 }
 		}
 
 		ai_will_do = {
@@ -1318,9 +1316,6 @@ technologies = {
 		enable_equipments = {
 			cruiser_hull_1
 		}
-		sub_technologies = {
-			tech_battleship_hull_1
-		}
 
 		path = {
 			leads_to_tech = cruiser_hull_2
@@ -1337,50 +1332,8 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row4 y = @1965 }
+			position = { x = @row6 y = @1965 }
 		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				num_of_naval_factories < 1
-			}
-			modifier = {
-				factor = 0.01
-				date < 1964.1.1
-			}
-		}
-
-		categories = {
-			CAT_Military
-			CAT_naval_eqp
-			CAT_surface_ship
-			CAT_n_cruiser
-			CAT_m_cruiser
-		}
-		special_project_specialization = { specialization_naval }
-	}
-
-	tech_battleship_hull_1 = {
-		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech battleship_hull_1" }
-
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_naval_vessel_project
-			}
-		}
-
-		enable_equipments = {
-			battleship_hull_1
-			battle_cruiser_hull_1
-		}
-		enable_equipment_modules = {
-			module_heavy_guns_1
-		}
-
-		research_cost = 3.0
-		start_year = 1965
 
 		ai_will_do = {
 			factor = 1
@@ -1424,7 +1377,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row4 y = @1985 }
+			position = { x = @row6 y = @1985 }
 		}
 
 		ai_will_do = {
@@ -1442,11 +1395,6 @@ technologies = {
 		research_cost = 1.0
 		start_year = 1985
 
-		folder = {
-			name = mtgnavalfolder
-			position = { x = @row4 y = @2005 }
-		}
-
 		categories = {
 			CAT_Military
 			CAT_naval_eqp
@@ -1454,7 +1402,6 @@ technologies = {
 			CAT_n_cruiser
 			CAT_m_cruiser
 		}
-		special_project_specialization = { specialization_naval }
 	}
 
 	cruiser_hull_3 = {
@@ -1469,9 +1416,6 @@ technologies = {
 		enable_equipments = {
 			cruiser_hull_3
 		}
-		sub_technologies = {
-			battleship_hull_2
-		}
 
 		path = {
 			leads_to_tech = cruiser_hull_4
@@ -1484,7 +1428,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row4 y = @2005 }
+			position = { x = @row6 y = @2005 }
 		}
 
 		ai_will_do = {
@@ -1496,48 +1440,6 @@ technologies = {
 			modifier = {
 				factor = 0.01
 				date < 2004.1.1
-			}
-		}
-
-		categories = {
-			CAT_Military
-			CAT_naval_eqp
-			CAT_surface_ship
-			CAT_n_cruiser
-			CAT_m_cruiser
-		}
-		special_project_specialization = { specialization_naval }
-	}
-
-	battleship_hull_2 = {
-		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech battleship_hull_2" }
-
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_naval_vessel_project
-			}
-		}
-
-		enable_equipments = {
-			battleship_hull_2
-			battle_cruiser_hull_2
-		}
-		enable_equipment_modules = {
-			module_heavy_guns_2
-		}
-
-		research_cost = 3.0
-		start_year = 1985
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				num_of_naval_factories < 1
-			}
-			modifier = {
-				factor = 0.01
-				date < 1984.1.1
 			}
 		}
 
@@ -1575,7 +1477,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row4 y = @2025 }
+			position = { x = @row6 y = @2025 }
 		}
 
 		ai_will_do = {
@@ -1612,9 +1514,6 @@ technologies = {
 		enable_equipments = {
 			cruiser_hull_5
 		}
-		sub_technologies = {
-			battleship_hull_3
-		}
 
 		research_cost = 3.5
 
@@ -1622,7 +1521,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row4 y = @2045 }
+			position = { x = @row6 y = @2045 }
 		}
 
 		ai_will_do = {
@@ -1634,6 +1533,110 @@ technologies = {
 			modifier = {
 				factor = 0.01
 				date < 2044.1.1
+			}
+		}
+
+		categories = {
+			CAT_Military
+			CAT_naval_eqp
+			CAT_surface_ship
+			CAT_n_cruiser
+			CAT_m_cruiser
+		}
+		special_project_specialization = { specialization_naval }
+	}
+
+	battleship_hull_1 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech battleship_hull_1" }
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_naval_vessel_project
+			}
+		}
+
+		enable_equipments = {
+			battleship_hull_1
+			battle_cruiser_hull_1
+		}
+		enable_equipment_modules = {
+			module_heavy_guns_1
+		}
+
+		path = {
+			leads_to_tech = battleship_hull_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3.0
+		start_year = 1965
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = @row7 y = @1965 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				num_of_naval_factories < 1
+			}
+			modifier = {
+				factor = 0.01
+				date < 1964.1.1
+			}
+		}
+
+		categories = {
+			CAT_Military
+			CAT_naval_eqp
+			CAT_surface_ship
+			CAT_n_cruiser
+			CAT_m_cruiser
+		}
+		special_project_specialization = { specialization_naval }
+	}
+
+	battleship_hull_2 = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech battleship_hull_2" }
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_naval_vessel_project
+			}
+		}
+
+		enable_equipments = {
+			battleship_hull_2
+			battle_cruiser_hull_2
+		}
+		enable_equipment_modules = {
+			module_heavy_guns_2
+		}
+
+		path = {
+			leads_to_tech = battleship_hull_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3.0
+		start_year = 1985
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = @row7 y = @1985 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				num_of_naval_factories < 1
+			}
+			modifier = {
+				factor = 0.01
+				date < 1984.1.1
 			}
 		}
 
@@ -1666,6 +1669,11 @@ technologies = {
 
 		research_cost = 3.0
 		start_year = 2015
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = @row7 y = @2015 }
+		}
 
 		ai_will_do = {
 			factor = 1
@@ -1732,7 +1740,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row55 y = @1945 }
+			position = { x = @row8 y = @1945 }
 		}
 
 		ai_will_do = {
@@ -1780,7 +1788,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row5 y = 1 }
+			position = { x = @row8 y = 1 }
 		}
 
 		ai_will_do = {
@@ -1825,7 +1833,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row5 y = @1970 }
+			position = { x = @row8 y = @1970 }
 		}
 
 		ai_will_do = {
@@ -1868,7 +1876,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row5 y = 12.5 }
+			position = { x = @row8 y = 12.5 }
 		}
 
 		ai_will_do = {
@@ -1913,7 +1921,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row5 y = @1995 }
+			position = { x = @row8 y = @1995 }
 		}
 
 		ai_will_do = {
@@ -1957,7 +1965,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row5 y = @2005 }
+			position = { x = @row8 y = @2005 }
 		}
 
 		ai_will_do = {
@@ -2006,7 +2014,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row5 y = @2020 }
+			position = { x = @row8 y = @2020 }
 		}
 
 		ai_will_do = {
@@ -2050,7 +2058,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row5 y = @2045 }
+			position = { x = @row8 y = @2045 }
 		}
 
 		ai_will_do = {
@@ -2099,7 +2107,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row6 y = @1965 }
+			position = { x = @row9 y = @1965 }
 		}
 
 		ai_will_do = {
@@ -2145,7 +2153,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row6 y = @1985 }
+			position = { x = @row9 y = @1985 }
 		}
 
 		ai_will_do = {
@@ -2191,7 +2199,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row6 y = @2005 }
+			position = { x = @row9 y = @2005 }
 		}
 
 		ai_will_do = {
@@ -2241,7 +2249,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row6 y = @2025 }
+			position = { x = @row9 y = @2025 }
 		}
 
 		ai_will_do = {
@@ -2286,7 +2294,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = @row6 y = @2045 }
+			position = { x = @row9 y = @2045 }
 		}
 
 		ai_will_do = {
@@ -3308,7 +3316,7 @@ technologies = {
 
 		is_special_project_tech = yes
 
-		allow_branch = {
+		allow = {
 			is_special_project_completed = sp:sp_medium_naval_nuclear_engines
 		}
 
@@ -3353,7 +3361,7 @@ technologies = {
 
 		is_special_project_tech = yes
 
-		allow_branch = {
+		allow = {
 			is_special_project_completed = sp:sp_medium_naval_nuclear_engines
 		}
 
@@ -3399,7 +3407,7 @@ technologies = {
 
 		is_special_project_tech = yes
 
-		allow_branch = {
+		allow = {
 			is_special_project_completed = sp:sp_medium_naval_nuclear_engines
 		}
 
@@ -3448,7 +3456,7 @@ technologies = {
 
 		is_special_project_tech = yes
 
-		allow_branch = {
+		allow = {
 			is_special_project_completed = sp:sp_medium_naval_nuclear_engines
 		}
 
