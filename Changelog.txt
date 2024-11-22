@@ -34,6 +34,7 @@ v1.11.1
   - Fixed the Armenian focus "Communism Codex" focus making you have no religion icon
   - Fixed some effects forcing duplicate gov_coalition_array members causing you to have a ton more government coalition support then you should
   - Fixed Afghanistan event "Afghanistan Appeals for Support" showing they'll get something for saying no
+  - Fixed a spamming error with regards to the KHZ for a bunch of idle sounds
 
  Content:
   - Added several new Internal Faction Events
