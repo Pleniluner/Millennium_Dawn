@@ -12,7 +12,6 @@ bookmarks = {
 		"BRA" = {
 			history = "BRA_MILLENNIUM_DAWN_DESC"
 			ideology = communism
-			minor = yes
 			ideas = {
 				BRA_idea_brazilian_knack
 				BRA_idea_crippled_currency_one
@@ -342,6 +341,7 @@ bookmarks = {
 		"DEN" = {
 			history = "DEN_MILLENNIUM_DAWN_DESC"
 			ideology = democratic
+			minor = yes
 			ideas = {
 				DEN_Idea_nordefco
 				DEN_idea_feal_well
