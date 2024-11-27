@@ -96,6 +96,7 @@ v1.11.1
   - "Fully Autonomous Computer Frameworks" has now moved to "Human Imitation AI"
   - Moved "Double Cannons" module for AFVs from the hull tech into a special project and buffed the stats a little bit
   - Transport helicopters no longer require a special project if you don't have BBA
+  - Stealth technology for aircraft is now locked behind a special project
 
  Technology:
   - AFV steel and aluminium armour is now unlocked by both AFV hulls and light tank hulls
