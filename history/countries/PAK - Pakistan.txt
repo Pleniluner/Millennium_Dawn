@@ -31,7 +31,6 @@
 			set_air_oob = "PAK_2000_nonbba"
 		}
 	}
-	complete_special_project = sp:sp_nuclear_warhead_program
 
    #israel blockade
 	set_country_flag = blockade_israel_yes

@@ -4166,6 +4166,7 @@
 			}
 
 			complete_special_project = sp:sp_aircraft_project
+			complete_special_project = sp:sp_stealth_technology
 
 
 			## End BBA Designs ##

@@ -68,6 +68,7 @@ technologies = {
 
 		path = {
 			leads_to_tech = AT_upgrade_1
+			ignore_for_layout = yes
 			research_cost_coeff = 1
 		}
 
