@@ -53,6 +53,7 @@ v1.11.1
   - Fix Islamabad terrain picture's wrong position
   - Fix Bengkulu & Jambi not appearing in the terrain picture section
   - Fixed the German focus tree being soft locked due to "Nuclear Power" idea being referenced rather than Nuclear Energy
+  - Fixed the AI causing a hard crash each time it tried to research "Space Weapons" special project
 
  Content:
   - Added focus shortcuts for Brazil, Venezuela
@@ -682,6 +683,10 @@ v1.10.3
 
 v1.10.2
 
+ Bugfixes:
+  - Fixed a bug with Iran not having F-14 Tomcats in their stockpile (For BBA Players)
+
+ Graphics:
 Achievements:
   - Added achievement Africa Paradis: "As an African country, form the United States of Africa and have a higher GDP than any European country"
   - Added achievement Gaddafi? More like Gooddafi: "As Muammar Gaddafi, rule over a democratic Libya"

@@ -64982,6 +64982,36 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = { 
+		name = "politic_anti_nato_shine"
+		texturefile = "gfx/interface/goals/00_politics/politic_anti_nato.dds"
+		effectfile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/00_politics/politic_anti_nato.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/00_politics/politic_anti_nato.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
 		name = "politic_ban_slejka_shine"
 		texturefile = "gfx/interface/goals/00_politics/politic_ban_slejka.dds"
 		effectfile = "gfx/FX/buttonstate.lua"
@@ -235052,6 +235082,36 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = { 
+		name = "syria_central_path_shine"
+		texturefile = "gfx/interface/goals/syria/syria_central_path.dds"
+		effectfile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/syria/syria_central_path.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/syria/syria_central_path.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
 		name = "syria_flags_shine"
 		texturefile = "gfx/interface/goals/syria/syria_flags.dds"
 		effectfile = "gfx/FX/buttonstate.lua"
@@ -235082,6 +235142,36 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = { 
+		name = "syria_npf_shine"
+		texturefile = "gfx/interface/goals/syria/syria_npf.dds"
+		effectfile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/syria/syria_npf.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/syria/syria_npf.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
 		name = "syria_resistance_shine"
 		texturefile = "gfx/interface/goals/syria/syria_resistance.dds"
 		effectfile = "gfx/FX/buttonstate.lua"
@@ -235099,6 +235189,36 @@ spriteTypes = {
 		}
 		animation = {
 			animationmaskfile = "gfx/interface/goals/syria/syria_resistance.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = "syria_soc_dem_shine"
+		texturefile = "gfx/interface/goals/syria/syria_soc_dem.dds"
+		effectfile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/syria/syria_soc_dem.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/syria/syria_soc_dem.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
 			animationrotation = 90.0
 			animationlooping = no
@@ -238052,6 +238172,36 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = { 
+		name = "pmr_legion_shine"
+		texturefile = "gfx/interface/goals/transnistria/pmr_legion.dds"
+		effectfile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/transnistria/pmr_legion.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/transnistria/pmr_legion.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
 		name = "pmr_liberalism_shine"
 		texturefile = "gfx/interface/goals/transnistria/pmr_liberalism.dds"
 		effectfile = "gfx/FX/buttonstate.lua"
@@ -238099,6 +238249,36 @@ spriteTypes = {
 		}
 		animation = {
 			animationmaskfile = "gfx/interface/goals/transnistria/pmr_liberalists.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = "pmr_mgb_shine"
+		texturefile = "gfx/interface/goals/transnistria/pmr_mgb.dds"
+		effectfile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/transnistria/pmr_mgb.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/transnistria/pmr_mgb.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
 			animationrotation = 90.0
 			animationlooping = no
@@ -238562,6 +238742,36 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = { 
+		name = "pmr_support_nationalism_shine"
+		texturefile = "gfx/interface/goals/transnistria/pmr_support_nationalism.dds"
+		effectfile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/transnistria/pmr_support_nationalism.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/transnistria/pmr_support_nationalism.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
 		name = "pmr_valute_shine"
 		texturefile = "gfx/interface/goals/transnistria/pmr_valute.dds"
 		effectfile = "gfx/FX/buttonstate.lua"
@@ -238579,6 +238789,36 @@ spriteTypes = {
 		}
 		animation = {
 			animationmaskfile = "gfx/interface/goals/transnistria/pmr_valute.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = "pmr_youth_arms_shine"
+		texturefile = "gfx/interface/goals/transnistria/pmr_youth_arms.dds"
+		effectfile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/transnistria/pmr_youth_arms.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/transnistria/pmr_youth_arms.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.tga"
 			animationrotation = 90.0
 			animationlooping = no
