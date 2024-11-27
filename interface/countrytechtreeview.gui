@@ -1133,6 +1133,7 @@ guiTypes = {
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
+				ignore_for_layout = yes
 			}
 			gridboxtype = {
 				name = "nsb_SP_arty_0_tree"
@@ -1154,6 +1155,7 @@ guiTypes = {
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
+				ignore_for_layout = yes
 			}
 			gridboxtype = {
 				name = "Anti_Air_0_tree"
@@ -1175,6 +1177,7 @@ guiTypes = {
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
+				ignore_for_layout = yes
 			}
 		}
 		containerWindowType = {
@@ -1907,7 +1910,6 @@ guiTypes = {
 				maxHeight = 74
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "corvette_desc"
 				pdx_tooltip = "NAVAL_TITLE_MTG_SYSTEM_ENGINEERING_DESC"
 			}
 			instantTextBoxType = {
@@ -1921,7 +1923,6 @@ guiTypes = {
 				maxHeight = 74
 				format = left
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "corvette_desc"
 				pdx_tooltip = "NAVAL_TITLE_MTG_ENGINES_DESC"
 			}
 			instantTextBoxType = {
@@ -1935,116 +1936,11 @@ guiTypes = {
 				maxHeight = 74
 				format = left
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "corvette_desc"
 				pdx_tooltip = "NAVAL_TITLE_MTG_NUCLEAR_ENGINES_DESC"
 			}
 			instantTextBoxType = {
-				name = "naval_subtitle_mtg_armament"
-				position = { x = 275 y = 1940 }
-				textureFile = ""
-				font = "hoi_33"
-				borderSize = {x = 0 y = 4}
-				text = "NAVAL_TITLE_MTG_ARMAMENT"
-				maxWidth = 600
-				maxHeight = 74
-				format = left
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "corvette_desc"
-			}
-			instantTextBoxType = {
-				name = "naval_subtitle_mtg_cannons"
-				position = { x = 650 y = 1925 }
-				textureFile = ""
-				font = "hoi_33"
-				borderSize = {x = 0 y = 4}
-				text = "NAVAL_TITLE_CANNONS"
-				maxWidth = 600
-				maxHeight = 74
-				format = left
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "corvette_desc"
-			}
-			instantTextBoxType = {
-				name = "naval_subtitle_mtg_point_defense_system"
-				position = { x = 650 y = 2075 }
-				textureFile = ""
-				font = "hoi_33"
-				borderSize = {x = 0 y = 4}
-				text = "NAVAL_TITLE_POINT_DEFENSE_SYSTEM"
-				maxWidth = 600
-				maxHeight = 74
-				format = left
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "corvette_desc"
-			}
-			instantTextBoxType = {
-				name = "naval_subtitle_mtg_asm"
-				position = { x = 650 y = 2225 }
-				textureFile = ""
-				font = "hoi_33"
-				borderSize = {x = 0 y = 4}
-				text = "NAVAL_TITLE_MTG_ASM"
-				maxWidth = 600
-				maxHeight = 74
-				format = left
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "corvette_desc"
-			}
-			instantTextBoxType = {
-				name = "naval_subtitle_mtg_torpedoes"
-				position = { x = 650 y = 2850 }
-				textureFile = ""
-				font = "hoi_33"
-				borderSize = {x = 0 y = 4}
-				text = "NAVAL_TITLE_MTG_TORPEDOES"
-				maxWidth = 600
-				maxHeight = 74
-				format = left
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "corvette_desc"
-			}
-			instantTextBoxType = {
-				name = "naval_subtitle_mtg_aaguns" #VLS Systems
-				position = { x = 650 y = 2625 }
-				textureFile = ""
-				font = "hoi_33"
-				borderSize = {x = 0 y = 4}
-				text = "NAVAL_TITLE_MTG_AAGUNS"
-				maxWidth = 600
-				maxHeight = 74
-				format = left
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "corvette_desc"
-			}
-			instantTextBoxType = {
-				name = "naval_subtitle_mtg_aamissiles"
-				position = { x = 650 y = 2360 }
-				textureFile = ""
-				font = "hoi_33"
-				borderSize = {x = 0 y = 4}
-				text = "NAVAL_TITLE_MTG_AAMISSILES"
-				maxWidth = 600
-				maxHeight = 74
-				format = left
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "corvette_desc"
-			}
-			instantTextBoxType = {
-				name = "naval_subtitle_mtg_radar_sonar"
-				position = { x = 650 y = 1650 }
-				textureFile = ""
-				font = "hoi_33"
-				borderSize = {x = 0 y = 4}
-				text = "NAVAL_TITLE_MTG_RADAR_SONAR"
-				maxWidth = 600
-				maxHeight = 74
-				format = left
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "corvette_desc"
-			}
-			instantTextBoxType = {
 				name = "naval_subtitle_mtg_internal_defenses"
-				position = { x = 200 y = 1500 }
+				position = { x = 360 y = 1750 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -2053,11 +1949,154 @@ guiTypes = {
 				maxHeight = 75
 				format = left
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "corvette_desc"
+				pdx_tooltip = "NAVAL_TITLE_MTG_INTERNAL_DEFENSES_DESC"
+			}
+			instantTextBoxType = {
+				name = "naval_subtitle_mtg_radar"
+				position = { x = 490 y = 1910 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_MTG_RADAR"
+				maxWidth = 200
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_TITLE_MTG_RADAR_DESC"
+			}
+			instantTextBoxType = {
+				name = "naval_subtitle_mtg_sonar"
+				position = { x = 490 y = 2050 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_MTG_SONAR"
+				maxWidth = 200
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_TITLE_MTG_SONAR_DESC"
+			}
+			instantTextBoxType = {
+				name = "naval_subtitle_mtg_armament"
+				position = { x = 85 y = 2500 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_MTG_ARMAMENT"
+				maxWidth = 600
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_TITLE_MTG_ARMAMENT_DESC"
+			}
+			instantTextBoxType = {
+				name = "naval_subtitle_mtg_cannons"
+				position = { x = 645 y = 2150 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_CANNONS"
+				maxWidth = 300
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_TITLE_CANNONS_DESC"
+			}
+			instantTextBoxType = {
+				name = "naval_subtitle_mtg_railguns"
+				position = { x = 1760 y = 2240 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_RAILGUNS"
+				maxWidth = 200
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_TITLE_RAILGUNS_DESC"
+			}
+			instantTextBoxType = {
+				name = "naval_subtitle_mtg_point_defense_system"
+				position = { x = 645 y = 2360 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_POINT_DEFENSE_SYSTEM"
+				maxWidth = 400
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_TITLE_POINT_DEFENSE_SYSTEM_DESC"
+			}
+			instantTextBoxType = {
+				name = "naval_subtitle_mtg_asm"
+				position = { x = 645 y = 2500 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_MTG_ASM"
+				maxWidth = 300
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_TITLE_MTG_ASM_DESC"
+			}
+			instantTextBoxType = {
+				name = "naval_subtitle_mtg_aamissiles"
+				position = { x = 645 y = 2640 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_MTG_AAMISSILES"
+				maxWidth = 300
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_TITLE_MTG_AAMISSILES_DESC"
+			}
+			instantTextBoxType = {
+				name = "naval_subtitle_mtg_vls_surface"
+				position = { x = 645 y = 2780 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_MTG_VLS_SURFACE"
+				maxWidth = 600
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_TITLE_MTG_VLS_SURFACE_DESC"
+			}
+			instantTextBoxType = {
+				name = "naval_subtitle_mtg_vls_air"
+				position = { x = 645 y = 2920 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_MTG_VLS_AIR"
+				maxWidth = 600
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_TITLE_MTG_VLS_AIR_DESC"
+			}
+			instantTextBoxType = {
+				name = "naval_subtitle_mtg_torpedoes"
+				position = { x = 645 y = 3060 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "NAVAL_TITLE_MTG_TORPEDOES"
+				maxWidth = 600
+				maxHeight = 74
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "NAVAL_TITLE_MTG_TORPEDOES_DESC"
 			}
 			instantTextBoxType = {
 				name = "naval_subtitle_mtg_landing_craft"
-				position = { x = 500 y = 3000 }
+				position = { x = 360 y = 3180 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -2066,7 +2105,7 @@ guiTypes = {
 				maxHeight = 74
 				format = left
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "corvette_desc"
+				pdx_tooltip = "NAVAL_TITLE_MTG_LANDING_CRAFT_DESC"
 			}
 			gridboxtype = {
 				name = "corvette_hull_1_tree"
