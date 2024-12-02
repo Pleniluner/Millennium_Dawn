@@ -1,3 +1,5 @@
+
+
 give_ai_mbt_template_0 = {
 	if = {
 		limit = {
