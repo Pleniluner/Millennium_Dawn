@@ -1773,7 +1773,7 @@ give_ai_helicopter_template_0 = {
 		}
 		create_equipment_variant = {
 			name = "Attack Helicopter 1965"
-			type = attack_helicopter_hull_0
+			type = heavy_tank_chassis_0
 			parent_version = 0
 			modules = {
 				helicopter_inner_hardpoint = helicopter_multiple_atgm_gen1
@@ -1798,7 +1798,7 @@ give_ai_helicopter_template_1 = {
 		}
 		create_equipment_variant = {
 			name = "Attack Helicopter 1985"
-			type = attack_helicopter_hull_1
+			type = heavy_tank_chassis_1
 			parent_version = 0
 			modules = {
 				helicopter_inner_hardpoint = helicopter_multiple_atgm_gen2
@@ -1825,7 +1825,7 @@ give_ai_helicopter_template_2 = {
 
 		create_equipment_variant = {
 			name = "Attack Helicopter 2005"
-			type = attack_helicopter_hull_2
+			type = heavy_tank_chassis_2
 			parent_version = 0
 			modules = {
 				helicopter_inner_hardpoint = helicopter_multiple_atgm_gen3
@@ -1852,7 +1852,7 @@ give_ai_helicopter_template_3 = {
 		}
 		create_equipment_variant = {
 			name = "Attack Helicopter 2015"
-			type = attack_helicopter_hull_3
+			type = heavy_tank_chassis_3
 			parent_version = 0
 			modules = {
 				helicopter_inner_hardpoint = helicopter_multiple_atgm_gen4
@@ -1880,7 +1880,7 @@ give_ai_helicopter_template_4 = {
 		}
 		create_equipment_variant = {
 			name = "Attack Helicopter 2035"
-			type = attack_helicopter_hull_4
+			type = heavy_tank_chassis_4
 			parent_version = 0
 			modules = {
 				helicopter_inner_hardpoint = helicopter_multiple_atgm_gen5

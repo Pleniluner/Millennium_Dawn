@@ -2889,7 +2889,7 @@ leader_traits = {
 	##### HELI Designers #####
 	CAT_heli_1 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				hard_attack = 0.015
 				reliability = 0.015
 			}
@@ -2901,7 +2901,7 @@ leader_traits = {
 	}
 	CAT_heli_2 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				hard_attack = 0.030
 				reliability = 0.030
 			}
@@ -2913,7 +2913,7 @@ leader_traits = {
 	}
 	CAT_heli_3 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				hard_attack = 0.045
 				reliability = 0.045
 			}
@@ -2925,7 +2925,7 @@ leader_traits = {
 	}
 	CAT_heli_4 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				hard_attack = 0.060
 				reliability = 0.060
 			}
@@ -2937,7 +2937,7 @@ leader_traits = {
 	}
 	CAT_heli_5 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				hard_attack = 0.075
 				reliability = 0.075
 			}
@@ -2949,7 +2949,7 @@ leader_traits = {
 	}
 	CAT_heli_6 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				hard_attack = 0.090
 				reliability = 0.090
 			}
@@ -2961,7 +2961,7 @@ leader_traits = {
 	}
 	CAT_heli_7 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				hard_attack = 0.105
 				reliability = 0.105
 			}
@@ -2973,7 +2973,7 @@ leader_traits = {
 	}
 	CAT_heli_8 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				hard_attack = 0.120
 				reliability = 0.120
 			}
@@ -2985,7 +2985,7 @@ leader_traits = {
 	}
 	CAT_heli_9 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				hard_attack = 0.135
 				reliability = 0.135
 			}
@@ -2997,7 +2997,7 @@ leader_traits = {
 	}
 	CAT_heli_10 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				hard_attack = 0.150
 				reliability = 0.150
 			}
@@ -3011,7 +3011,7 @@ leader_traits = {
 	#soft attack helicopter designer
 	Cat_soft_HELI_1 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				soft_attack = 0.015
 				reliability = 0.015
 			}
@@ -3023,7 +3023,7 @@ leader_traits = {
 	}
 	Cat_soft_HELI_2 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				soft_attack = 0.030
 				reliability = 0.030
 			}
@@ -3035,7 +3035,7 @@ leader_traits = {
 	}
 	Cat_soft_HELI_3 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				soft_attack = 0.045
 				reliability = 0.045
 			}
@@ -3047,7 +3047,7 @@ leader_traits = {
 	}
 	Cat_soft_HELI_4 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				soft_attack = 0.060
 				reliability = 0.060
 			}
@@ -3059,7 +3059,7 @@ leader_traits = {
 	}
 	Cat_soft_HELI_5 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				soft_attack = 0.075
 				reliability = 0.075
 			}
@@ -3071,7 +3071,7 @@ leader_traits = {
 	}
 	Cat_soft_HELI_6 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				soft_attack = 0.090
 				reliability = 0.090
 			}
@@ -3083,7 +3083,7 @@ leader_traits = {
 	}
 	Cat_soft_HELI_7 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				soft_attack = 0.105
 				reliability = 0.105
 			}
@@ -3095,7 +3095,7 @@ leader_traits = {
 	}
 	Cat_soft_HELI_8 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				soft_attack = 0.120
 				reliability = 0.120
 			}
@@ -3107,7 +3107,7 @@ leader_traits = {
 	}
 	Cat_soft_HELI_9 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				soft_attack = 0.135
 				reliability = 0.135
 			}
@@ -3119,7 +3119,7 @@ leader_traits = {
 	}
 	Cat_soft_HELI_10 = {
 		equipment_bonus = {
-			attack_helicopter_hull = {
+			heavy_tank_chassis = {
 				soft_attack = 0.150
 				reliability = 0.150
 			}

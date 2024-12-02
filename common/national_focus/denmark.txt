@@ -2503,7 +2503,7 @@ focus_tree = {
 				limit = { has_dlc = "By Blood Alone" }
 				create_equipment_variant = {
 					name = "Eurocopter Tiger"
-					type = attack_helicopter_hull_2
+					type = heavy_tank_chassis_2
 					parent_version = 0
 					modules = {
 						helicopter_inner_hardpoint = helicopter_rocket_pod_gen2
@@ -2521,7 +2521,7 @@ focus_tree = {
 				}
 			}
 			add_equipment_to_stockpile = {
-				type = attack_helicopter_hull_2
+				type = heavy_tank_chassis_2
 				amount = 50
 				variant_name = "Eurocopter Tiger"
 				producer = GER
@@ -2573,7 +2573,7 @@ focus_tree = {
 			if = {
 				limit = { has_dlc = "By Blood Alone" }
 				add_equipment_to_stockpile = {
-					type = attack_helicopter_hull_2 #AH-64 Apache
+					type = heavy_tank_chassis_2 #AH-64 Apache
 					amount = 25
 					variant_name = "AH-64D Apache Longbow"
 					producer = USA

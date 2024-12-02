@@ -214,7 +214,7 @@ ideas = {
 					build_cost_ic = -0.20
 					instant = yes
 				}
-				attack_helicopter_hull = {
+				heavy_tank_chassis = {
 					build_cost_ic = -0.10
 					instant = yes
 				}
@@ -2983,7 +2983,7 @@ ideas = {
 				experience_gain_navy = 0.03
 			}
 			equipment_bonus = {
-				attack_helicopter_hull = {
+				heavy_tank_chassis = {
 					build_cost_ic = -0.05
 					instant = yes
 				}
@@ -3191,7 +3191,7 @@ ideas = {
 				experience_gain_navy = 0.03
 			}
 			equipment_bonus = {
-				attack_helicopter_hull = {
+				heavy_tank_chassis = {
 					build_cost_ic = -0.05
 					instant = yes
 				}

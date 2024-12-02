@@ -3295,7 +3295,7 @@ focus_tree = {
 				producer = POL
 			}
 			add_equipment_to_stockpile = {
-				type = attack_helicopter_hull
+				type = heavy_tank_chassis
 				amount = 5
 				producer = POL
 			}
@@ -8373,7 +8373,7 @@ focus_tree = {
 				change_influence_percentage = yes
 			}
 			add_equipment_to_stockpile = {
-				type = attack_helicopter_hull_1
+				type = heavy_tank_chassis_1
 				amount = 100
 				producer = USA
 			}
@@ -8438,7 +8438,7 @@ focus_tree = {
 				change_influence_percentage = yes
 			}
 			add_equipment_to_stockpile = {
-				type = attack_helicopter_hull_1
+				type = heavy_tank_chassis_1
 				amount = 110
 				producer = SOV
 			}
@@ -8503,7 +8503,7 @@ focus_tree = {
 				change_influence_percentage = yes
 			}
 			add_equipment_to_stockpile = {
-				type = attack_helicopter_hull_1
+				type = heavy_tank_chassis_1
 				amount = 60
 				producer = ITA
 			}

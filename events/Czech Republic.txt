@@ -9954,7 +9954,7 @@ country_event = {
 		if = {
 			limit = { has_dlc = "No Step Back" }
 			add_equipment_to_stockpile = {
-				type = attack_helicopter_hull_0
+				type = heavy_tank_chassis_0
 				variant_name = "AH-1 Cobra"
 				amount = 18
 				producer = USA
@@ -9991,7 +9991,7 @@ country_event = {
 		if = {
 			limit = { has_dlc = "No Step Back" }
 			add_equipment_to_stockpile = {
-				type = attack_helicopter_hull_1
+				type = heavy_tank_chassis_1
 				variant_name = "A-129 Mangusta"
 				amount = 13
 				producer = ITA
@@ -10126,7 +10126,7 @@ country_event = {
 		if = {
 			limit = { has_dlc = "No Step Back" }
 			add_equipment_to_stockpile = {
-				type = attack_helicopter_hull_1
+				type = heavy_tank_chassis_1
 				variant_name = "Mil Mi-35"
 				amount = 20
 				producer = SOV
@@ -10404,7 +10404,7 @@ country_event = {
 		if = {
 			limit = { has_dlc = "No Step Back" }
 			add_equipment_to_stockpile = {
-				type = attack_helicopter_hull_1
+				type = heavy_tank_chassis_1
 				variant_name = "Mi-28"
 				amount = 14
 				producer = USA
@@ -10441,7 +10441,7 @@ country_event = {
 		if = {
 			limit = { has_dlc = "No Step Back" }
 			add_equipment_to_stockpile = {
-				type = attack_helicopter_hull_3
+				type = heavy_tank_chassis_3
 				variant_name = "AH-1Z Viper"
 				amount = 10
 				producer = USA
@@ -10478,7 +10478,7 @@ country_event = {
 		if = {
 			limit = { has_dlc = "No Step Back" }
 			add_equipment_to_stockpile = {
-				type = attack_helicopter_hull_3
+				type = heavy_tank_chassis_3
 				variant_name = "Agusta A129D Mangusta"
 				amount = 12
 				producer = ITA
