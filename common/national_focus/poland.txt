@@ -3295,7 +3295,7 @@ focus_tree = {
 				producer = POL
 			}
 			add_equipment_to_stockpile = {
-				type = attack_helicopter_hull
+				type = heavy_tank_chassis
 				amount = 5
 				producer = POL
 			}
@@ -6174,7 +6174,7 @@ focus_tree = {
 				limit = { has_dlc = "No Step Back" }
 
 				add_equipment_to_stockpile = {
-					type = mbt_hull_1
+					type = medium_tank_chassis_1
 					amount = 100
 					producer = USA
 					variant_name = "M1A1 Abrams"
@@ -6430,7 +6430,7 @@ focus_tree = {
 				limit = { has_dlc = "No Step Back" }
 
 				add_equipment_to_stockpile = {
-					type = ifv_hull_1
+					type = medium_tank_flame_chassis_1
 					amount = 75
 					producer = KOR
 				}
@@ -6485,20 +6485,20 @@ focus_tree = {
 
 				create_equipment_variant = {
 					name = "K2 PL"
-					type = mbt_hull_2
+					type = medium_tank_chassis_2
 					parent_version = 0
 					modules = {
 						main_armament_slot = tank_medium_cannon_4
 						turret_type_slot = tank_base_tank_turret
-						suspension_type_slot = tank_pneumatic_suspension
+						suspension_type_slot = tank_pneumatic_suspension_heavy
 						armor_type_slot = tank_composite_armor_gen3
 						engine_type_slot = tank_diesel_engine_gen4
 						reload_type_slot = manual_loading
-						special_type_slot_1 = additional_machine_guns
+						secondary_armament_slot = coax_machine_gun
 						special_type_slot_2 = smoke_launchers
 						special_type_slot_3 = wet_ammo_storage
-						special_type_slot_4 = tank_battlestation_4
-						special_type_slot_5 = reactive_armor_gen2
+						battlestation_type_slot = tank_battlestation_4
+						special_type_slot_4 = reactive_armor_gen2
 					}
 					upgrades = {
 						tank_nsb_armor_upgrade = 10
@@ -6512,20 +6512,20 @@ focus_tree = {
 
 				create_equipment_variant = {
 					name = "K2 PL"
-					type = mbt_hull_1
+					type = medium_tank_chassis_1
 					parent_version = 0
 					modules = {
 						main_armament_slot = tank_medium_cannon_3
 						turret_type_slot = tank_base_tank_turret
-						suspension_type_slot = tank_pneumatic_suspension
+						suspension_type_slot = tank_pneumatic_suspension_heavy
 						armor_type_slot = tank_composite_armor_gen2
 						engine_type_slot = tank_diesel_engine_gen4
 						reload_type_slot = manual_loading
-						special_type_slot_1 = additional_machine_guns
+						secondary_armament_slot = coax_machine_gun
 						special_type_slot_2 = smoke_launchers
 						special_type_slot_3 = wet_ammo_storage
-						special_type_slot_4 = tank_battlestation_4
-						special_type_slot_5 = reactive_armor_gen2
+						battlestation_type_slot = tank_battlestation_4
+						special_type_slot_4 = reactive_armor_gen2
 					}
 					upgrades = {
 						tank_nsb_armor_upgrade = 8
@@ -6599,7 +6599,7 @@ focus_tree = {
 			}
 
 			add_equipment_to_stockpile = {
-				type = mbt_hull_1
+				type = medium_tank_chassis_1
 				amount = 40
 				variant_name = "K2 PL"
 			}
@@ -6647,7 +6647,6 @@ focus_tree = {
 					bonus = 0.15
 					uses = 1
 					ahead_reduction = 2
-					technology = afv_tech_3
 				}
 			}
 			else = {
@@ -6785,7 +6784,7 @@ focus_tree = {
 				limit = { has_dlc = "No Step Back" }
 
 				add_equipment_to_stockpile = {
-					type = mbt_hull_1
+					type = medium_tank_chassis_1
 					amount = 85
 					producer = GER
 					variant_name = "Leopard 2A4"
@@ -7068,7 +7067,7 @@ focus_tree = {
 				limit = { has_dlc = "No Step Back" }
 
 				add_equipment_to_stockpile = {
-					type = mbt_hull_1
+					type = medium_tank_chassis_1
 					amount = 120
 					producer = SOV
 					variant_name = "T-80"
@@ -7388,7 +7387,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_purchase_himars"
 
 			add_equipment_to_stockpile = {
-				type = spart_hull
+				type = medium_tank_artillery_chassis
 				amount = 100
 				producer = USA
 			}
@@ -7434,7 +7433,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus POL_purchase_k239_chunmoo"
 
 			add_equipment_to_stockpile = {
-				type = spart_hull
+				type = medium_tank_artillery_chassis
 				amount = 150
 				producer = KOR
 			}
@@ -8373,7 +8372,7 @@ focus_tree = {
 				change_influence_percentage = yes
 			}
 			add_equipment_to_stockpile = {
-				type = attack_helicopter_hull_1
+				type = heavy_tank_chassis_1
 				amount = 100
 				producer = USA
 			}
@@ -8438,7 +8437,7 @@ focus_tree = {
 				change_influence_percentage = yes
 			}
 			add_equipment_to_stockpile = {
-				type = attack_helicopter_hull_1
+				type = heavy_tank_chassis_1
 				amount = 110
 				producer = SOV
 			}
@@ -8503,7 +8502,7 @@ focus_tree = {
 				change_influence_percentage = yes
 			}
 			add_equipment_to_stockpile = {
-				type = attack_helicopter_hull_1
+				type = heavy_tank_chassis_1
 				amount = 60
 				producer = ITA
 			}
@@ -14880,7 +14879,7 @@ focus_tree = {
 				limit = { has_dlc = "No Step Back" }
 
 				add_equipment_to_stockpile = {
-					type = mbt_hull_1
+					type = medium_tank_chassis_1
 					variant_name = "Leopard 2A4"
 					amount = 40
 					producer = GER
@@ -15257,7 +15256,7 @@ focus_tree = {
 				limit = { has_dlc = "No Step Back" }
 
 				add_equipment_to_stockpile = {
-					type = mbt_hull_1
+					type = medium_tank_chassis_1
 					variant_name = "Leopard 2A4"
 					amount = 80
 					producer = SOV

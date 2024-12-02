@@ -39,7 +39,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			afv_machine_gun
-			afv_coax_machine_gun
+			coax_machine_gun
 			additional_machine_guns
 			afv_additional_machine_guns
 			spaa_coax_machinegun_1
@@ -115,7 +115,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			afv_machine_gun_2
-			afv_coax_machine_gun_2
+			coax_machine_gun_2
 		}
 
 		path = {
@@ -185,7 +185,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			afv_machine_gun_3
-			afv_coax_machine_gun_3
+			coax_machine_gun_3
 		}
 
 		path = {
@@ -267,7 +267,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			afv_machine_gun_4
-			afv_coax_machine_gun_4
+			coax_machine_gun_4
 		}
 
 		path = {
@@ -350,8 +350,7 @@ technologies = {
 			Mot_Recce_Comp
 		}
 		enable_equipment_modules = {
-			chassis_truck_gen0
-			spaa_chassis_truck_gen0
+			wheeled_suspension_medium
 		}
 
 		path = {
@@ -1188,27 +1187,15 @@ technologies = {
 		}
 		Mech_Recce_Comp = {
 			recon = 0.4
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		Arm_Recce_Comp = {
 			recon = 0.4
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		armor_Recce_Comp = {
 			recon = 0.5
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		attack_helo_comp = {
 			recon = 0.6
-			need = {
-				command_control_equipment = 2
-			}
 		}
 
 		path = {
@@ -1260,27 +1247,15 @@ technologies = {
 		}
 		Mech_Recce_Comp = {
 			recon = 0.4
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		Arm_Recce_Comp = {
 			recon = 0.4
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		armor_Recce_Comp = {
 			recon = 0.5
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		attack_helo_comp = {
 			recon = 0.6
-			need = {
-				command_control_equipment = 2
-			}
 		}
 
 		path = {
@@ -1333,27 +1308,15 @@ technologies = {
 		}
 		Mech_Recce_Comp = {
 			recon = 0.4
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		Arm_Recce_Comp = {
 			recon = 0.4
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		armor_Recce_Comp = {
 			recon = 0.5
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		attack_helo_comp = {
 			recon = 0.6
-			need = {
-				command_control_equipment = 2
-			}
 		}
 
 		path = {
@@ -1426,27 +1389,15 @@ technologies = {
 		}
 		Mech_Recce_Comp = {
 			recon = 0.4
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		Arm_Recce_Comp = {
 			recon = 0.4
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		armor_Recce_Comp = {
 			recon = 0.5
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		attack_helo_comp = {
 			recon = 0.6
-			need = {
-				command_control_equipment = 2
-			}
 		}
 
 		path = {
@@ -1515,27 +1466,15 @@ technologies = {
 		}
 		Mech_Recce_Comp = {
 			recon = 0.4
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		Arm_Recce_Comp = {
 			recon = 0.4
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		armor_Recce_Comp = {
 			recon = 0.5
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		attack_helo_comp = {
 			recon = 0.6
-			need = {
-				command_control_equipment = 2
-			}
 		}
 
 		path = {
@@ -1595,27 +1534,15 @@ technologies = {
 		}
 		Mech_Recce_Comp = {
 			recon = 0.4
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		Arm_Recce_Comp = {
 			recon = 0.4
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		armor_Recce_Comp = {
 			recon = 0.5
-			need = {
-				command_control_equipment = 2
-			}
 		}
 		attack_helo_comp = {
 			recon = 0.6
-			need = {
-				command_control_equipment = 2
-			}
 		}
 
 

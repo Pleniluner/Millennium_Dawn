@@ -1,6 +1,6 @@
 ﻿instant_effect = {
 	#110 Phantom KWS, all deployed
-	
+
 	add_equipment_to_stockpile = {
 		variant_name = "Tornado IDS/ECR"
 		type = medium_plane_cas_airframe_1

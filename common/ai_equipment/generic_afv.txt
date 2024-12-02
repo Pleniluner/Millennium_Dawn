@@ -18,13 +18,13 @@
 # 			factor = 10
 # 			modifier = {
 # 				factor = 0
-# 				has_tech = afv_tech_1
+# 				has_tech = mbt_tech_1
 # 			}
 # 		}
 
 # 		target_variant = {
 # 			match_value = 1000
-# 			type = apc_hull_0
+# 			type = medium_tank_amphibious_chassis_0
 # 			modules = {
 # 				main_armament_slot = {
 # 					any_of = {
@@ -91,13 +91,13 @@
 # 			factor = 10
 # 			modifier = {
 # 				factor = 0
-# 				has_tech = afv_tech_2
+# 				has_tech = mbt_tech_2
 # 			}
 # 		}
 
 # 		target_variant = {
 # 			match_value = 1000
-# 			type = apc_hull_1
+# 			type = medium_tank_amphibious_chassis_1
 # 			modules = {
 # 				main_armament_slot = {
 # 					any_of = {
@@ -178,13 +178,13 @@
 # 			factor = 10
 # 			modifier = {
 # 				factor = 0
-# 				has_tech = afv_tech_3
+# 				has_tech = mbt_tech_3
 # 			}
 # 		}
 
 # 		target_variant = {
 # 			match_value = 1000
-# 			type = apc_hull_2
+# 			type = medium_tank_amphibious_chassis_2
 # 			modules = {
 # 				main_armament_slot = {
 # 					any_of = {
@@ -265,13 +265,13 @@
 # 			factor = 10
 # 			modifier = {
 # 				factor = 0
-# 				has_tech = afv_tech_4
+# 				has_tech = mbt_tech_4
 # 			}
 # 		}
 
 # 		target_variant = {
 # 			match_value = 1000
-# 			type = apc_hull_3
+# 			type = medium_tank_amphibious_chassis_3
 # 			modules = {
 # 				main_armament_slot = {
 # 					any_of = {
@@ -360,7 +360,7 @@
 
 # 		target_variant = {
 # 			match_value = 1000
-# 			type = apc_hull_4
+# 			type = medium_tank_amphibious_chassis_4
 # 			modules = {
 # 				main_armament_slot = afv_machine_gun_4
 # 				turret_type_slot = afv_unmanned_turret
@@ -454,13 +454,13 @@
 # 			factor = 10
 # 			modifier = {
 # 				factor = 0
-# 				has_tech = afv_tech_1
+# 				has_tech = mbt_tech_1
 # 			}
 # 		}
 
 # 		target_variant = {
 # 			match_value = 1000
-# 			type = ifv_hull_0
+# 			type = medium_tank_flame_chassis_0
 # 			modules = {
 # 				main_armament_slot = {
 # 					any_of = {
@@ -530,13 +530,13 @@
 # 			factor = 10
 # 			modifier = {
 # 				factor = 0
-# 				has_tech = afv_tech_2
+# 				has_tech = mbt_tech_2
 # 			}
 # 		}
 
 # 		target_variant = {
 # 			match_value = 1000
-# 			type = ifv_hull_1
+# 			type = medium_tank_flame_chassis_1
 # 			modules = {
 # 				main_armament_slot = {
 # 					any_of = {
@@ -625,13 +625,13 @@
 # 			factor = 10
 # 			modifier = {
 # 				factor = 0
-# 				has_tech = afv_tech_3
+# 				has_tech = mbt_tech_3
 # 			}
 # 		}
 
 # 		target_variant = {
 # 			match_value = 1000
-# 			type = ifv_hull_2
+# 			type = medium_tank_flame_chassis_2
 # 			modules = {
 # 				main_armament_slot = {
 # 					any_of = {
@@ -733,13 +733,13 @@
 # 			factor = 10
 # 			modifier = {
 # 				factor = 0
-# 				has_tech = afv_tech_4
+# 				has_tech = mbt_tech_4
 # 			}
 # 		}
 
 # 		target_variant = {
 # 			match_value = 1000
-# 			type = ifv_hull_3
+# 			type = medium_tank_flame_chassis_3
 # 			modules = {
 # 				main_armament_slot = {
 # 					any_of = {
@@ -842,7 +842,7 @@
 
 # 		target_variant = {
 # 			match_value = 1000
-# 			type = ifv_hull_4
+# 			type = medium_tank_flame_chassis_4
 # 			modules = {
 # 				main_armament_slot = {
 # 					any_of = {

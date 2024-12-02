@@ -89,7 +89,7 @@ capital = 114
 				rear_1_custom_slot = module_aa_missiles_2
 			}
 		}
-	
+
 		complete_special_project = sp:sp_naval_vessel_project
 
 		else = {
@@ -115,7 +115,8 @@ capital = 114
 
 		# I do not agree with poles having MBT4. i dont care about any complaints
 		set_technology = {
-			mbt_tech = 1
+			mbt_tech_ops = 1
+            mbt_tech = 1
 			mbt_tech_1 = 1
 			tank_components_tech = 1
 			tank_components_tech_2 = 1
@@ -132,8 +133,8 @@ capital = 114
 			diesel_engine_tech_3 = 1
 			turbine_engine_tech = 1
 			turbine_engine_tech_2 = 1
-			afv_tech = 1
-			afv_tech_1 = 1
+
+
 			small_autocannon_tech = 1
 			small_autocannon_tech_2 = 1
 			big_autocannon_tech = 1
@@ -148,26 +149,27 @@ capital = 114
 			nsb_AA_upgrade_2 = 1
 			nsb_Anti_Air_1 = 1
 			nsb_AA_upgrade_3 = 1
-			light_tank_tech = 1
-			light_tank_tech_1 = 1 #PL-01
+			nsb_Anti_Air_2 = 1 #Grom
+
+			 #PL-01
 			nsb_attack_helicopter_tech_1 = 1
 		}
 
 		create_equipment_variant = {
 			name = "T-55AM Merida"
-			type = mbt_hull_0
+			type = medium_tank_chassis_0
 			parent_version = 0
 			modules = {
 				main_armament_slot = tank_small_medium_cannon
 				turret_type_slot = tank_soviet_turret
-				suspension_type_slot = tank_torsion_bar_suspension
+				suspension_type_slot = tank_torsion_bar_suspension_heavy
 				armor_type_slot = tank_steel_armor_gen1
 				engine_type_slot = tank_diesel_engine_gen2
 				reload_type_slot = manual_loading
-				special_type_slot_1 = additional_machine_guns
+				secondary_armament_slot = coax_machine_gun
 				special_type_slot_2 = smoke_launchers
-				special_type_slot_4 = tank_battlestation_2
-				special_type_slot_5 = spaced_armor_gen1
+				battlestation_type_slot = tank_battlestation_2
+				special_type_slot_4 = spaced_armor_gen1
 			}
 			upgrades = {
 				tank_nsb_armor_upgrade = 5
@@ -177,7 +179,7 @@ capital = 114
 			model = "SOV_T55A_entity"
 		}
 		add_equipment_to_stockpile = {
-			type = mbt_hull_0
+			type = medium_tank_chassis_0
 			variant_name = "T-55AM Merida"
 			amount = 630
 			producer = POL
@@ -185,18 +187,18 @@ capital = 114
 
 		create_equipment_variant = {
 			name = "T-72M1"
-			type = mbt_hull_1
+			type = medium_tank_chassis_1
 			parent_version = 0
 			modules = {
 				main_armament_slot = tank_medium_cannon
 				turret_type_slot = tank_soviet_turret
-				suspension_type_slot = tank_torsion_bar_suspension
+				suspension_type_slot = tank_torsion_bar_suspension_heavy
 				armor_type_slot = tank_composite_armor_gen1
 				engine_type_slot = tank_diesel_engine_gen2
-				reload_type_slot = automatic_loading
+				reload_type_slot = cannon_automatic_loading
 				special_type_slot_1 = smoke_launchers
-				special_type_slot_2 = additional_machine_guns
-				special_type_slot_4 = tank_battlestation_1
+				secondary_armament_slot = coax_machine_gun
+				battlestation_type_slot = tank_battlestation_1
 			}
 			upgrades = {
 				tank_nsb_armor_upgrade = 1
@@ -206,27 +208,27 @@ capital = 114
 			model = "SOV_T72A_entity"
 		}
 		add_equipment_to_stockpile = {
-			type = mbt_hull_1
+			type = medium_tank_chassis_1
 			variant_name = "T-72M1"
 			amount = 706
 			producer = POL
 		}
 		create_equipment_variant = {
 			name = "PT-91"
-			type = mbt_hull_1
+			type = medium_tank_chassis_1
 			parent_version = 1
 			modules = {
 				main_armament_slot = tank_medium_cannon_2
 				turret_type_slot = tank_soviet_turret
-				suspension_type_slot = tank_torsion_bar_suspension
+				suspension_type_slot = tank_torsion_bar_suspension_heavy
 				armor_type_slot = tank_composite_armor_gen2
 				engine_type_slot = tank_diesel_engine_gen3
-				reload_type_slot = automatic_loading
+				reload_type_slot = cannon_automatic_loading
 				special_type_slot_1 = smoke_launchers_2
-				special_type_slot_2 = additional_machine_guns
+				secondary_armament_slot = coax_machine_gun
 				special_type_slot_3 = empty
-				special_type_slot_4 = tank_battlestation_2
-				special_type_slot_5 = reactive_armor_gen2
+				battlestation_type_slot = tank_battlestation_2
+				special_type_slot_4 = reactive_armor_gen2
 			}
 			upgrades = {
 				tank_nsb_armor_upgrade = 6
@@ -235,25 +237,26 @@ capital = 114
 			model = "POL_PT91_entity"
 		}
 		add_equipment_to_stockpile = {
-			type = mbt_hull_1
+			type = medium_tank_chassis_1
 			variant_name = "PT-91"
 			amount = 186
 			producer = POL
 		}
 		create_equipment_variant = {
 			name = "BWP-1"
-			type = ifv_hull_0
+			type = medium_tank_flame_chassis_0
 			parent_version = 0
 			modules = {
-				main_armament_slot = afv_assault_gun
+				main_armament_slot = afv_assault_gun_1
+				reload_type_slot = cannon_automatic_loading
 				turret_type_slot = afv_base_turret
-				suspension_type_slot = afv_torsion_bar_suspension
-				armor_type_slot = afv_steel_armor_gen1
+				suspension_type_slot = tank_torsion_bar_suspension_medium
+				armor_type_slot = tank_steel_armor_gen1
 				engine_type_slot = tank_diesel_engine_gen1
-				special_armament_type_slot = afv_coax_machine_gun
+				secondary_armament_slot = coax_machine_gun
 				special_type_slot_1 = afv_atgm_gen1
 				special_type_slot_2 = smoke_launchers
-				special_type_slot_4 = afv_battlestation_1
+				battlestation_type_slot = tank_battlestation_1
 			}
 			upgrades = {
 				afv_nsb_armor_upgrade = 1
@@ -264,16 +267,17 @@ capital = 114
 
 		create_equipment_variant = {
 			name = "OT-64"
-			type = apc_hull_0
+			type = medium_tank_amphibious_chassis_0
 			parent_version = 0
 			modules = {
 				main_armament_slot = afv_machine_gun
+				reload_type_slot = manual_loading
 				turret_type_slot = afv_base_turret
-				suspension_type_slot = afv_tracked_suspension
-				armor_type_slot = afv_steel_armor_gen1
+				suspension_type_slot = wheeled_suspension_medium
+				armor_type_slot = tank_steel_armor_gen1
 				engine_type_slot = tank_diesel_engine_gen2
-				special_type_slot_1 = afv_additional_machine_guns
-				special_type_slot_4 = afv_battlestation_1
+				special_type_slot_1 = empty
+				battlestation_type_slot = tank_battlestation_1
 			}
 			upgrades = {
 				afv_nsb_armor_upgrade = 3
@@ -282,7 +286,7 @@ capital = 114
 			icon = "gfx/interface/technologies/POL/LAND/APC2.dds"
 		}
 		add_equipment_to_stockpile = {
-			type = apc_hull_0
+			type = medium_tank_amphibious_chassis_0
 			variant_name = "OT-64"
 			amount = 726
 			producer = POL
@@ -290,18 +294,21 @@ capital = 114
 
 		create_equipment_variant = {
 			name = "ZSU-23-2 Shilka"
-			type = spaa_hull_0
+			type = medium_tank_aa_chassis_0
 			parent_version = 0
 			modules = {
 				main_armament_slot = spaa_light_autocannon2
-				chassis_type_slot = spaa_chassis_tank_gen0
+				reload_type_slot = cannon_automatic_loading
+				armor_type_slot = tank_steel_armor_gen1
+				turret_type_slot = tank_base_tank_turret
+				suspension_type_slot = tank_torsion_bar_suspension_medium
 				engine_type_slot = tank_diesel_engine_gen2
-				radar_type_slot = spaa_radar_gen1
-				spaa_secondary_armament = empty
+				special_type_slot_4 = spaa_radar_gen1
+				secondary_armament_slot = empty
 				special_type_slot_1 = empty
 				special_type_slot_2 = empty
 				special_type_slot_3 = empty
-				special_type_slot_4 = spaa_battlestation_gen1
+				battlestation_type_slot = spaa_battlestation_gen1
 			}
 			upgrades = {
 				spaa_nsb_fire_upgrade = 0
@@ -309,7 +316,7 @@ capital = 114
 			obsolete = no
 			icon = "GFX_SOV_SP_Anti_Air_0_medium"
 		}
-	
+
 		complete_special_project = sp:sp_armoured_vehicle_project
 
 		else = {
@@ -429,7 +436,7 @@ capital = 114
 				special_slot_type_2 = spec_redundant_1
 			}
 		}
-	
+
 		complete_special_project = sp:sp_aircraft_project
 
 		else = {
@@ -499,7 +506,7 @@ capital = 114
 		util_vehicle_2 = 1
 		util_vehicle_3 = 1 #Tarpan Honker
 
-		
+
 
 		transport_helicopter1 = 1
 		transport_helicopter2 = 1 #PZL SW-4
@@ -731,21 +738,21 @@ capital = 114
 
 		create_equipment_variant = {
 			name = "Pandur II"
-			type = apc_hull_1
+			type = medium_tank_amphibious_chassis_1
 			parent_version = 0
 			modules = {
 				main_armament_slot = small_autocannon_2
 				turret_type_slot = afv_base_turret
-				suspension_type_slot = afv_torsion_bar_suspension
-				armor_type_slot = afv_steel_armor_gen2
+				suspension_type_slot = tank_torsion_bar_suspension_medium
+				armor_type_slot = tank_steel_armor_gen2
 				engine_type_slot = tank_diesel_engine_gen2 # TODO rework engines
-				special_type_slot_replacement = afv_additional_machine_guns
-				special_type_slot_4 = afv_battlestation_2
+				reload_type_slot = manual_loading
+				battlestation_type_slot = tank_battlestation_2
 			}
 			upgrades = {
 				tank_nsb_armor_upgrade = 1
 			}
-			icon = "GFX_ifv_hull_1_a"
+			icon = "GFX_medium_tank_flame_chassis_1_a"
 		}
 
 		else = {

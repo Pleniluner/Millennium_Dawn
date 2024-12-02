@@ -1,6 +1,6 @@
 ﻿capital = 945
 2000.1.1 = {
-	oob = "ADO_2000"
+	set_oob = "ADO_2000"
 	set_variable = { gdp_per_capita = 130.415 }
 
 	set_technology = {
@@ -87,7 +87,7 @@
 		limit = { has_dlc = "No Step Back" }
 
 		set_technology = {
-			afv_tech = 1
+
 			nsb_SP_arty_1 = 1
 			nsb_artillery_0 = 1
 			nsb_artillery_1 = 1
@@ -99,7 +99,6 @@
 			nsb_SP_Anti_Air_0 = 1
 			nsb_SP_Anti_Air_1 = 1
 		}
-
 		else = {
 			set_technology = {
 				Early_APC = 1
@@ -116,13 +115,13 @@
 			}
 		}
 	}
+
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 
 		set_technology = {
 			early_airframe_designs = 1
 		}
-
 		else = {
 			set_technology = {
 				early_fighter = 1
@@ -186,6 +185,7 @@
 	set_variable = { var = treasury value = 2.9 }
 	set_variable = { var = corporate_tax_rate value = 10 }
 	set_variable = { var = population_tax_rate value = 10 }
+
 	every_controlled_state = {
 		set_variable = { productivity_state_var = 765 }
 	}
@@ -204,7 +204,6 @@
 		election_frequency = 48
 		elections_allowed = yes
 	}
-
 	start_politics_input = yes
 	### Party Popularities
 	set_variable = { party_pop_array^0 = 0 } #Western_Autocracy

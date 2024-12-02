@@ -1,358 +1,13 @@
 equipment_modules = {
-	## Chassis
-	# Generation 0
-	chassis_truck_gen0 = {
-		abbreviation = "ct0"
-		category = chassis_truck_module
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			arty_main_armament_slot = { art_big_rocket_module }
-		}
-
-		add_stats = {
-			build_cost_ic = 0.5
-			defense = 4
-			breakthrough = 2
-		}
-		multiply_stats = {
-			hardness = -0.8
-		}
-
-		xp_cost = 3
-	}
-
-	chassis_afv_gen0 = {
-		abbreviation = "ca0"
-		category = chassis_afv_module
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			arty_main_armament_slot = { art_big_gun_module }
-		}
-
-		add_stats = {
-			armor_value = 5
-			build_cost_ic = 1
-			defense = 6
-			breakthrough = 3
-			maximum_speed = -1.5
-		}
-
-		xp_cost = 3
-	}
-
-	chassis_tank_gen0 = {
-		abbreviation = "cta0"
-		category = chassis_tank_module
-		sfx = sfx_ui_sd_module_turret
-
-		allowed_module_categories = {
-			arty_main_armament_slot = { art_big_gun_module }
-		}
-
-		add_stats = {
-			armor_value = 10
-			build_cost_ic = 1.5
-			defense = 7
-			breakthrough = 2
-			maximum_speed = -3
-		}
-		multiply_stats = {
-			hardness = 0.5
-		}
-
-		xp_cost = 3
-	}
-
-	# Generation 1
-	chassis_truck_gen1 = {
-		abbreviation = "ct1"
-		category = chassis_truck_module
-		sfx = sfx_ui_sd_module_turret
-		parent = chassis_truck_gen0
-
-		allowed_module_categories = {
-			arty_main_armament_slot = { art_big_rocket_module }
-		}
-
-		add_stats = {
-			build_cost_ic = 0.75
-			defense = 5.75
-			breakthrough = 3.25
-			maximum_speed = -0.5
-		}
-		multiply_stats = {
-			hardness = -0.8
-		}
-
-		xp_cost = 3
-	}
-
-	chassis_afv_gen1 = {
-		abbreviation = "ca1"
-		category = chassis_afv_module
-		sfx = sfx_ui_sd_module_turret
-		parent = chassis_afv_gen0
-
-		allowed_module_categories = {
-			arty_main_armament_slot = { art_big_gun_module }
-		}
-
-		add_stats = {
-			armor_value = 10
-			build_cost_ic = 1.75
-			defense = 8
-			breakthrough = 4
-			maximum_speed = -2.125
-		}
-		xp_cost = 3
-	}
-
-	chassis_tank_gen1 = {
-		abbreviation = "cta1"
-		category = chassis_tank_module
-		sfx = sfx_ui_sd_module_turret
-		parent = chassis_tank_gen0
-
-		allowed_module_categories = {
-			arty_main_armament_slot = { art_big_gun_module }
-		}
-
-		add_stats = {
-			armor_value = 16
-			build_cost_ic = 2.6
-			defense = 8.25
-			breakthrough = 2.75
-			maximum_speed = -3.75
-		}
-		multiply_stats = {
-			hardness = 0.5
-		}
-
-		xp_cost = 3
-	}
-
-	# Generation 2
-	chassis_truck_gen2 = {
-		abbreviation = "ct2"
-		category = chassis_truck_module
-		sfx = sfx_ui_sd_module_turret
-		parent = chassis_truck_gen1
-
-		allowed_module_categories = {
-			arty_main_armament_slot = { art_big_rocket_module }
-		}
-
-		add_stats = {
-			build_cost_ic = 1
-			defense = 7.5
-			breakthrough = 4.5
-			maximum_speed = -1
-		}
-		multiply_stats = {
-			hardness = -0.8
-		}
-
-		xp_cost = 3
-	}
-
-	chassis_afv_gen2 = {
-		abbreviation = "ca2"
-		category = chassis_afv_module
-		sfx = sfx_ui_sd_module_turret
-		parent = chassis_afv_gen1
-
-		allowed_module_categories = {
-			arty_main_armament_slot = { art_big_gun_module }
-		}
-
-		add_stats = {
-			armor_value = 15
-			build_cost_ic = 3
-			defense = 10
-			breakthrough = 5
-			maximum_speed = -2.75
-		}
-
-		xp_cost = 3
-	}
-
-	chassis_tank_gen2 = {
-		abbreviation = "cta2"
-		category = chassis_tank_module
-		sfx = sfx_ui_sd_module_turret
-		parent = chassis_tank_gen1
-
-		allowed_module_categories = {
-			arty_main_armament_slot = { art_big_gun_module }
-		}
-
-		add_stats = {
-			armor_value = 22
-			build_cost_ic = 3.7
-			defense = 9.5
-			breakthrough = 3.5
-			maximum_speed = -4.5
-		}
-		multiply_stats = {
-			hardness = 0.5
-		}
-
-		xp_cost = 3
-	}
-
-	# Generation 3
-	chassis_truck_gen3 = {
-		abbreviation = "ct3"
-		category = chassis_truck_module
-		sfx = sfx_ui_sd_module_turret
-		parent = chassis_truck_gen2
-
-		allowed_module_categories = {
-			arty_main_armament_slot = { art_big_rocket_module }
-		}
-
-		add_stats = {
-			build_cost_ic = 1.25
-			defense = 8.75
-			breakthrough = 5.75
-			maximum_speed = -1.5
-		}
-		multiply_stats = {
-			hardness = -0.8
-		}
-
-		xp_cost = 3
-	}
-
-	chassis_afv_gen3 = {
-		abbreviation = "ca3"
-		category = chassis_afv_module
-		sfx = sfx_ui_sd_module_turret
-		parent = chassis_afv_gen2
-
-		allowed_module_categories = {
-			arty_main_armament_slot = { art_big_gun_module }
-		}
-
-		add_stats = {
-			armor_value = 20
-			build_cost_ic = 4.25
-			defense = 12
-			breakthrough = 6
-			maximum_speed = -3.375
-		}
-
-		xp_cost = 3
-	}
-
-	chassis_tank_gen3 = {
-		abbreviation = "cta3"
-		category = chassis_tank_module
-		sfx = sfx_ui_sd_module_turret
-		parent = chassis_tank_gen2
-
-		allowed_module_categories = {
-			arty_main_armament_slot = { art_big_gun_module }
-		}
-
-		add_stats = {
-			armor_value = 28
-			build_cost_ic = 4.8
-			defense = 10.75
-			breakthrough = 4.25
-			maximum_speed = -4.5
-		}
-		multiply_stats = {
-			hardness = 0.5
-		}
-
-		xp_cost = 3
-	}
-
-	# Generation 4
-	chassis_truck_gen4 = {
-		abbreviation = "ct4"
-		category = chassis_truck_module
-		sfx = sfx_ui_sd_module_turret
-		parent = chassis_truck_gen3
-
-		allowed_module_categories = {
-			arty_main_armament_slot = { art_big_rocket_module }
-		}
-
-		add_stats = {
-			build_cost_ic = 1.5
-			defense = 10.5
-			breakthrough = 7
-			maximum_speed = -2
-		}
-		multiply_stats = {
-			hardness = -0.8
-		}
-
-		xp_cost = 3
-	}
-
-	chassis_afv_gen4 = {
-		abbreviation = "ca4"
-		category = chassis_afv_module
-		sfx = sfx_ui_sd_module_turret
-		parent = chassis_afv_gen3
-
-		allowed_module_categories = {
-			arty_main_armament_slot = { art_big_gun_module }
-		}
-
-		add_stats = {
-			armor_value = 25
-			build_cost_ic = 5.5
-			defense = 14
-			breakthrough = 7
-			maximum_speed = -4
-		}
-
-		xp_cost = 3
-	}
-
-	chassis_tank_gen4 = {
-		abbreviation = "cta4"
-		category = chassis_tank_module
-		sfx = sfx_ui_sd_module_turret
-		parent = chassis_tank_gen3
-
-		allowed_module_categories = {
-			arty_main_armament_slot = { art_big_gun_module }
-		}
-
-		add_stats = {
-			armor_value = 34
-			build_cost_ic = 5.6
-			defense = 12
-			breakthrough = 5
-			maximum_speed = -5.25
-		}
-		multiply_stats = {
-			hardness = 0.5
-		}
-
-		xp_cost = 3
-	}
-
 	## Main guns
 	# Small guns - 105-122mm
 	art_small_gun_gen1 = {
 		abbreviation = "asg1"
-		category = art_small_gun_module
+		category = art_gun_armament
 		sfx = sfx_ui_sd_module_turret
 
-		allowed_module_categories = {
-			conversion_type_slot = { small_gun_conversion_type }
-			special_type_slot_1 = { small_gun_ammo_module }
-			special_type_slot_2 = { small_gun_ammo_module }
-			special_type_slot_3 = { small_gun_ammo_module }
-		}
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 13
@@ -366,27 +21,11 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
+			module_category = art_gun_armament
 			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 1.25
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 1.25
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 1.25
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 1.25
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
+			module_category = art_rocket_armament
 			convert_cost_ic = 1.25
 		}
 
@@ -397,16 +36,12 @@ equipment_modules = {
 
 	art_small_gun_gen2 = {
 		abbreviation = "asg2"
-		category = art_small_gun_module
+		category = art_gun_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_small_gun_gen1
 
-		allowed_module_categories = {
-			conversion_type_slot = { small_gun_conversion_type }
-			special_type_slot_1 = { small_gun_ammo_module }
-			special_type_slot_2 = { small_gun_ammo_module }
-			special_type_slot_3 = { small_gun_ammo_module }
-		}
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 20
@@ -420,28 +55,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 2.25
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 2.25
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 2.25
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 2.25
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 2.25
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 2.25
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -451,16 +70,12 @@ equipment_modules = {
 
 	art_small_gun_gen3 = {
 		abbreviation = "asg3"
-		category = art_small_gun_module
+		category = art_gun_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_small_gun_gen2
 
-		allowed_module_categories = {
-			conversion_type_slot = { small_gun_conversion_type }
-			special_type_slot_1 = { small_gun_ammo_module }
-			special_type_slot_2 = { small_gun_ammo_module }
-			special_type_slot_3 = { small_gun_ammo_module }
-		}
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 29
@@ -474,28 +89,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 3
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 3
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -506,16 +105,12 @@ equipment_modules = {
 
 	art_small_gun_gen4 = {
 		abbreviation = "asg4"
-		category = art_small_gun_module
+		category = art_gun_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_small_gun_gen3
 
-		allowed_module_categories = {
-			conversion_type_slot = { small_gun_conversion_type }
-			special_type_slot_1 = { small_gun_ammo_module }
-			special_type_slot_2 = { small_gun_ammo_module }
-			special_type_slot_3 = { small_gun_ammo_module }
-		}
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 35
@@ -529,28 +124,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 4
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 4
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -561,16 +140,12 @@ equipment_modules = {
 
 	art_small_gun_gen5 = {
 		abbreviation = "asg5"
-		category = art_small_gun_module
+		category = art_gun_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_small_gun_gen4
 
-		allowed_module_categories = {
-			conversion_type_slot = { small_gun_conversion_type }
-			special_type_slot_1 = { small_gun_ammo_module }
-			special_type_slot_2 = { small_gun_ammo_module }
-			special_type_slot_3 = { small_gun_ammo_module }
-		}
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 45
@@ -584,27 +159,11 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
+			module_category = art_gun_armament
 			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 1.25
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 1.25
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 1.25
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 1.25
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
+			module_category = art_rocket_armament
 			convert_cost_ic = 1.25
 		}
 
@@ -617,24 +176,11 @@ equipment_modules = {
 	# Medium guns - 130-155mm
 	art_med_gun_gen1 = {
 		abbreviation = "amg1"
-		category = art_medium_gun_module
+		category = art_gun_armament
 		sfx = sfx_ui_sd_module_turret
 
-		allowed_module_categories = {
-			conversion_type_slot = { medium_gun_conversion_type }
-			special_type_slot_1 = {
-				medium_gun_ammo_module
-				medium_gun_feature_module
-			}
-			special_type_slot_2 = {
-				medium_gun_ammo_module
-				medium_gun_feature_module
-			}
-			special_type_slot_3 = {
-				medium_gun_ammo_module
-				medium_gun_feature_module
-			}
-		}
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 17
@@ -648,28 +194,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 3.25
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 3.25
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 3.25
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 3.25
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 3.25
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 3.25
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -680,25 +210,12 @@ equipment_modules = {
 
 	art_med_gun_gen2 = {
 		abbreviation = "amg2"
-		category = art_medium_gun_module
+		category = art_gun_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_med_gun_gen1
 
-		allowed_module_categories = {
-			conversion_type_slot = { medium_gun_conversion_type }
-			special_type_slot_1 = {
-				medium_gun_ammo_module
-				medium_gun_feature_module
-			}
-			special_type_slot_2 = {
-				medium_gun_ammo_module
-				medium_gun_feature_module
-			}
-			special_type_slot_3 = {
-				medium_gun_ammo_module
-				medium_gun_feature_module
-			}
-		}
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 27
@@ -712,28 +229,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 3
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 3
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -744,25 +245,12 @@ equipment_modules = {
 
 	art_med_gun_gen3 = {
 		abbreviation = "amg3"
-		category = art_medium_gun_module
+		category = art_gun_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_med_gun_gen2
 
-		allowed_module_categories = {
-			conversion_type_slot = { medium_gun_conversion_type }
-			special_type_slot_1 = {
-				medium_gun_ammo_module
-				medium_gun_feature_module
-			}
-			special_type_slot_2 = {
-				medium_gun_ammo_module
-				medium_gun_feature_module
-			}
-			special_type_slot_3 = {
-				medium_gun_ammo_module
-				medium_gun_feature_module
-			}
-		}
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 37
@@ -776,28 +264,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 4
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 4
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -808,25 +280,12 @@ equipment_modules = {
 
 	art_med_gun_gen4 = {
 		abbreviation = "amg4"
-		category = art_medium_gun_module
+		category = art_gun_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_med_gun_gen3
 
-		allowed_module_categories = {
-			conversion_type_slot = { medium_gun_conversion_type }
-			special_type_slot_1 = {
-				medium_gun_ammo_module
-				medium_gun_feature_module
-			}
-			special_type_slot_2 = {
-				medium_gun_ammo_module
-				medium_gun_feature_module
-			}
-			special_type_slot_3 = {
-				medium_gun_ammo_module
-				medium_gun_feature_module
-			}
-		}
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 47
@@ -840,28 +299,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 5
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 5
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -872,25 +315,12 @@ equipment_modules = {
 
 	art_med_gun_gen5 = {
 		abbreviation = "amg5"
-		category = art_medium_gun_module
+		category = art_gun_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_med_gun_gen4
 
-		allowed_module_categories = {
-			conversion_type_slot = { medium_gun_conversion_type }
-			special_type_slot_1 = {
-				medium_gun_ammo_module
-				medium_gun_feature_module
-			}
-			special_type_slot_2 = {
-				medium_gun_ammo_module
-				medium_gun_feature_module
-			}
-			special_type_slot_3 = {
-				medium_gun_ammo_module
-				medium_gun_feature_module
-			}
-		}
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 60
@@ -904,28 +334,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 6
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 6
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -937,15 +351,11 @@ equipment_modules = {
 	# Big guns - 170mm+
 	art_big_gun_gen1 = {
 		abbreviation = "abg1"
-		category = art_big_gun_module
+		category = art_gun_armament
 		sfx = sfx_ui_sd_module_turret
 
-		allowed_module_categories = {
-			conversion_type_slot = { big_gun_conversion_type }
-			special_type_slot_1 = { big_gun_ammo_module }
-			special_type_slot_2 = { big_gun_ammo_module }
-			special_type_slot_3 = { big_gun_ammo_module }
-		}
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 21
@@ -959,28 +369,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 3
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 3
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -992,16 +386,12 @@ equipment_modules = {
 
 	art_big_gun_gen2 = {
 		abbreviation = "abg2"
-		category = art_big_gun_module
+		category = art_gun_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_big_gun_gen1
 
-		allowed_module_categories = {
-			conversion_type_slot = { big_gun_conversion_type }
-			special_type_slot_1 = { big_gun_ammo_module }
-			special_type_slot_2 = { big_gun_ammo_module }
-			special_type_slot_3 = { big_gun_ammo_module }
-		}
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 35
@@ -1015,28 +405,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 3.5
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 3.5
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 3.5
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 3.5
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 3.5
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 3.5
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1048,16 +422,12 @@ equipment_modules = {
 
 	art_big_gun_gen3 = {
 		abbreviation = "abg3"
-		category = art_big_gun_module
+		category = art_gun_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_big_gun_gen2
 
-		allowed_module_categories = {
-			conversion_type_slot = { big_gun_conversion_type }
-			special_type_slot_1 = { big_gun_ammo_module }
-			special_type_slot_2 = { big_gun_ammo_module }
-			special_type_slot_3 = { big_gun_ammo_module }
-		}
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 46
@@ -1071,28 +441,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 5
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 5
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1104,16 +458,12 @@ equipment_modules = {
 
 	art_big_gun_gen4 = {
 		abbreviation = "abg4"
-		category = art_big_gun_module
+		category = art_gun_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_big_gun_gen3
 
-		allowed_module_categories = {
-			conversion_type_slot = { big_gun_conversion_type }
-			special_type_slot_1 = { big_gun_ammo_module }
-			special_type_slot_2 = { big_gun_ammo_module }
-			special_type_slot_3 = { big_gun_ammo_module }
-		}
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 59
@@ -1127,28 +477,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 6
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 6
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1160,16 +494,12 @@ equipment_modules = {
 
 	art_big_gun_gen5 = {
 		abbreviation = "abg5"
-		category = art_big_gun_module
+		category = art_gun_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_big_gun_gen4
 
-		allowed_module_categories = {
-			conversion_type_slot = { big_gun_conversion_type }
-			special_type_slot_1 = { big_gun_ammo_module }
-			special_type_slot_2 = { big_gun_ammo_module }
-			special_type_slot_3 = { big_gun_ammo_module }
-		}
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 75
@@ -1183,28 +513,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 7.5
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 7.5
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 7.5
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 7.5
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 7.5
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 7.5
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1217,15 +531,11 @@ equipment_modules = {
 	# Small rockets - 100-200mm
 	art_small_rocket_gen1 = {
 		abbreviation = "asr1"
-		category = art_small_rocket_module
+		category = art_rocket_armament
 		sfx = sfx_ui_sd_module_turret
 
-		allowed_module_categories = {
-			conversion_type_slot = { small_rocket_conversion_type }
-			special_type_slot_1 = { small_rocket_ammo_module }
-			special_type_slot_2 = { small_rocket_ammo_module }
-			special_type_slot_3 = { small_rocket_ammo_module }
-		}
+		allow_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 15
@@ -1239,28 +549,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 2
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 2
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 2
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 2
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 2
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 2
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1270,16 +564,12 @@ equipment_modules = {
 
 	art_small_rocket_gen2 = {
 		abbreviation = "asr2"
-		category = art_small_rocket_module
+		category = art_rocket_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_small_rocket_gen1
 
-		allowed_module_categories = {
-			conversion_type_slot = { small_rocket_conversion_type }
-			special_type_slot_1 = { small_rocket_ammo_module }
-			special_type_slot_2 = { small_rocket_ammo_module }
-			special_type_slot_3 = { small_rocket_ammo_module }
-		}
+		allow_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 23
@@ -1293,28 +583,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 3
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 3
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 3
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1324,16 +598,12 @@ equipment_modules = {
 
 	art_small_rocket_gen3 = {
 		abbreviation = "asr3"
-		category = art_small_rocket_module
+		category = art_rocket_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_small_rocket_gen2
 
-		allowed_module_categories = {
-			conversion_type_slot = { small_rocket_conversion_type }
-			special_type_slot_1 = { small_rocket_ammo_module }
-			special_type_slot_2 = { small_rocket_ammo_module }
-			special_type_slot_3 = { small_rocket_ammo_module }
-		}
+		allow_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 31
@@ -1347,28 +617,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 4
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 4
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1379,16 +633,12 @@ equipment_modules = {
 
 	art_small_rocket_gen4 = {
 		abbreviation = "asr4"
-		category = art_small_rocket_module
+		category = art_rocket_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_small_rocket_gen3
 
-		allowed_module_categories = {
-			conversion_type_slot = { small_rocket_conversion_type }
-			special_type_slot_1 = { small_rocket_ammo_module }
-			special_type_slot_2 = { small_rocket_ammo_module }
-			special_type_slot_3 = { small_rocket_ammo_module }
-		}
+		allow_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 40
@@ -1402,28 +652,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 4.5
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 4.5
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 4.5
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 4.5
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 4.5
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 4.5
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1434,16 +668,12 @@ equipment_modules = {
 
 	art_small_rocket_gen5 = {
 		abbreviation = "asr5"
-		category = art_small_rocket_module
+		category = art_rocket_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_small_rocket_gen4
 
-		allowed_module_categories = {
-			conversion_type_slot = { small_rocket_conversion_type }
-			special_type_slot_1 = { small_rocket_ammo_module }
-			special_type_slot_2 = { small_rocket_ammo_module }
-			special_type_slot_3 = { small_rocket_ammo_module }
-		}
+		allow_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 49
@@ -1457,28 +687,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 5
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 5
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1490,15 +704,11 @@ equipment_modules = {
 	# Medium rockets - 200-300mm
 	art_med_rocket_gen1 = {
 		abbreviation = "amr1"
-		category = art_medium_rocket_module
+		category = art_rocket_armament
 		sfx = sfx_ui_sd_module_turret
 
-		allowed_module_categories = {
-			conversion_type_slot = { medium_rocket_conversion_type }
-			special_type_slot_1 = { medium_rocket_ammo_module }
-			special_type_slot_2 = { medium_rocket_ammo_module }
-			special_type_slot_3 = { medium_rocket_ammo_module }
-		}
+		allow_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 19
@@ -1512,28 +722,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 2.25
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 2.25
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 2.25
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 2.25
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 2.25
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 2.25
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1544,16 +738,12 @@ equipment_modules = {
 
 	art_med_rocket_gen2 = {
 		abbreviation = "amr2"
-		category = art_medium_rocket_module
+		category = art_rocket_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_med_rocket_gen1
 
-		allowed_module_categories = {
-			conversion_type_slot = { medium_rocket_conversion_type }
-			special_type_slot_1 = { medium_rocket_ammo_module }
-			special_type_slot_2 = { medium_rocket_ammo_module }
-			special_type_slot_3 = { medium_rocket_ammo_module }
-		}
+		allow_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 30
@@ -1567,28 +757,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 4
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 4
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1599,16 +773,12 @@ equipment_modules = {
 
 	art_med_rocket_gen3 = {
 		abbreviation = "amr3"
-		category = art_medium_rocket_module
+		category = art_rocket_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_med_rocket_gen2
 
-		allowed_module_categories = {
-			conversion_type_slot = { medium_rocket_conversion_type }
-			special_type_slot_1 = { medium_rocket_ammo_module }
-			special_type_slot_2 = { medium_rocket_ammo_module }
-			special_type_slot_3 = { medium_rocket_ammo_module }
-		}
+		allow_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 41
@@ -1622,28 +792,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 5
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 5
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1655,16 +809,12 @@ equipment_modules = {
 
 	art_med_rocket_gen4 = {
 		abbreviation = "amr4"
-		category = art_medium_rocket_module
+		category = art_rocket_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_med_rocket_gen3
 
-		allowed_module_categories = {
-			conversion_type_slot = { medium_rocket_conversion_type }
-			special_type_slot_1 = { medium_rocket_ammo_module }
-			special_type_slot_2 = { medium_rocket_ammo_module }
-			special_type_slot_3 = { medium_rocket_ammo_module }
-		}
+		allow_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 52
@@ -1678,28 +828,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 5.5
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 5.5
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 5.5
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 5.5
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 5.5
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 5.5
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1711,16 +845,12 @@ equipment_modules = {
 
 	art_med_rocket_gen5 = {
 		abbreviation = "amr5"
-		category = art_medium_rocket_module
+		category = art_rocket_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_med_rocket_gen4
 
-		allowed_module_categories = {
-			conversion_type_slot = { medium_rocket_conversion_type }
-			special_type_slot_1 = { medium_rocket_ammo_module }
-			special_type_slot_2 = { medium_rocket_ammo_module }
-			special_type_slot_3 = { medium_rocket_ammo_module }
-		}
+		allow_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 65
@@ -1734,28 +864,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 6
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 6
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1768,15 +882,11 @@ equipment_modules = {
 	# Large rockets - 300mm+
 	art_big_rocket_gen1 = {
 		abbreviation = "abr1"
-		category = art_big_rocket_module
+		category = art_rocket_armament
 		sfx = sfx_ui_sd_module_turret
 
-		allowed_module_categories = {
-			#conversion_type_slot = { big_rocket_conversion_type }
-			special_type_slot_1 = { big_rocket_ammo_module }
-			special_type_slot_2 = { big_rocket_ammo_module }
-			special_type_slot_3 = { big_rocket_ammo_module }
-		}
+		allow_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 23
@@ -1790,28 +900,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 2
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 2
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 2
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 2
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 2
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 2
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1822,16 +916,12 @@ equipment_modules = {
 
 	art_big_rocket_gen2 = {
 		abbreviation = "abr2"
-		category = art_big_rocket_module
+		category = art_rocket_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_big_rocket_gen1
 
-		allowed_module_categories = {
-			#conversion_type_slot = { big_rocket_conversion_type }
-			special_type_slot_1 = { big_rocket_ammo_module }
-			special_type_slot_2 = { big_rocket_ammo_module }
-			special_type_slot_3 = { big_rocket_ammo_module }
-		}
+		allow_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 37
@@ -1845,28 +935,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 4
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 4
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 4
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1877,16 +951,12 @@ equipment_modules = {
 
 	art_big_rocket_gen3 = {
 		abbreviation = "abr3"
-		category = art_big_rocket_module
+		category = art_rocket_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_big_rocket_gen2
 
-		allowed_module_categories = {
-			#conversion_type_slot = { big_rocket_conversion_type }
-			special_type_slot_1 = { big_rocket_ammo_module }
-			special_type_slot_2 = { big_rocket_ammo_module }
-			special_type_slot_3 = { big_rocket_ammo_module }
-		}
+		allow_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 51
@@ -1900,28 +970,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 5
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 5
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 5
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1933,16 +987,12 @@ equipment_modules = {
 
 	art_big_rocket_gen4 = {
 		abbreviation = "abr4"
-		category = art_big_rocket_module
+		category = art_rocket_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_big_rocket_gen3
 
-		allowed_module_categories = {
-			#conversion_type_slot = { big_rocket_conversion_type }
-			special_type_slot_1 = { big_rocket_ammo_module }
-			special_type_slot_2 = { big_rocket_ammo_module }
-			special_type_slot_3 = { big_rocket_ammo_module }
-		}
+		allow_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 65
@@ -1956,28 +1006,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 6
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 6
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 6
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -1989,16 +1023,12 @@ equipment_modules = {
 
 	art_big_rocket_gen5 = {
 		abbreviation = "abr5"
-		category = art_big_rocket_module
+		category = art_rocket_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = art_big_rocket_gen4
 
-		allowed_module_categories = {
-			#conversion_type_slot = { big_rocket_conversion_type }
-			special_type_slot_1 = { big_rocket_ammo_module }
-			special_type_slot_2 = { big_rocket_ammo_module }
-			special_type_slot_3 = { big_rocket_ammo_module }
-		}
+		allow_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
 			soft_attack = 80
@@ -2012,28 +1042,12 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = art_small_gun_module
-			convert_cost_ic = 7
+			module_category = art_gun_armament
+			convert_cost_ic = 1.25
 		}
 		can_convert_from = {
-			module_category = art_medium_gun_module
-			convert_cost_ic = 7
-		}
-		can_convert_from = {
-			module_category = art_big_gun_module
-			convert_cost_ic = 7
-		}
-		can_convert_from = {
-			module_category = art_small_rocket_module
-			convert_cost_ic = 7
-		}
-		can_convert_from = {
-			module_category = art_medium_rocket_module
-			convert_cost_ic = 7
-		}
-		can_convert_from = {
-			module_category = art_big_rocket_module
-			convert_cost_ic = 7
+			module_category = art_rocket_armament
+			convert_cost_ic = 1.25
 		}
 
 		build_cost_resources = {
@@ -2048,6 +1062,13 @@ equipment_modules = {
 		abbreviation = "ab1"
 		category = art_battlestation_module
 		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			anti_air
+			flame
+			amphibious
+		}
 
 		add_stats = {
 			build_cost_ic = 1
@@ -2070,6 +1091,13 @@ equipment_modules = {
 		category = art_battlestation_module
 		sfx = sfx_ui_sd_module_turret
 		parent = art_battlestation_gen1
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			anti_air
+			flame
+			amphibious
+		}
 
 		add_stats = {
 			build_cost_ic = 1.5
@@ -2092,6 +1120,13 @@ equipment_modules = {
 		category = art_battlestation_module
 		sfx = sfx_ui_sd_module_turret
 		parent = art_battlestation_gen2
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			anti_air
+			flame
+			amphibious
+		}
 
 		add_stats = {
 			build_cost_ic = 2
@@ -2114,6 +1149,13 @@ equipment_modules = {
 		category = art_battlestation_module
 		sfx = sfx_ui_sd_module_turret
 		parent = art_battlestation_gen3
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			anti_air
+			flame
+			amphibious
+		}
 
 		add_stats = {
 			build_cost_ic = 2.5
@@ -2135,7 +1177,7 @@ equipment_modules = {
 	# AT gun
 	direct_fire_conversion = {
 		abbreviation = "dfc"
-		category = small_gun_conversion_type
+		category = art_gun_conversions
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -2154,7 +1196,7 @@ equipment_modules = {
 
 	direct_fire_conversion_medium = {
 		abbreviation = "dfcm"
-		category = medium_gun_conversion_type
+		category = art_gun_conversions
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -2173,7 +1215,7 @@ equipment_modules = {
 
 	mortar_barrel_conversion_small = {
 		abbreviation = "mbcs"
-		category = small_gun_conversion_type
+		category = art_gun_conversions
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -2209,7 +1251,7 @@ equipment_modules = {
 	# Gun barrel instead of howitzer
 	gun_barrel_conversion = {
 		abbreviation = "gbc"
-		category = medium_gun_conversion_type
+		category = art_gun_conversions
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -2227,7 +1269,7 @@ equipment_modules = {
 	# Mortar type round
 	mortar_barrel_conversion = {
 		abbreviation = "mbc"
-		category = big_gun_conversion_type
+		category = art_gun_conversions
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -2247,7 +1289,7 @@ equipment_modules = {
 	# Thermobaric ammo
 	thermobaric_ammo_conversion = {
 		abbreviation = "tac"
-		category = medium_rocket_conversion_type
+		category = art_rocket_conversions
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -2263,7 +1305,7 @@ equipment_modules = {
 
 	thermobaric_ammo_conversion_small = {
 		abbreviation = "tac"
-		category = small_rocket_conversion_type
+		category = art_rocket_conversions
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -2280,7 +1322,7 @@ equipment_modules = {
 	# Double-caliber ammo
 	double_caliber_ammo_conversion = {
 		abbreviation = "dcac"
-		category = medium_rocket_conversion_type
+		category = art_rocket_conversions
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -2295,133 +1337,10 @@ equipment_modules = {
 		xp_cost = 3
 	}
 
-	## Small rocket ammo
-	fire_ammo_rocket_small_gen1 = {
-		abbreviation = "far1"
-		category = small_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 1
-		}
-		multiply_stats = {
-			soft_attack = 0.125
-			hard_attack = -0.625
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = small_rocket_ammo_module
-			convert_cost_ic = 1.25
-		}
-	}
-
-	fire_ammo_rocket_small_gen2 = {
-		abbreviation = "far2"
-		category = small_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = fire_ammo_rocket_small_gen1
-
-		add_stats = {
-			build_cost_ic = 1.35
-		}
-		multiply_stats = {
-			soft_attack = 0.18
-			hard_attack = -0.5
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = small_rocket_ammo_module
-			convert_cost_ic = 1.75
-		}
-	}
-
-	fire_ammo_rocket_small_gen3 = {
-		abbreviation = "far3"
-		category = small_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = fire_ammo_rocket_small_gen2
-
-		add_stats = {
-			build_cost_ic = 1.7
-		}
-		multiply_stats = {
-			soft_attack = 0.25
-			hard_attack = -0.60
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = small_rocket_ammo_module
-			convert_cost_ic = 2
-		}
-	}
-
-	cluster_ammo_rocket_small_gen1 = {
-		abbreviation = "car1"
-		category = small_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 1
-		}
-		multiply_stats = {
-			soft_attack = 0.063
-			defense = 0.1
-			breakthrough = 0.1
-			hard_attack = -0.62
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = small_rocket_ammo_module
-			convert_cost_ic = 1.25
-		}
-	}
-
-	cluster_ammo_rocket_small_gen2 = {
-		abbreviation = "carm2"
-		category = small_rocket_ammo_module
-		parent = cluster_ammo_rocket_small_gen1
-
-		add_stats = {
-			build_cost_ic = 1.35
-		}
-		multiply_stats = {
-			soft_attack = 0.15
-			defense = 0.07
-			breakthrough = 0.07
-			hard_attack = -0.44
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = small_rocket_ammo_module
-			convert_cost_ic = 1.5
-		}
-	}
-
-	cluster_ammo_rocket_small_gen3 = {
-		abbreviation = "carm3"
-		category = small_rocket_ammo_module
-		parent = cluster_ammo_rocket_small_gen2
-
-		add_stats = {
-			build_cost_ic = 1.7
-		}
-		multiply_stats = {
-			soft_attack = 0.19
-			defense = 0.1
-			breakthrough = 0.05
-			hard_attack = -0.31
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = small_rocket_ammo_module
-			convert_cost_ic = 2
-		}
-	}
-
 	## Medium rocket ammo
-	mine_rocket_med_gen1 = {
+	mine_ammo_gen1 = {
 		abbreviation = "mr1"
-		category = medium_rocket_ammo_module
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -2435,16 +1354,16 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = medium_rocket_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 1.25
 		}
 	}
 
-	mine_rocket_med_gen2 = {
+	mine_ammo_gen2 = {
 		abbreviation = "mr2"
-		category = medium_rocket_ammo_module
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
-		parent = mine_rocket_med_gen1
+		parent = mine_ammo_gen1
 
 		add_stats = {
 			build_cost_ic = 1
@@ -2457,16 +1376,16 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = medium_rocket_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 1.25
 		}
 	}
 
-	mine_rocket_med_gen3 = {
+	mine_ammo_gen3 = {
 		abbreviation = "mr3"
-		category = medium_rocket_ammo_module
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
-		parent = mine_rocket_med_gen2
+		parent = mine_ammo_gen2
 
 		add_stats = {
 			build_cost_ic = 1.25
@@ -2479,142 +1398,18 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = medium_rocket_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 1.5
 		}
 	}
 
-	cluster_ammo_rocket_medium_gen1 = {
-		abbreviation = "carm1"
-		category = medium_rocket_ammo_module
+	thermo_ammo_gen1 = {
+		abbreviation = "mr1"
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			build_cost_ic = 0.7
-		}
-		multiply_stats = {
-			soft_attack = 0.062
-			defense = 0.1
-			breakthrough = 0.1
-			hard_attack = -0.188
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = medium_rocket_ammo_module
-			convert_cost_ic = 1
-		}
-	}
-
-	cluster_ammo_rocket_medium_gen2 = {
-		abbreviation = "carm2"
-		category = medium_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = cluster_ammo_rocket_medium_gen1
-
-		add_stats = {
-			build_cost_ic = 1.1
-		}
-		multiply_stats = {
-			soft_attack = 0.087
-			defense = 0.14
-			breakthrough = 0.16
-			hard_attack = -0.18
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = medium_rocket_ammo_module
-			convert_cost_ic = 1.35
-		}
-	}
-
-	cluster_ammo_rocket_medium_gen3 = {
-		abbreviation = "carm3"
-		category = medium_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = cluster_ammo_rocket_medium_gen2
-
-		add_stats = {
-			build_cost_ic = 1.5
-		}
-		multiply_stats = {
-			soft_attack = 0.15
-			defense = 0.18
-			breakthrough = 0.22
-			hard_attack = -0.187
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = medium_rocket_ammo_module
-			convert_cost_ic = 1.75
-		}
-	}
-
-	laser_ammo_rocket_medium_gen1 = {
-		abbreviation = "lagm1"
-		category = medium_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 1.5
-		}
-		multiply_stats = {
-			hard_attack = 0.15
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = medium_rocket_ammo_module
-			convert_cost_ic = 1.75
-		}
-	}
-
-	laser_ammo_rocket_medium_gen2 = {
-		abbreviation = "lagm2"
-		category = medium_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = laser_ammo_rocket_medium_gen1
-
-		add_stats = {
-			build_cost_ic = 2
-		}
-		multiply_stats = {
-			soft_attack = 0.025
-			hard_attack = 0.187
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = medium_rocket_ammo_module
-			convert_cost_ic = 2.25
-		}
-	}
-
-	laser_ammo_rocket_medium_gen3 = {
-		abbreviation = "lagm3"
-		category = medium_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = laser_ammo_rocket_medium_gen2
-
-		add_stats = {
-			build_cost_ic = 2.5
-		}
-		multiply_stats = {
-			soft_attack = 0.05
-			hard_attack = 0.225
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = medium_rocket_ammo_module
-			convert_cost_ic = 2.75
-		}
-	}
-
-	## Big rocket ammo
-	mine_rocket_big_gen1 = {
-		abbreviation = "mrb1"
-		category = big_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 1
+			build_cost_ic = 0.75
 		}
 		multiply_stats = {
 			soft_attack = -0.038
@@ -2624,302 +1419,59 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = big_rocket_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 1.25
 		}
 	}
 
-	mine_rocket_big_gen2 = {
-		abbreviation = "mrb2"
-		category = big_rocket_ammo_module
+	thermo_ammo_gen2 = {
+		abbreviation = "mr2"
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
-		parent = mine_rocket_big_gen1
+		parent = thermo_ammo_gen1
 
 		add_stats = {
-			build_cost_ic = 1.5
+			build_cost_ic = 1
 		}
 		multiply_stats = {
-			soft_attack = -0.037
-			hard_attack = 0.3
-			defense = 0.23
-			breakthrough = -0.1
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = big_rocket_ammo_module
-			convert_cost_ic = 1.75
-		}
-	}
-
-	mine_rocket_big_gen3 = {
-		abbreviation = "mrb3"
-		category = big_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = mine_rocket_big_gen2
-
-		add_stats = {
-			build_cost_ic = 2
-		}
-		multiply_stats = {
-			soft_attack = -0.037
-			hard_attack = 0.375
+			soft_attack = -0.023
+			hard_attack = 0.26
 			defense = 0.25
 			breakthrough = -0.1
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = big_rocket_ammo_module
-			convert_cost_ic = 2.25
-		}
-	}
-
-	cluster_ammo_rocket_big_gen1 = {
-		abbreviation = "carm1"
-		category = big_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 1
-		}
-		multiply_stats = {
-			soft_attack = 0.062
-			defense = 0.1
-			breakthrough = 0.1
-			hard_attack = -0.187
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = big_rocket_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 1.25
 		}
 	}
 
-	cluster_ammo_rocket_big_gen2 = {
-		abbreviation = "carm2"
-		category = big_rocket_ammo_module
+	thermo_ammo_gen3 = {
+		abbreviation = "mr3"
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
-		parent = cluster_ammo_rocket_big_gen1
-
-		add_stats = {
-			build_cost_ic = 1
-		}
-		multiply_stats = {
-			soft_attack = 0.095
-			defense = 0.125
-			breakthrough = 0.125
-			hard_attack = -0.187
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = big_rocket_ammo_module
-			convert_cost_ic = 1.25
-		}
-	}
-
-	cluster_ammo_rocket_big_gen3 = {
-		abbreviation = "carm3"
-		category = big_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = cluster_ammo_rocket_big_gen2
-
-		add_stats = {
-			build_cost_ic = 1
-		}
-		multiply_stats = {
-			soft_attack = 0.15
-			defense = 0.15
-			breakthrough = 0.15
-			hard_attack = -0.187
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = big_rocket_ammo_module
-			convert_cost_ic = 1.25
-		}
-	}
-
-	heat_ammo_rocket_big_gen1 = {
-		abbreviation = "harm1"
-		category = big_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 1
-		}
-		multiply_stats = {
-			soft_attack = -0.03
-			hard_attack = 0.25
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = big_rocket_ammo_module
-			convert_cost_ic = 1.25
-		}
-	}
-
-	heat_ammo_rocket_big_gen2 = {
-		abbreviation = "harm2"
-		category = big_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = heat_ammo_rocket_big_gen1
-
-		add_stats = {
-			build_cost_ic = 1
-		}
-		multiply_stats = {
-			soft_attack = -0.03
-			hard_attack = 0.33
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = big_rocket_ammo_module
-			convert_cost_ic = 1.25
-		}
-	}
-
-	heat_ammo_rocket_big_gen3 = {
-		abbreviation = "harm3"
-		category = big_rocket_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = heat_ammo_rocket_big_gen2
-
-		add_stats = {
-			build_cost_ic = 1
-		}
-		multiply_stats = {
-			soft_attack = -0.03
-			hard_attack = 0.41
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = big_rocket_ammo_module
-			convert_cost_ic = 1.25
-		}
-	}
-
-	## Small gun ammo
-	support_ammo_small_gen1 = {
-		abbreviation = "sas1"
-		category = small_gun_ammo_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 0.5
-		}
-		multiply_stats = {
-			defense = 0.1
-			breakthrough = 0.1
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = small_gun_ammo_module
-			convert_cost_ic = 1.25
-		}
-	}
-
-	support_ammo_small_gen2 = {
-		abbreviation = "sas2"
-		category = small_gun_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = support_ammo_small_gen1
-
-		add_stats = {
-			build_cost_ic = 0.75
-		}
-		multiply_stats = {
-			defense = 0.15
-			breakthrough = 0.15
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = small_gun_ammo_module
-			convert_cost_ic = 1.25
-		}
-	}
-
-	support_ammo_small_gen3 = {
-		abbreviation = "sas3"
-		category = small_gun_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = support_ammo_small_gen2
-
-		add_stats = {
-			build_cost_ic = 1
-		}
-		multiply_stats = {
-			defense = 0.2
-			breakthrough = 0.2
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = small_gun_ammo_module
-			convert_cost_ic = 1.25
-		}
-	}
-
-	heat_ammo_gun_small_gen1 = {
-		abbreviation = "hags1"
-		category = small_gun_ammo_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 0.75
-		}
-		multiply_stats = {
-			soft_attack = -0.075
-			hard_attack = 0.075
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = small_gun_ammo_module
-			convert_cost_ic = 1
-		}
-	}
-
-	heat_ammo_gun_small_gen2 = {
-		abbreviation = "hags2"
-		category = small_gun_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = heat_ammo_gun_small_gen1
-
-		add_stats = {
-			build_cost_ic = 1
-		}
-		multiply_stats = {
-			soft_attack = -0.075
-			hard_attack = 0.11
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = small_gun_ammo_module
-			convert_cost_ic = 1
-		}
-	}
-
-	heat_ammo_gun_small_gen3 = {
-		abbreviation = "hags3"
-		category = small_gun_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = heat_ammo_gun_small_gen2
+		parent = thermo_ammo_gen2
 
 		add_stats = {
 			build_cost_ic = 1.25
 		}
 		multiply_stats = {
-			soft_attack = -0.075
-			hard_attack = 0.15
+			soft_attack = -0.013
+			hard_attack = 0.3
+			defense = 0.3
+			breakthrough = -0.1
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = small_gun_ammo_module
-			convert_cost_ic = 1
+			module_category = art_ammo_variants
+			convert_cost_ic = 1.5
 		}
 	}
 
 	## Medium gun ammo
-	support_ammo_medium_gen1 = {
+	support_ammo_gen1 = {
 		abbreviation = "sam1"
-		category = medium_gun_ammo_module
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -2931,16 +1483,16 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = medium_gun_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 0.75
 		}
 	}
 
-	support_ammo_medium_gen2 = {
+	support_ammo_gen2 = {
 		abbreviation = "sam2"
-		category = medium_gun_ammo_module
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
-		parent = support_ammo_medium_gen1
+		parent = support_ammo_gen1
 
 		add_stats = {
 			build_cost_ic = 0.75
@@ -2951,16 +1503,16 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = medium_gun_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 1
 		}
 	}
 
-	support_ammo_medium_gen3 = {
+	support_ammo_gen3 = {
 		abbreviation = "sam3"
-		category = medium_gun_ammo_module
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
-		parent = support_ammo_medium_gen2
+		parent = support_ammo_gen2
 
 		add_stats = {
 			build_cost_ic = 1
@@ -2971,14 +1523,14 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = medium_gun_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 1.25
 		}
 	}
 
-	heat_ammo_gun_medium_gen1 = {
+	heat_ammo_gen1 = {
 		abbreviation = "hagm1"
-		category = medium_gun_ammo_module
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -2990,16 +1542,16 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = medium_gun_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 0.8
 		}
 	}
 
-	heat_ammo_gun_medium_gen2 = {
+	heat_ammo_gen2 = {
 		abbreviation = "hagm2"
-		category = medium_gun_ammo_module
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
-		parent = heat_ammo_gun_medium_gen1
+		parent = heat_ammo_gen1
 
 		add_stats = {
 			build_cost_ic = 0.9
@@ -3010,16 +1562,16 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = medium_gun_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 1.1
 		}
 	}
 
-	heat_ammo_gun_medium_gen3 = {
+	heat_ammo_gen3 = {
 		abbreviation = "hagm3"
-		category = medium_gun_ammo_module
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
-		parent = heat_ammo_gun_medium_gen2
+		parent = heat_ammo_gen2
 
 		add_stats = {
 			build_cost_ic = 1.2
@@ -3030,14 +1582,14 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = medium_gun_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 1.4
 		}
 	}
 
-	cluster_ammo_gun_medium_gen1 = {
+	cluster_ammo_gen1 = {
 		abbreviation = "carm1"
-		category = medium_gun_ammo_module
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -3051,16 +1603,16 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = medium_gun_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 0.8
 		}
 	}
 
-	cluster_ammo_gun_medium_gen2 = {
+	cluster_ammo_gen2 = {
 		abbreviation = "carm2"
-		category = medium_gun_ammo_module
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
-		parent = cluster_ammo_gun_medium_gen1
+		parent = cluster_ammo_gen1
 
 		add_stats = {
 			build_cost_ic = 0.9
@@ -3073,16 +1625,16 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = medium_gun_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 1.1
 		}
 	}
 
-	cluster_ammo_gun_medium_gen3 = {
+	cluster_ammo_gen3 = {
 		abbreviation = "carm3"
-		category = medium_gun_ammo_module
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
-		parent = cluster_ammo_gun_medium_gen2
+		parent = cluster_ammo_gen2
 
 		add_stats = {
 			build_cost_ic = 1.2
@@ -3095,14 +1647,14 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = medium_gun_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 1.4
 		}
 	}
 
-	laser_ammo_gun_medium_gen1 = {
+	laser_guide_ammo_gen1 = {
 		abbreviation = "lagm1"
-		category = medium_gun_ammo_module
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -3114,16 +1666,16 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = medium_gun_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 1
 		}
 	}
 
-	laser_ammo_gun_medium_gen2 = {
+	laser_guide_ammo_gen2 = {
 		abbreviation = "lagm2"
-		category = medium_gun_ammo_module
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
-		parent = laser_ammo_gun_medium_gen1
+		parent = laser_guide_ammo_gen1
 
 		add_stats = {
 			build_cost_ic = 1.25
@@ -3134,16 +1686,16 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = medium_gun_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 1.5
 		}
 	}
 
-	laser_ammo_gun_medium_gen3 = {
+	laser_guide_ammo_gen3 = {
 		abbreviation = "lagm3"
-		category = medium_gun_ammo_module
+		category = art_ammo_variants
 		sfx = sfx_ui_sd_module_turret
-		parent = laser_ammo_gun_medium_gen2
+		parent = laser_guide_ammo_gen2
 
 		add_stats = {
 			build_cost_ic = 1.6
@@ -3154,137 +1706,11 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		can_convert_from = {
-			module_category = medium_gun_ammo_module
+			module_category = art_ammo_variants
 			convert_cost_ic = 1.8
 		}
 	}
 
-	rocket_assisted_ammo_gun_medium_gen1 = {
-		abbreviation = "raagm1"
-		category = medium_gun_ammo_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 0.6
-		}
-		multiply_stats = {
-			soft_attack = 0.125
-			hard_attack = 0.02
-			defense = -0.1
-			breakthrough = -0.1
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = medium_gun_ammo_module
-			convert_cost_ic = 0.8
-		}
-	}
-
-	rocket_assisted_ammo_gun_medium_gen2 = {
-		abbreviation = "raagm2"
-		category = medium_gun_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = rocket_assisted_ammo_gun_medium_gen1
-
-		add_stats = {
-			build_cost_ic = 0.8
-		}
-		multiply_stats = {
-			soft_attack = 0.16
-			hard_attack = 0.02
-			defense = -0.1
-			breakthrough = -0.1
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = medium_gun_ammo_module
-			convert_cost_ic = 1
-		}
-	}
-
-	rocket_assisted_ammo_gun_medium_gen3 = {
-		abbreviation = "raagm3"
-		category = medium_gun_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = rocket_assisted_ammo_gun_medium_gen2
-
-		add_stats = {
-			build_cost_ic = 1
-		}
-		multiply_stats = {
-			soft_attack = 0.2
-			hard_attack = 0.05
-			defense = -0.1
-			breakthrough = -0.1
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = medium_gun_ammo_module
-			convert_cost_ic = 1.2
-		}
-	}
-
-	## Big Gun ammo
-	rocket_assisted_ammo_gun_big_gen1 = {
-		abbreviation = "raagb1"
-		category = big_gun_ammo_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 2
-		}
-		multiply_stats = {
-			soft_attack = 0.06
-			hard_attack = 0.03
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = big_gun_ammo_module
-			convert_cost_ic = 3.25
-		}
-	}
-
-	rocket_assisted_ammo_gun_big_gen2 = {
-		abbreviation = "raagb2"
-		category = big_gun_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = rocket_assisted_ammo_gun_big_gen1
-
-		add_stats = {
-			build_cost_ic = 2.5
-		}
-		multiply_stats = {
-			soft_attack = 0.075
-			hard_attack = 0.075
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = big_gun_ammo_module
-			convert_cost_ic = 3.25
-		}
-	}
-
-	rocket_assisted_ammo_gun_big_gen3 = {
-		abbreviation = "raagb3"
-		category = big_gun_ammo_module
-		sfx = sfx_ui_sd_module_turret
-		parent = rocket_assisted_ammo_gun_big_gen2
-
-		add_stats = {
-			build_cost_ic = 3.5
-		}
-		multiply_stats = {
-			soft_attack = 0.125
-			hard_attack = 0.075
-		}
-		xp_cost = 3
-		can_convert_from = {
-			module_category = big_gun_ammo_module
-			convert_cost_ic = 3.25
-		}
-	}
-
-	## Medium gun features
 	burst_fire_gun_medium_gen1 = {
 		abbreviation = "bfgm1"
 		category = medium_gun_feature_module
@@ -3415,9 +1841,16 @@ equipment_modules = {
 		category = spaa_missile_systems
 		sfx = sfx_ui_sd_module_turret
 
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_auxiliary_autocannon_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3446,9 +1879,16 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_missiles_1
 
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_auxiliary_autocannon_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3477,9 +1917,16 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_missiles_2
 
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_auxiliary_autocannon_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3508,9 +1955,16 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_missiles_3
 
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_auxiliary_autocannon_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3539,9 +1993,16 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_missiles_4
 
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_auxiliary_autocannon_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3565,12 +2026,19 @@ equipment_modules = {
 
 	spaa_short_range_missiles_1 = {
 		abbreviation = "ssrm1"
-		category = spaa_short_range_missile_systems
+		category = spaa_missile_systems
 		sfx = sfx_ui_sd_module_turret
 
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_auxiliary_autocannon_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3592,13 +2060,20 @@ equipment_modules = {
 
 	spaa_short_range_missiles_2 = {
 		abbreviation = "ssrm2"
-		category = spaa_short_range_missile_systems
+		category = spaa_missile_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_short_range_missiles_1
 
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_auxiliary_autocannon_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3620,13 +2095,20 @@ equipment_modules = {
 
 	spaa_short_range_missiles_3 = {
 		abbreviation = "ssrm3"
-		category = spaa_short_range_missile_systems
+		category = spaa_missile_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_short_range_missiles_2
 
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_auxiliary_autocannon_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3648,13 +2130,20 @@ equipment_modules = {
 
 	spaa_short_range_missiles_4 = {
 		abbreviation = "ssrm4"
-		category = spaa_short_range_missile_systems
+		category = spaa_missile_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_short_range_missiles_3
 
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_auxiliary_autocannon_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3676,13 +2165,20 @@ equipment_modules = {
 
 	spaa_short_range_missiles_5 = {
 		abbreviation = "ssrm5"
-		category = spaa_short_range_missile_systems
+		category = spaa_missile_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_short_range_missiles_4
 
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_auxiliary_autocannon_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3703,8 +2199,21 @@ equipment_modules = {
 
 	spaa_long_range_missiles_1 = {
 		abbreviation = "slrm1"
-		category = spaa_long_range_missile_systems
+		category = spaa_missile_systems
 		sfx = sfx_ui_sd_module_turret
+
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_air
+
+		allowed_module_categories = {
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
+			}
+		}
 
 		add_stats = {
 			air_attack = 11.5
@@ -3724,9 +2233,22 @@ equipment_modules = {
 
 	spaa_long_range_missiles_2 = {
 		abbreviation = "slrm2"
-		category = spaa_long_range_missile_systems
+		category = spaa_missile_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_long_range_missiles_1
+
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_air
+
+		allowed_module_categories = {
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
+			}
+		}
 
 		add_stats = {
 			air_attack = 14
@@ -3746,9 +2268,22 @@ equipment_modules = {
 
 	spaa_long_range_missiles_3 = {
 		abbreviation = "slrm3"
-		category = spaa_long_range_missile_systems
+		category = spaa_missile_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_long_range_missiles_2
+
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_air
+
+		allowed_module_categories = {
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
+			}
+		}
 
 		add_stats = {
 			air_attack = 16.5
@@ -3768,9 +2303,21 @@ equipment_modules = {
 
 	spaa_long_range_missiles_4 = {
 		abbreviation = "slrm4"
-		category = spaa_long_range_missile_systems
+		category = spaa_missile_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_long_range_missiles_3
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_air
+
+		allowed_module_categories = {
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
+			}
+		}
 
 		add_stats = {
 			air_attack = 19
@@ -3790,9 +2337,22 @@ equipment_modules = {
 
 	spaa_long_range_missiles_5 = {
 		abbreviation = "slrm5"
-		category = spaa_long_range_missile_systems
+		category = spaa_missile_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_long_range_missiles_4
+
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_air
+
+		allowed_module_categories = {
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
+			}
+		}
 
 		add_stats = {
 			air_attack = 21.5
@@ -3815,9 +2375,15 @@ equipment_modules = {
 		category = spaa_autocannon_systems
 		sfx = sfx_ui_sd_module_turret
 
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_support_missile_system_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3840,9 +2406,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_autocannon_1
 
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_support_missile_system_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3865,9 +2437,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_autocannon_2
 
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_support_missile_system_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3890,9 +2468,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_autocannon_3
 
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_support_missile_system_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3915,9 +2499,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_autocannon_4
 
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_support_missile_system_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3936,12 +2526,18 @@ equipment_modules = {
 
 	spaa_light_autocannon1 = {
 		abbreviation = "smg1"
-		category = spaa_light_autocannon_systems
+		category = spaa_autocannon_systems
 		sfx = sfx_ui_sd_module_turret
 
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_support_missile_system_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3956,13 +2552,19 @@ equipment_modules = {
 
 	spaa_light_autocannon2 = {
 		abbreviation = "smg2"
-		category = spaa_light_autocannon_systems
+		category = spaa_autocannon_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_light_autocannon1
 
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_support_missile_system_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3977,13 +2579,19 @@ equipment_modules = {
 
 	spaa_light_autocannon3 = {
 		abbreviation = "smg3"
-		category = spaa_light_autocannon_systems
+		category = spaa_autocannon_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_light_autocannon2
 
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_support_missile_system_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -3998,13 +2606,19 @@ equipment_modules = {
 
 	spaa_light_autocannon4 = {
 		abbreviation = "smg4"
-		category = spaa_light_autocannon_systems
+		category = spaa_autocannon_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_light_autocannon3
 
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_support_missile_system_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -4019,13 +2633,19 @@ equipment_modules = {
 
 	spaa_light_autocannon5 = {
 		abbreviation = "smg5"
-		category = spaa_light_autocannon_systems
+		category = spaa_autocannon_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_light_autocannon4
 
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_support_missile_system_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -4040,12 +2660,18 @@ equipment_modules = {
 
 	spaa_naval_cannon_1 = {
 		abbreviation = "snc1"
-		category = spaa_naval_cannon_systems
+		category = spaa_autocannon_systems
 		sfx = sfx_ui_sd_module_turret
 
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_support_missile_system_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -4070,13 +2696,19 @@ equipment_modules = {
 
 	spaa_naval_cannon_2 = {
 		abbreviation = "snc2"
-		category = spaa_naval_cannon_systems
+		category = spaa_autocannon_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_naval_cannon_1
 
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_support_missile_system_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -4101,13 +2733,19 @@ equipment_modules = {
 
 	spaa_naval_cannon_3 = {
 		abbreviation = "snc3"
-		category = spaa_naval_cannon_systems
+		category = spaa_autocannon_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_naval_cannon_2
 
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_support_missile_system_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -4132,13 +2770,19 @@ equipment_modules = {
 
 	spaa_naval_cannon_4 = {
 		abbreviation = "snc4"
-		category = spaa_naval_cannon_systems
+		category = spaa_autocannon_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_naval_cannon_3
 
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_support_missile_system_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -4163,13 +2807,19 @@ equipment_modules = {
 
 	spaa_naval_cannon_5 = {
 		abbreviation = "snc5"
-		category = spaa_naval_cannon_systems
+		category = spaa_autocannon_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_naval_cannon_4
 
+		allow_equipment_type = anti_air
+
 		allowed_module_categories = {
-			spaa_secondary_armament = {
-				spaa_support_missile_system_category
+			special_type_slot_4 = {
+				tank_additional_armor_era
+				tank_additional_armor_spaced
+				spaa_radar_systems
+				spaa_optical_guidance_systems
+				spaa_off_vehicle_radar_systems
 			}
 		}
 
@@ -4197,6 +2847,14 @@ equipment_modules = {
 		abbreviation = "sab1"
 		category = spaa_battlestation_modules
 		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			flame
+			amphibious
+			artillery
+			rocket
+		}
 
 		add_stats = {
 			build_cost_ic = 1
@@ -4220,6 +2878,14 @@ equipment_modules = {
 		category = spaa_battlestation_modules
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_battlestation_gen1
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			flame
+			amphibious
+			artillery
+			rocket
+		}
 
 		add_stats = {
 			build_cost_ic = 1.25
@@ -4243,6 +2909,14 @@ equipment_modules = {
 		category = spaa_battlestation_modules
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_battlestation_gen2
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			flame
+			amphibious
+			artillery
+			rocket
+		}
 
 		add_stats = {
 			build_cost_ic = 1.5
@@ -4266,6 +2940,14 @@ equipment_modules = {
 		category = spaa_battlestation_modules
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_battlestation_gen3
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			flame
+			amphibious
+			artillery
+			rocket
+		}
 
 		add_stats = {
 			build_cost_ic = 1.75
@@ -4289,6 +2971,14 @@ equipment_modules = {
 		category = spaa_battlestation_modules
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_battlestation_gen4
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			flame
+			amphibious
+			artillery
+			rocket
+		}
 
 		add_stats = {
 			build_cost_ic = 2
@@ -4313,6 +3003,15 @@ equipment_modules = {
 		category = spaa_radar_systems
 		sfx = sfx_ui_sd_module_turret
 
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
+
 		add_stats = {
 			build_cost_ic = 2
 		}
@@ -4330,6 +3029,15 @@ equipment_modules = {
 		category = spaa_radar_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_radar_gen1
+
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
 
 		add_stats = {
 			build_cost_ic = 2.5
@@ -4349,6 +3057,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_radar_gen2
 
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
+
 		add_stats = {
 			build_cost_ic = 3
 		}
@@ -4367,6 +3084,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_radar_gen3
 
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
+
 		add_stats = {
 			build_cost_ic = 3.5
 		}
@@ -4384,6 +3110,15 @@ equipment_modules = {
 		category = spaa_radar_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_radar_gen4
+
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
 
 		add_stats = {
 			build_cost_ic = 4
@@ -4493,6 +3228,15 @@ equipment_modules = {
 		category = spaa_off_vehicle_radar_systems
 		sfx = sfx_ui_sd_module_turret
 
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
+
 		add_stats = {
 			build_cost_ic = 1.5
 		}
@@ -4511,6 +3255,15 @@ equipment_modules = {
 		category = spaa_off_vehicle_radar_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_off_vehicle_radar_gen1
+
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
 
 		add_stats = {
 			build_cost_ic = 1.875
@@ -4531,6 +3284,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_off_vehicle_radar_gen2
 
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
+
 		add_stats = {
 			build_cost_ic = 2.25
 		}
@@ -4549,6 +3311,15 @@ equipment_modules = {
 		category = spaa_off_vehicle_radar_systems
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_off_vehicle_radar_gen3
+
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
 
 		add_stats = {
 			build_cost_ic = 2.625
@@ -4569,6 +3340,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_off_vehicle_radar_gen4
 
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
+
 		add_stats = {
 			build_cost_ic = 3
 		}
@@ -4586,6 +3366,15 @@ equipment_modules = {
 		abbreviation = "spaam1"
 		category = spaa_support_missile_system_category
 		sfx = sfx_ui_sd_module_turret
+
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
 
 		add_stats = {
 			hard_attack = 1.1
@@ -4607,6 +3396,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_support_missile_system_1
 
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
+
 		add_stats = {
 			hard_attack = 1.4
 			ap_attack = 7.5
@@ -4626,6 +3424,15 @@ equipment_modules = {
 		category = spaa_support_missile_system_category
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_support_missile_system_2
+
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
 
 		add_stats = {
 			hard_attack = 1.6
@@ -4647,6 +3454,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_support_missile_system_3
 
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
+
 		add_stats = {
 			hard_attack = 1.9
 			ap_attack = 10.5
@@ -4667,6 +3483,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_support_missile_system_4
 
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
+
 		add_stats = {
 			hard_attack = 2.25
 			ap_attack = 12
@@ -4686,6 +3511,15 @@ equipment_modules = {
 		category = spaa_auxiliary_autocannon_category
 		sfx = sfx_ui_sd_module_turret
 
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
+
 		add_stats = {
 			soft_attack = 2
 			air_attack = 1.5
@@ -4701,6 +3535,15 @@ equipment_modules = {
 		category = spaa_auxiliary_autocannon_category
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_auxiliary_autocannon_1
+
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
 
 		add_stats = {
 			soft_attack = 2.5
@@ -4718,6 +3561,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_auxiliary_autocannon_2
 
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
+
 		add_stats = {
 			soft_attack = 3
 			air_attack = 2.25
@@ -4733,6 +3585,15 @@ equipment_modules = {
 		category = spaa_auxiliary_autocannon_category
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_auxiliary_autocannon_3
+
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
 
 		add_stats = {
 			soft_attack = 3.5
@@ -4750,6 +3611,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_auxiliary_autocannon_4
 
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
+
 		add_stats = {
 			soft_attack = 4
 			air_attack = 3
@@ -4764,6 +3634,15 @@ equipment_modules = {
 		abbreviation = "saha1"
 		category = spaa_auxiliary_autocannon_category
 		sfx = sfx_ui_sd_module_turret
+
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
 
 		add_stats = {
 			soft_attack = 5
@@ -4785,6 +3664,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_auxiliary_heavy_autocannon_1
 
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
+
 		add_stats = {
 			soft_attack = 6.25
 			hard_attack = 0.9
@@ -4804,6 +3692,15 @@ equipment_modules = {
 		category = spaa_auxiliary_autocannon_category
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_auxiliary_heavy_autocannon_2
+
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
 
 		add_stats = {
 			soft_attack = 7.5
@@ -4825,6 +3722,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_auxiliary_heavy_autocannon_3
 
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
+
 		add_stats = {
 			soft_attack = 8.75
 			hard_attack = 1.3
@@ -4845,6 +3751,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = spaa_auxiliary_heavy_autocannon_4
 
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			flame
+			amphibious
+			rocket
+		}
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 1.5
@@ -4855,315 +3770,6 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			steel = 1
-		}
-		xp_cost = 3
-	}
-
-	spaa_coax_machinegun_1 = {
-		abbreviation = "scm1"
-		category = spaa_coax_machinegun_category
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			soft_attack = 1.5
-			air_attack = 0.2
-			build_cost_ic = 0.1
-			reliability = -0.01
-		}
-		xp_cost = 3
-	}
-	## Chassis
-	spaa_chassis_truck_gen0 = {
-		abbreviation = "sct0"
-		category = spaa_chassis_truck_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 0.5
-			defense = 2
-			breakthrough = 1
-		}
-		multiply_stats = {
-			hardness = -0.8
-			maximum_speed = 0.15
-		}
-		build_cost_resources = {
-			rubber = 1
-		}
-		xp_cost = 3
-	}
-	spaa_chassis_truck_gen1 = {
-		abbreviation = "sct1"
-		category = spaa_chassis_truck_module
-		sfx = sfx_ui_sd_module_turret
-		parent = spaa_chassis_truck_gen0
-
-		add_stats = {
-			build_cost_ic = 0.625
-			defense = 2.5
-			breakthrough = 1.25
-		}
-		multiply_stats = {
-			hardness = -0.8
-			maximum_speed = 0.15
-		}
-		build_cost_resources = {
-			rubber = 1
-		}
-		xp_cost = 3
-	}
-	spaa_chassis_truck_gen2 = {
-		abbreviation = "sct2"
-		category = spaa_chassis_truck_module
-		sfx = sfx_ui_sd_module_turret
-		parent = spaa_chassis_truck_gen1
-
-		add_stats = {
-			build_cost_ic = 0.75
-			defense = 3
-			breakthrough = 1.5
-		}
-		multiply_stats = {
-			hardness = -0.8
-			maximum_speed = 0.15
-		}
-		build_cost_resources = {
-			rubber = 1
-		}
-		xp_cost = 3
-	}
-	spaa_chassis_truck_gen3 = {
-		abbreviation = "sct3"
-		category = spaa_chassis_truck_module
-		sfx = sfx_ui_sd_module_turret
-		parent = spaa_chassis_truck_gen2
-
-		add_stats = {
-			build_cost_ic = 0.875
-			defense = 3.5
-			breakthrough = 1.75
-		}
-		multiply_stats = {
-			hardness = -0.8
-			maximum_speed = 0.15
-		}
-		build_cost_resources = {
-			rubber = 1
-		}
-		xp_cost = 3
-	}
-	spaa_chassis_truck_gen4 = {
-		abbreviation = "sct4"
-		category = spaa_chassis_truck_module
-		sfx = sfx_ui_sd_module_turret
-		parent = spaa_chassis_truck_gen3
-
-		add_stats = {
-			build_cost_ic = 1
-			defense = 4
-			breakthrough = 2
-		}
-		multiply_stats = {
-			hardness = -0.8
-			maximum_speed = 0.15
-		}
-		build_cost_resources = {
-			rubber = 1
-		}
-		xp_cost = 3
-	}
-
-	spaa_chassis_afv_gen0 = {
-		abbreviation = "sca0"
-		category = spaa_chassis_afv_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			armor_value = 8
-			build_cost_ic = 1.6
-			defense = 4
-			breakthrough = 4
-			maximum_speed = -1.5
-		}
-		build_cost_resources = {
-			aluminium = 2
-		}
-		xp_cost = 3
-	}
-	spaa_chassis_afv_gen1 = {
-		abbreviation = "sca1"
-		category = spaa_chassis_afv_module
-		sfx = sfx_ui_sd_module_turret
-		parent = spaa_chassis_afv_gen0
-
-		add_stats = {
-			armor_value = 10
-			build_cost_ic = 2
-			defense = 5
-			breakthrough = 5
-			maximum_speed = -1.5
-		}
-		build_cost_resources = {
-			aluminium = 2
-		}
-		xp_cost = 3
-	}
-	spaa_chassis_afv_gen2 = {
-		abbreviation = "sca2"
-		category = spaa_chassis_afv_module
-		sfx = sfx_ui_sd_module_turret
-		parent = spaa_chassis_afv_gen1
-
-		add_stats = {
-			armor_value = 12
-			build_cost_ic = 2.4
-			defense = 6
-			breakthrough = 6
-			maximum_speed = -1.5
-		}
-		build_cost_resources = {
-			aluminium = 2
-		}
-		xp_cost = 3
-	}
-	spaa_chassis_afv_gen3 = {
-		abbreviation = "sca3"
-		category = spaa_chassis_afv_module
-		sfx = sfx_ui_sd_module_turret
-		parent = spaa_chassis_afv_gen2
-
-		add_stats = {
-			armor_value = 14
-			build_cost_ic = 2.8
-			defense = 7
-			breakthrough = 7
-			maximum_speed = -1.5
-		}
-		build_cost_resources = {
-			aluminium = 2
-		}
-		xp_cost = 3
-	}
-	spaa_chassis_afv_gen4 = {
-		abbreviation = "sca4"
-		category = spaa_chassis_afv_module
-		sfx = sfx_ui_sd_module_turret
-		parent = spaa_chassis_afv_gen3
-
-		add_stats = {
-			armor_value = 16
-			build_cost_ic = 3.2
-			defense = 8
-			breakthrough = 8
-			maximum_speed = -1.5
-		}
-		build_cost_resources = {
-			aluminium = 2
-		}
-		xp_cost = 3
-	}
-
-	spaa_chassis_tank_gen0 = {
-		abbreviation = "scta0"
-		category = spaa_chassis_tank_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			armor_value = 40
-			build_cost_ic = 4
-			defense = 12
-			breakthrough = 16
-			maximum_speed = -3
-		}
-		multiply_stats = {
-			hardness = 0.5
-		}
-		build_cost_resources = {
-			steel = 3
-		}
-		xp_cost = 3
-	}
-	spaa_chassis_tank_gen1 = {
-		abbreviation = "scta1"
-		category = spaa_chassis_tank_module
-		sfx = sfx_ui_sd_module_turret
-		parent = spaa_chassis_tank_gen0
-
-		add_stats = {
-			armor_value = 50
-			build_cost_ic = 5
-			defense = 15
-			breakthrough = 20
-			maximum_speed = -3
-		}
-		multiply_stats = {
-			hardness = 0.5
-		}
-		build_cost_resources = {
-			steel = 3
-		}
-		xp_cost = 3
-	}
-	spaa_chassis_tank_gen2 = {
-		abbreviation = "scta2"
-		category = spaa_chassis_tank_module
-		sfx = sfx_ui_sd_module_turret
-		parent = spaa_chassis_tank_gen1
-
-		add_stats = {
-			armor_value = 60
-			build_cost_ic = 6
-			defense = 18
-			breakthrough = 24
-			maximum_speed = -3
-		}
-		multiply_stats = {
-			hardness = 0.5
-		}
-		build_cost_resources = {
-			steel = 3
-		}
-		xp_cost = 3
-	}
-	spaa_chassis_tank_gen3 = {
-		abbreviation = "scta3"
-		category = spaa_chassis_tank_module
-		sfx = sfx_ui_sd_module_turret
-		parent = spaa_chassis_tank_gen2
-
-		add_stats = {
-			armor_value = 70
-			build_cost_ic = 7
-			defense = 21
-			breakthrough = 28
-			maximum_speed = -3
-		}
-		multiply_stats = {
-			hardness = 0.5
-		}
-		build_cost_resources = {
-			steel = 3
-		}
-		xp_cost = 3
-	}
-	spaa_chassis_tank_gen4 = {
-		abbreviation = "scta4"
-		category = spaa_chassis_tank_module
-		sfx = sfx_ui_sd_module_turret
-		parent = spaa_chassis_tank_gen3
-
-		add_stats = {
-			armor_value = 80
-			build_cost_ic = 8
-			defense = 24
-			breakthrough = 32
-			maximum_speed = -3
-		}
-		multiply_stats = {
-			hardness = 0.5
-		}
-		build_cost_resources = {
-			steel = 3
 		}
 		xp_cost = 3
 	}

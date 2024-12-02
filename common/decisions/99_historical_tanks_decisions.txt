@@ -25,19 +25,19 @@ historical_tanks_category = {
 			army_experience = -20
 			create_equipment_variant = {
 				name = "T-90M"
-				type = mbt_hull_2
+				type = medium_tank_chassis_2
 				modules = {
 					main_armament_slot = tank_medium_cannon_3
 					turret_type_slot = tank_soviet_turret
-					suspension_type_slot = tank_torsion_bar_suspension
+					suspension_type_slot = tank_torsion_bar_suspension_heavy
 					armor_type_slot = tank_composite_armor_gen2
 					engine_type_slot = tank_diesel_engine_gen5
-					reload_type_slot = automatic_loading
+					reload_type_slot = cannon_automatic_loading
 					special_type_slot_1 = smoke_launchers_2
-					special_type_slot_2 = additional_machine_guns
+					secondary_armament_slot = coax_machine_gun
 					special_type_slot_3 = smoothbore_atgm_gen3
-					special_type_slot_4 = tank_battlestation_3
-					special_type_slot_5 = reactive_armor_gen3
+					battlestation_type_slot = tank_battlestation_3
+					special_type_slot_4 = reactive_armor_gen3
 				}
 				upgrades = {
 					tank_nsb_armor_upgrade = 2
@@ -76,19 +76,19 @@ historical_tanks_category = {
 			army_experience = -20
 			create_equipment_variant = {
 				name = "T-72B3"
-				type = mbt_hull_1
+				type = medium_tank_chassis_1
 				modules = {
 					main_armament_slot = tank_medium_cannon_2
 					turret_type_slot = tank_soviet_turret
-					suspension_type_slot = tank_torsion_bar_suspension
+					suspension_type_slot = tank_torsion_bar_suspension_heavy
 					armor_type_slot = tank_composite_armor_gen2
 					engine_type_slot = tank_diesel_engine_gen4
-					reload_type_slot = automatic_loading
+					reload_type_slot = cannon_automatic_loading
 					special_type_slot_1 = smoke_launchers
-					special_type_slot_2 = additional_machine_guns
+					secondary_armament_slot = coax_machine_gun
 					special_type_slot_3 = smoothbore_atgm_gen2
-					special_type_slot_4 = tank_battlestation_3
-					special_type_slot_5 = reactive_armor_gen2
+					battlestation_type_slot = tank_battlestation_3
+					special_type_slot_4 = reactive_armor_gen2
 				}
 				upgrades = {
 					tank_nsb_armor_upgrade = 3
@@ -129,19 +129,19 @@ historical_tanks_category = {
 			army_experience = -20
 			create_equipment_variant = {
 				name = "T-72B3m2016"
-				type = mbt_hull_1
+				type = medium_tank_chassis_1
 				modules = {
 					main_armament_slot = tank_medium_cannon_3
 					turret_type_slot = tank_soviet_turret
-					suspension_type_slot = tank_torsion_bar_suspension
+					suspension_type_slot = tank_torsion_bar_suspension_heavy
 					armor_type_slot = tank_composite_armor_gen2
 					engine_type_slot = tank_diesel_engine_gen5
-					reload_type_slot = automatic_loading
+					reload_type_slot = cannon_automatic_loading
 					special_type_slot_1 = smoke_launchers
-					special_type_slot_2 = additional_machine_guns
+					secondary_armament_slot = coax_machine_gun
 					special_type_slot_3 = smoothbore_atgm_gen2
-					special_type_slot_4 = tank_battlestation_3
-					special_type_slot_5 = reactive_armor_gen3
+					battlestation_type_slot = tank_battlestation_3
+					special_type_slot_4 = reactive_armor_gen3
 				}
 				upgrades = {
 					tank_nsb_armor_upgrade = 3
@@ -182,19 +182,19 @@ historical_tanks_category = {
 			army_experience = -20
 			create_equipment_variant = {
 				name = "T-80BVM"
-				type = mbt_hull_1
+				type = medium_tank_chassis_1
 				modules = {
 					main_armament_slot = tank_medium_cannon_3
 					turret_type_slot = tank_soviet_turret
-					suspension_type_slot = tank_torsion_bar_suspension
+					suspension_type_slot = tank_torsion_bar_suspension_heavy
 					armor_type_slot = tank_composite_armor_gen2
 					engine_type_slot = tank_gas_turbine_engine_gen5
-					reload_type_slot = automatic_loading
+					reload_type_slot = cannon_automatic_loading
 					special_type_slot_1 = smoke_launchers_2
-					special_type_slot_2 = additional_machine_guns
+					secondary_armament_slot = coax_machine_gun
 					special_type_slot_3 = smoothbore_atgm_gen3
-					special_type_slot_4 = tank_battlestation_3
-					special_type_slot_5 = reactive_armor_gen3
+					battlestation_type_slot = tank_battlestation_3
+					special_type_slot_4 = reactive_armor_gen3
 				}
 				upgrades = {
 					tank_nsb_armor_upgrade = 2
@@ -236,19 +236,19 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "T-14 Armata"
-				type = mbt_hull_3
+				type = medium_tank_chassis_3
 				modules = {
 					main_armament_slot = tank_medium_cannon_3
-					turret_type_slot = tank_unmanned_turret
-					suspension_type_slot = tank_torsion_bar_suspension
+					turret_type_slot = unmanned_turret
+					suspension_type_slot = tank_torsion_bar_suspension_heavy
 					armor_type_slot = tank_composite_armor_gen3
 					engine_type_slot = tank_diesel_engine_gen5
-					reload_type_slot = automatic_loading
+					reload_type_slot = cannon_automatic_loading
 					special_type_slot_1 = smoke_launchers_2
-					special_type_slot_2 = additional_machine_guns
+					secondary_armament_slot = coax_machine_gun
 					special_type_slot_3 = hardkill_system_gen1
-					special_type_slot_4 = tank_battlestation_4
-					special_type_slot_5 = reactive_armor_gen3
+					battlestation_type_slot = tank_battlestation_4
+					special_type_slot_4 = reactive_armor_gen3
 				}
 				upgrades = {
 					tank_nsb_armor_upgrade = 2
@@ -287,19 +287,19 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "T-14/152 Armata"
-				type = mbt_hull_3
+				type = medium_tank_chassis_3
 				modules = {
 					main_armament_slot = tank_very_large_cannon
-					turret_type_slot = tank_unmanned_turret
-					suspension_type_slot = tank_torsion_bar_suspension
+					turret_type_slot = unmanned_turret
+					suspension_type_slot = tank_torsion_bar_suspension_heavy
 					armor_type_slot = tank_composite_armor_gen3
 					engine_type_slot = tank_diesel_engine_gen5
-					reload_type_slot = automatic_loading
+					reload_type_slot = cannon_automatic_loading
 					special_type_slot_1 = smoke_launchers_2
-					special_type_slot_2 = additional_machine_guns
+					secondary_armament_slot = coax_machine_gun
 					special_type_slot_3 = hardkill_system_gen1
-					special_type_slot_4 = tank_battlestation_4
-					special_type_slot_5 = reactive_armor_gen3
+					battlestation_type_slot = tank_battlestation_4
+					special_type_slot_4 = reactive_armor_gen3
 				}
 				upgrades = {
 					tank_nsb_armor_upgrade = 2
@@ -330,7 +330,6 @@ historical_tanks_category = {
 			has_tech = big_autocannon_tech_3
 			has_tech = diesel_engine_tech_5
 			has_tech = tank_components_tech_3
-			has_tech = afv_tech_3
 			has_tech = armor_tech_3
 			has_tech = Heavy_Anti_tank_3
 		}
@@ -340,23 +339,23 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "T-15"
-				type = ifv_hull_3
+				type = medium_tank_flame_chassis_3
 				modules = {
 					main_armament_slot = big_autocannon_3
-					turret_type_slot = afv_unmanned_turret
-					suspension_type_slot = afv_torsion_bar_suspension
-					armor_type_slot = afv_composite_armor_gen3
+					turret_type_slot = unmanned_turret
+					suspension_type_slot = tank_torsion_bar_suspension_medium
+					armor_type_slot = light_composite_armor_gen3
 					engine_type_slot = tank_diesel_engine_gen5
-					special_armament_type_slot = afv_coax_machine_gun_3
+					secondary_armament_slot = coax_machine_gun_3
 					special_type_slot_1 = afv_atgm_gen4
 					special_type_slot_2 = smoke_launchers_2
 					special_type_slot_3 = afv_mine_protection
-					special_type_slot_4 = afv_battlestation_3
+					battlestation_type_slot = tank_battlestation_3
 				}
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_ifv_hull_3_a"
+				icon = "GFX_medium_tank_flame_chassis_3_a"
 			}
 		}
 
@@ -379,7 +378,6 @@ historical_tanks_category = {
 		available = {
 			has_tech = infantry_weapons4
 			has_tech = diesel_engine_tech_4
-			has_tech = afv_tech_3
 			has_tech = Heavy_Anti_tank_3
 			has_tech = tank_components_tech_3
 		}
@@ -389,23 +387,23 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "Kurganets-25"
-				type = apc_hull_3
+				type = medium_tank_amphibious_chassis_3
 				modules = {
 					main_armament_slot = afv_machine_gun_3
-					turret_type_slot = afv_unmanned_turret
-					suspension_type_slot = afv_torsion_bar_suspension
-					armor_type_slot = afv_alum_armor_gen3
+					turret_type_slot = unmanned_turret
+					suspension_type_slot = tank_torsion_bar_suspension_medium
+					armor_type_slot = alum_armor_gen3
 					engine_type_slot = tank_diesel_engine_gen4
-					special_type_slot_replacement = afv_additional_machine_guns
+					reload_type_slot = manual_loading
 					special_type_slot_1 = afv_gun_ports
 					special_type_slot_2 = afv_mine_protection
 					special_type_slot_3 = afv_atgm_gen4
-					special_type_slot_4 = afv_battlestation_3
+					battlestation_type_slot = tank_battlestation_3
 				}
 				upgrades = {
 					afv_nsb_armor_upgrade = 3
 				}
-				icon = "GFX_apc_hull_3_a"
+				icon = "GFX_medium_tank_amphibious_chassis_3_a"
 			}
 		}
 
@@ -434,21 +432,21 @@ historical_tanks_category = {
 			army_experience = -20
 			create_equipment_variant = {
 				name = "2S33 Msta-SM2"
-				type = spart_hull_2
+				type = medium_tank_artillery_chassis_2
 				modules = {
-					arty_main_armament_slot = art_med_gun_gen2
-					chassis_type_slot = chassis_tank_gen1
+					main_armament_slot = art_med_gun_gen2
+					suspension_type_slot = tank_torsion_bar_suspension_heavy
 					engine_type_slot = tank_diesel_engine_gen3
-					conversion_type_slot = empty
-					special_type_slot_1 = support_ammo_medium_gen2
-					special_type_slot_2 = heat_ammo_gun_medium_gen2
-					special_type_slot_3 = rocket_assisted_ammo_gun_medium_gen2
-					special_type_slot_4 = art_battlestation_gen3
+					special_type_slot_4 = empty
+					special_type_slot_1 = support_ammo_gen2
+					special_type_slot_2 = heat_ammo_gen2
+					special_type_slot_3 = empty
+					battlestation_type_slot = art_battlestation_gen3
 				}
 				upgrades = {
-					art_nsb_fire_upgrade = 3
+					afv_nsb_armor_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 
@@ -479,21 +477,21 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "2S35 Koalitsiya-SV"
-				type = spart_hull_3
+				type = medium_tank_artillery_chassis_3
 				modules = {
-					arty_main_armament_slot = art_med_gun_gen3
-					chassis_type_slot = chassis_tank_gen2
+					main_armament_slot = art_med_gun_gen3
+					suspension_type_slot = tank_torsion_bar_suspension_heavy
 					engine_type_slot = tank_diesel_engine_gen4
-					conversion_type_slot = empty
-					special_type_slot_1 = support_ammo_medium_gen3
-					special_type_slot_2 = heat_ammo_gun_medium_gen2
-					special_type_slot_3 = rocket_assisted_ammo_gun_medium_gen2
-					special_type_slot_4 = art_battlestation_gen3
+					special_type_slot_4 = empty
+					special_type_slot_1 = support_ammo_gen3
+					special_type_slot_2 = heat_ammo_gen2
+					special_type_slot_3 = empty
+					battlestation_type_slot = art_battlestation_gen3
 				}
 				upgrades = {
-					art_nsb_fire_upgrade = 3
+					afv_nsb_armor_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 
@@ -514,7 +512,6 @@ historical_tanks_category = {
 		}
 
 		available = {
-			has_tech = light_tank_tech_2
 			has_tech = diesel_engine_tech_4
 			has_tech = tank_components_tech_3
 		}
@@ -524,20 +521,20 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "2S25 Sprut-SD"
-				type = light_tank_hull_2
+				type = medium_tank_destroyer_chassis_2
 				parent_version = 0
 				modules = {
 					main_armament_slot = tank_small_medium_cannon_2
 					turret_type_slot = tank_base_tank_turret
-					chassis_type_slot = chassis_tracked_afv_gen2
+					suspension_type_slot = tank_torsion_bar_suspension_light
 					engine_type_slot = tank_diesel_engine_gen4
-					armor_type_slot = afv_alum_armor_gen2
-					reload_type_slot = automatic_loading
-					special_armament_type_slot = additional_machine_guns
+					armor_type_slot = alum_armor_gen2
+					reload_type_slot = cannon_automatic_loading
+					secondary_armament_slot = coax_machine_gun
 					special_type_slot_1 = smoke_launchers_2
 					special_type_slot_2 = empty
 					special_type_slot_3 = empty
-					special_type_slot_4 = afv_battlestation_3
+					battlestation_type_slot = tank_battlestation_3
 				}
 				upgrades = {
 					afv_nsb_armor_upgrade = 1
@@ -563,7 +560,6 @@ historical_tanks_category = {
 		}
 
 		available = {
-			has_tech = light_tank_tech_2
 			has_tech = diesel_engine_tech_4
 			has_tech = tank_components_tech_3
 		}
@@ -573,20 +569,20 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "BMPT Terminator"
-				type = light_tank_hull_2
+				type = medium_tank_destroyer_chassis_2
 				parent_version = 0
 				modules = {
-					main_armament_slot = apc_small_autocannon_2
-					turret_type_slot = afv_unmanned_turret
-					chassis_type_slot = chassis_light_tank_gen1
+					main_armament_slot = small_autocannon_2
+					turret_type_slot = unmanned_turret
+					suspension_type_slot = tank_torsion_bar_suspension_medium
 					engine_type_slot = tank_diesel_engine_gen4
-					armor_type_slot = afv_composite_armor_gen2
-					reload_type_slot = light_tank_afv_automatic_loading
-					special_armament_type_slot = empty
+					armor_type_slot = light_composite_armor_gen2
+					reload_type_slot = autocannon_cannon_automatic_loading
+					secondary_armament_slot = empty
 					special_type_slot_1 = smoke_launchers_2
 					special_type_slot_2 = reactive_armor_gen2
 					special_type_slot_3 = empty
-					special_type_slot_4 = afv_battlestation_3
+					battlestation_type_slot = tank_battlestation_3
 				}
 				upgrades = {
 					afv_nsb_armor_upgrade = 2
@@ -622,18 +618,18 @@ historical_tanks_category = {
 			army_experience = -20
 			create_equipment_variant = {
 				name = "M1A2 SEPv3"
-				type = mbt_hull_2
+				type = medium_tank_chassis_2
 				modules = {
 					main_armament_slot = tank_medium_cannon_2
 					turret_type_slot = tank_base_tank_turret
-					suspension_type_slot = tank_torsion_bar_suspension
+					suspension_type_slot = tank_torsion_bar_suspension_heavy
 					armor_type_slot = tank_composite_armor_gen3
 					engine_type_slot = tank_gas_turbine_engine_gen4
 					reload_type_slot = manual_loading
-					special_type_slot_1 = tank_aux_engine_2
+					special_type_slot_1 = empty
 					special_type_slot_2 = smoke_launchers_2
 					special_type_slot_3 = wet_ammo_storage
-					special_type_slot_4 = tank_battlestation_4
+					battlestation_type_slot = tank_battlestation_4
 				}
 				upgrades = {
 					tank_nsb_armor_upgrade = 9
@@ -661,7 +657,6 @@ historical_tanks_category = {
 		}
 
 		available = {
-			has_tech = light_tank_tech_3
 			has_tech = diesel_engine_tech_4
 			has_tech = tank_components_tech_3
 			has_tech = small_medium_gun_tech_3
@@ -672,19 +667,19 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "M10 Booker"
-				type = light_tank_hull_3
+				type = medium_tank_destroyer_chassis_3
 				modules = {
 					main_armament_slot = tank_small_medium_cannon_3
 					turret_type_slot = tank_base_tank_turret
-					chassis_type_slot = chassis_light_tank_gen2
+					suspension_type_slot = tank_pneumatic_suspension_light
 					engine_type_slot = tank_diesel_engine_gen4
-					armor_type_slot = afv_composite_armor_gen2
+					armor_type_slot = light_composite_armor_gen2
 					reload_type_slot = manual_loading
-					special_armament_type_slot = additional_machine_guns
+					secondary_armament_slot = coax_machine_gun
 					special_type_slot_1 = smoke_launchers_2
 					special_type_slot_2 = empty
 					special_type_slot_3 = empty
-					special_type_slot_4 = afv_battlestation_3
+					battlestation_type_slot = tank_battlestation_3
 				}
 				upgrades = {
 					afv_nsb_armor_upgrade = 3
@@ -719,22 +714,22 @@ historical_tanks_category = {
 			log = "[GetDateText]: [Root.GetName]: Decision new_paladin_decision"
 			army_experience = -35
 			create_equipment_variant = {
-				name = "M142 HIMARS"
-				type = spart_hull_2
+				name = "M109A6 Paladin"
+				type = medium_tank_artillery_chassis_2
 				modules = {
-					arty_main_armament_slot = art_med_rocket_gen2
-					chassis_type_slot = chassis_truck_gen3
+					main_armament_slot = art_med_gun_gen2
+					suspension_type_slot = tank_torsion_bar_suspension_medium
 					engine_type_slot = tank_diesel_engine_gen3
-					conversion_type_slot = empty
-					special_type_slot_1 = cluster_ammo_rocket_medium_gen2
-					special_type_slot_2 = mine_rocket_med_gen2
-					special_type_slot_3 = laser_ammo_rocket_medium_gen2
-					special_type_slot_4 = art_battlestation_gen3
+					special_type_slot_4 = empty
+					special_type_slot_1 = support_ammo_gen2
+					special_type_slot_2 = cluster_ammo_gen2
+					special_type_slot_3 = laser_guide_ammo_gen2
+					battlestation_type_slot = art_battlestation_gen3
 				}
 				upgrades = {
-					art_nsb_fire_upgrade = 2
+					afv_nsb_armor_upgrade = 3
 				}
-				icon = "GFX_USA_spart_hull_1_a"
+				icon = "GFX_USA_medium_tank_artillery_chassis_1_a"
 			}
 		}
 
@@ -756,7 +751,6 @@ historical_tanks_category = {
 
 		available = {
 			has_tech = tank_components_tech_2
-			has_tech = afv_tech_2
 			has_tech = small_medium_gun_tech_2
 		}
 
@@ -765,18 +759,18 @@ historical_tanks_category = {
 			army_experience = -20
 			create_equipment_variant = {
 				name = "M1128"
-				type = ifv_hull_1
+				type = medium_tank_flame_chassis_1
 				modules = {
 					main_armament_slot = afv_small_medium_cannon_2
 					turret_type_slot = afv_base_turret
-					suspension_type_slot = afv_tracked_suspension
-					armor_type_slot = afv_steel_armor_gen2
+					suspension_type_slot = wheeled_suspension_medium
+					armor_type_slot = tank_steel_armor_gen2
 					engine_type_slot = tank_diesel_engine_gen3
 					special_type_slot_1 = smoke_launchers_2
 					special_type_slot_2 = empty
-					special_type_slot_3 = afv_additional_machine_guns
-					special_type_slot_4 = afv_battlestation_2
-					special_slot_type_5 = empty
+					special_type_slot_3 = empty
+					battlestation_type_slot = tank_battlestation_2
+					special_slot_type_4 = empty
 				}
 				upgrades = {
 					afv_nsb_armor_upgrade = 2
@@ -814,19 +808,19 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "Type-99A"
-				type = mbt_hull_2
+				type = medium_tank_chassis_2
 				parent_version = 0
 				modules = {
 					main_armament_slot = tank_medium_cannon_2
 					turret_type_slot = tank_soviet_turret
-					suspension_type_slot = tank_torsion_bar_suspension
+					suspension_type_slot = tank_torsion_bar_suspension_heavy
 					armor_type_slot = tank_composite_armor_gen2
 					engine_type_slot = tank_diesel_engine_gen5
-					reload_type_slot = automatic_loading
-					special_type_slot_1 = additional_machine_guns
+					reload_type_slot = cannon_automatic_loading
+					secondary_armament_slot = coax_machine_gun
 					special_type_slot_2 = smoke_launchers_2
-					special_type_slot_4 = tank_battlestation_3
-					special_type_slot_5 = reactive_armor_gen2
+					battlestation_type_slot = tank_battlestation_3
+					special_type_slot_4 = reactive_armor_gen2
 				}
 				upgrades = {
 					tank_nsb_armor_upgrade = 4
@@ -861,21 +855,21 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "PLZ-05"
-				type = spart_hull_2
+				type = medium_tank_artillery_chassis_2
 				modules = {
-					arty_main_armament_slot = art_med_gun_gen2
-					chassis_type_slot = chassis_afv_gen2
+					main_armament_slot = art_med_gun_gen2
+					suspension_type_slot = tank_torsion_bar_suspension_medium
 					engine_type_slot = tank_diesel_engine_gen2
-					conversion_type_slot = empty
-					special_type_slot_1 = support_ammo_medium_gen2
-					special_type_slot_2 = laser_ammo_gun_medium_gen2
-					special_type_slot_3 = cluster_ammo_gun_medium_gen2
-					special_type_slot_4 = art_battlestation_gen3
+					special_type_slot_4 = empty
+					special_type_slot_1 = support_ammo_gen2
+					special_type_slot_2 = laser_guide_ammo_gen2
+					special_type_slot_3 = cluster_ammo_gen2
+					battlestation_type_slot = art_battlestation_gen3
 				}
 				upgrades = {
-					art_nsb_fire_upgrade = 3
+					afv_nsb_armor_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 
@@ -910,19 +904,19 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "Type 10"
-				type = mbt_hull_3
+				type = medium_tank_chassis_3
 				modules = {
 					main_armament_slot = tank_medium_cannon_3
 					turret_type_slot = tank_base_tank_turret
-					suspension_type_slot = tank_pneumatic_suspension
+					suspension_type_slot = tank_pneumatic_suspension_heavy
 					armor_type_slot = tank_composite_armor_gen3
 					engine_type_slot = tank_diesel_engine_gen5
-					reload_type_slot = automatic_loading
-					special_type_slot_1 = tank_aux_engine_2
+					reload_type_slot = cannon_automatic_loading
+					special_type_slot_1 = empty
 					special_type_slot_2 = smoke_launchers_3
 					special_type_slot_3 = wet_ammo_storage
-					special_type_slot_4 = tank_battlestation_4
-					special_type_slot_5 = reactive_armor_gen3
+					battlestation_type_slot = tank_battlestation_4
+					special_type_slot_4 = reactive_armor_gen3
 				}
 				upgrades = {
 					tank_nsb_armor_upgrade = 1
@@ -952,7 +946,6 @@ historical_tanks_category = {
 
 		available = {
 			has_tech = tank_components_tech_2
-			has_tech = afv_tech_2
 			has_tech = small_autocannon_tech_2
 			has_tech = diesel_engine_tech_3
 			has_tech = small_autocannon_tech_2
@@ -964,19 +957,19 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "KTO Rosomak"
-				type = apc_hull_2
+				type = medium_tank_flame_chassis_2
 				modules = {
-					main_armament_slot = apc_small_autocannon_2
-					turret_type_slot = afv_unmanned_turret
-					suspension_type_slot = afv_torsion_bar_suspension
-					armor_type_slot = afv_steel_armor_gen2
+					main_armament_slot = small_autocannon_2
+					reload_type_slot = manual_loading
+					turret_type_slot = unmanned_turret
+					suspension_type_slot = tank_torsion_bar_suspension_medium
+					armor_type_slot = tank_steel_armor_gen2
 					engine_type_slot = tank_diesel_engine_gen3
-					special_type_slot_replacement = afv_additional_machine_guns
+					secondary_armament_slot = coax_machine_gun_2
 					special_type_slot_1 = smoke_launchers_2
 					special_type_slot_2 = afv_atgm_gen2
-					special_type_slot_3 = afv_additional_machine_guns
-					special_type_slot_4 = afv_battlestation_2
-					special_slot_type_5 = spaced_armor_gen2
+					special_type_slot_3 = spaced_armor_gen2
+					battlestation_type_slot = tank_battlestation_2
 				}
 				upgrades = {
 					afv_nsb_armor_upgrade = 2
@@ -1006,7 +999,6 @@ historical_tanks_category = {
 			has_tech = infantry_weapons4
 			has_tech = diesel_engine_tech_5
 			has_tech = tank_components_tech_3
-			has_tech = afv_tech_2
 			has_tech = armor_tech_2
 		}
 
@@ -1015,23 +1007,22 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "Namer"
-				type = apc_hull_2
+				type = medium_tank_amphibious_chassis_2
 				modules = {
 					main_armament_slot = afv_machine_gun_3
-					turret_type_slot = afv_unmanned_turret
-					suspension_type_slot = afv_torsion_bar_suspension
-					armor_type_slot = afv_composite_armor_gen3
+					turret_type_slot = unmanned_turret
+					suspension_type_slot = tank_torsion_bar_suspension_medium
+					armor_type_slot = light_composite_armor_gen3
 					engine_type_slot = tank_diesel_engine_gen5
-					special_armament_type_slot = empty
-					special_type_slot_1 = additional_machine_guns
+					secondary_armament_slot = coax_machine_gun
 					special_type_slot_2 = smoke_launchers_2
 					special_type_slot_3 = empty
-					special_type_slot_4 = afv_battlestation_2
+					battlestation_type_slot = tank_battlestation_2
 				}
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_apc_hull_3_a"
+				icon = "GFX_medium_tank_amphibious_chassis_3_a"
 			}
 		}
 
@@ -1056,7 +1047,6 @@ historical_tanks_category = {
 			has_tech = infantry_weapons4
 			has_tech = diesel_engine_tech_5
 			has_tech = tank_components_tech_3
-			has_tech = afv_tech_2
 			has_tech = armor_tech_3
 		}
 
@@ -1065,18 +1055,17 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "Eitan"
-				type = apc_hull_3
+				type = medium_tank_amphibious_chassis_3
 				modules = {
 					main_armament_slot = afv_machine_gun_3
-					turret_type_slot = afv_unmanned_turret
-					suspension_type_slot = afv_tracked_suspension
-					armor_type_slot = afv_alum_armor_gen3
+					turret_type_slot = unmanned_turret
+					suspension_type_slot = wheeled_suspension_medium
+					armor_type_slot = alum_armor_gen3
 					engine_type_slot = tank_diesel_engine_gen4
-					special_armament_type_slot = empty
-					special_type_slot_1 = additional_machine_guns
+					secondary_armament_slot = coax_machine_gun
 					special_type_slot_2 = smoke_launchers_2
 					special_type_slot_3 = hardkill_system_gen1
-					special_type_slot_4 = afv_battlestation_3
+					battlestation_type_slot = tank_battlestation_3
 				}
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
@@ -1114,19 +1103,19 @@ historical_tanks_category = {
 			army_experience = -20
 			create_equipment_variant = {
 				name = "T-64BM2 'Bulat'"
-				type = mbt_hull_1
+				type = medium_tank_chassis_1
 				modules = {
 					main_armament_slot = tank_medium_cannon_2
 					turret_type_slot = tank_base_tank_turret
-					suspension_type_slot = tank_torsion_bar_suspension
+					suspension_type_slot = tank_torsion_bar_suspension_heavy
 					armor_type_slot = tank_composite_armor_gen2
 					engine_type_slot = tank_diesel_engine_gen5
-					reload_type_slot = automatic_loading
+					reload_type_slot = cannon_automatic_loading
 					special_type_slot_1 = smoke_launchers_2
-					special_type_slot_2 = additional_machine_guns
+					secondary_armament_slot = coax_machine_gun
 					special_type_slot_3 = smoothbore_atgm_gen2
-					special_type_slot_4 = tank_battlestation_3
-					special_type_slot_5 = reactive_armor_gen2
+					battlestation_type_slot = tank_battlestation_3
+					special_type_slot_4 = reactive_armor_gen2
 				}
 				upgrades = {
 					tank_nsb_armor_upgrade = 4
@@ -1163,23 +1152,23 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "BTR-4"
-				type = ifv_hull_2
+				type = medium_tank_flame_chassis_2
 				modules = {
 					main_armament_slot = small_autocannon_2
-					turret_type_slot = afv_unmanned_turret
-					suspension_type_slot = afv_tracked_suspension
-					armor_type_slot = afv_steel_armor_gen2
+					turret_type_slot = unmanned_turret
+					suspension_type_slot = wheeled_suspension_medium
+					armor_type_slot = tank_steel_armor_gen2
 					engine_type_slot = tank_diesel_engine_gen3
-					special_armament_type_slot = afv_coax_machine_gun_2
+					secondary_armament_slot = coax_machine_gun_2
 					special_type_slot_1 = smoke_launchers_2
 					special_slot_type_2 = afv_atgm_gen2
 					special_slot_type_3 = additional_machine_guns
-					special_type_slot_4 = afv_battlestation_3
+					battlestation_type_slot = tank_battlestation_3
 				}
 				upgrades = {
 					afv_nsb_armor_upgrade = 3
 				}
-				icon = "GFX_ifv_hull_1_a"
+				icon = "GFX_medium_tank_flame_chassis_1_a"
 			}
 		}
 
@@ -1211,21 +1200,21 @@ historical_tanks_category = {
 			army_experience = -35
 			create_equipment_variant = {
 				name = "2C-22 Bohgana"
-				type = spart_hull_3
+				type = medium_tank_artillery_chassis_3
 				modules = {
-					arty_main_armament_slot = art_med_gun_gen3
-					chassis_type_slot = chassis_truck_gen2
+					main_armament_slot = art_med_gun_gen3
+					suspension_type_slot = wheeled_suspension_light
 					engine_type_slot = tank_diesel_engine_gen3
-					conversion_type_slot = empty
-					special_type_slot_1 = support_ammo_medium_gen3
-					special_type_slot_2 = heat_ammo_gun_medium_gen2
-					special_type_slot_3 = rocket_assisted_ammo_gun_medium_gen2
-					special_type_slot_4 = art_battlestation_gen3
+					special_type_slot_4 = empty
+					special_type_slot_1 = support_ammo_gen3
+					special_type_slot_2 = heat_ammo_gen2
+					special_type_slot_3 = empty
+					battlestation_type_slot = art_battlestation_gen3
 				}
 				upgrades = {
-					art_nsb_fire_upgrade = 3
+					afv_nsb_armor_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t_r"
+				icon = "GFX_medium_tank_artillery_chassis_2_t_r"
 			}
 		}
 

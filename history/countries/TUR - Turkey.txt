@@ -272,9 +272,10 @@
 		limit = { has_dlc = "No Step Back" }
 
 		set_technology = {
-			mbt_tech = 1
-			afv_tech = 1
-			afv_tech_1 = 1
+			mbt_tech_ops = 1
+            mbt_tech = 1
+
+
 			diesel_engine_tech = 1
 			diesel_engine_tech_2 = 1
 			tank_components_tech = 1
@@ -296,19 +297,20 @@
 
 		create_equipment_variant = {
 			name = "AAPC"
-			type = apc_hull_1
+			type = medium_tank_amphibious_chassis_1
 			parent_version = 1
 			modules = {
 				main_armament_slot = afv_machine_gun
 				turret_type_slot = afv_no_turret
-				suspension_type_slot = afv_torsion_bar_suspension
+				suspension_type_slot = tank_torsion_bar_suspension_medium
 				engine_type_slot = tank_diesel_engine_gen2
-				armor_type_slot = afv_alum_armor_gen2
+				reload_type_slot = manual_loading
+				armor_type_slot = alum_armor_gen2
 				special_type_slot_1 = afv_gun_ports
 				special_type_slot_2 = smoke_launchers_2
 				special_type_slot_3 = afv_reverse_doors
-				special_type_slot_4 = afv_battlestation_1
-				special_type_slot_5 = spaced_armor_gen1
+				battlestation_type_slot = tank_battlestation_1
+				special_type_slot_4 = spaced_armor_gen1
 			}
 			upgrades = {
 				afv_nsb_armor_upgrade = 2
@@ -317,19 +319,20 @@
 		}
 		create_equipment_variant = {
 			name = "AIFV"
-			type = apc_hull_1
+			type = medium_tank_amphibious_chassis_1
 			parent_version = 2
 			modules = {
-				main_armament_slot = apc_small_autocannon_2
+				main_armament_slot = small_autocannon_2
 				turret_type_slot = afv_base_turret
-				suspension_type_slot = afv_torsion_bar_suspension
+				suspension_type_slot = tank_torsion_bar_suspension_medium
 				engine_type_slot = tank_diesel_engine_gen2
-				armor_type_slot = afv_alum_armor_gen2
+				reload_type_slot = manual_loading
+				armor_type_slot = alum_armor_gen2
 				special_type_slot_1 = afv_gun_ports
 				special_type_slot_2 = smoke_launchers_2
 				special_type_slot_3 = afv_reverse_doors
-				special_type_slot_4 = afv_battlestation_1
-				special_type_slot_5 = spaced_armor_gen1
+				battlestation_type_slot = tank_battlestation_1
+				special_type_slot_4 = spaced_armor_gen1
 			}
 			upgrades = {
 				afv_nsb_armor_upgrade = 2
@@ -339,20 +342,23 @@
 
 		create_equipment_variant = {
 			name = "M52T"
-			type = spart_hull_0
+			type = medium_tank_artillery_chassis_0
 			parent_version = 0
 			modules = {
-				arty_main_armament_slot = art_med_gun_gen1
-				chassis_type_slot = chassis_afv_gen0
+				main_armament_slot = art_med_gun_gen1
+				reload_type_slot = manual_loading
+				armor_type_slot = tank_steel_armor_gen1
+				turret_type_slot = tank_base_tank_turret
+				suspension_type_slot = tank_torsion_bar_suspension_medium
 				engine_type_slot = tank_diesel_engine_gen1
-				conversion_type_slot = empty
 				special_type_slot_4 = empty
+				battlestation_type_slot = empty
 			}
 			upgrades = {
-				art_nsb_fire_upgrade = 0
+				afv_nsb_armor_upgrade = 0
 			}
 			obsolete = yes
-			icon = "GFX_USA_spart_hull_1_a"
+			icon = "GFX_USA_medium_tank_artillery_chassis_1_a"
 		}
 
 		complete_special_project = sp:sp_armoured_vehicle_project
@@ -634,7 +640,6 @@
 		TUR_party_rumours
 		TUR_PKK_insurgency_ceasefire
 		TUR_rise_of_fp
-		NATO_idea_Nuclear_sharing_Groupe
 	}
 
 	#Cyber
@@ -993,7 +998,8 @@
 		limit = { has_dlc = "No Step Back" }
 
 		set_technology = {
-			mbt_tech = 1
+			mbt_tech_ops = 1
+            mbt_tech = 1
 			mbt_tech_1 = 1
 			mbt_tech_2 = 1
 			tank_components_tech = 1
