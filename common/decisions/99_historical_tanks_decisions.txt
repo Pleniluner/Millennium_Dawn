@@ -770,7 +770,7 @@ historical_tanks_category = {
 					special_type_slot_2 = empty
 					special_type_slot_3 = empty
 					battlestation_type_slot = tank_battlestation_2
-					special_slot_type_5 = empty
+					special_slot_type_4 = empty
 				}
 				upgrades = {
 					afv_nsb_armor_upgrade = 2
@@ -969,7 +969,7 @@ historical_tanks_category = {
 					special_type_slot_2 = afv_atgm_gen2
 					special_type_slot_3 = empty
 					battlestation_type_slot = tank_battlestation_2
-					special_slot_type_5 = spaced_armor_gen2
+					special_slot_type_4 = spaced_armor_gen2
 				}
 				upgrades = {
 					afv_nsb_armor_upgrade = 2
