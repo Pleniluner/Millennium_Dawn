@@ -23,7 +23,6 @@ technologies = {
 	nsb_attack_helicopter_tech_1 = {
 		on_research_complete = {
 			log = "[GetDateText]: [Root.GetName]: add tech nsb_attack_helicopter_tech_1"
-			give_ai_helicopter_template_0 = yes
 		}
 		allow = {
 			ROOT = {
@@ -90,7 +89,6 @@ technologies = {
 	nsb_attack_helicopter_tech_2 = {
 		on_research_complete = {
 			log = "[GetDateText]: [Root.GetName]: add tech nsb_attack_helicopter_tech_2"
-			give_ai_helicopter_template_1 = yes
 		}
 		allow = {
 			ROOT = {
@@ -145,7 +143,6 @@ technologies = {
 	nsb_attack_helicopter_tech_3 = {
 		on_research_complete = {
 			log = "[GetDateText]: [Root.GetName]: add tech nsb_attack_helicopter_tech_3"
-			give_ai_helicopter_template_2 = yes
 		}
 		allow = {
 			ROOT = {
@@ -210,7 +207,6 @@ technologies = {
 	nsb_attack_helicopter_tech_4 = {
 		on_research_complete = {
 			log = "[GetDateText]: [Root.GetName]: add tech nsb_attack_helicopter_tech_4"
-			give_ai_helicopter_template_3 = yes
 		}
 		allow = {
 			ROOT = {
@@ -268,7 +264,6 @@ technologies = {
 	nsb_attack_helicopter_tech_5 = {
 		on_research_complete = {
 			log = "[GetDateText]: [Root.GetName]: add tech nsb_attack_helicopter_tech_5"
-			give_ai_helicopter_template_4 = yes
 		}
 		allow = {
 			ROOT = {
