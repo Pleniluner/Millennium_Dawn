@@ -1,16 +1,16 @@
-## Below are all the Nations using French graphics for their tank designer
-## France, United Arab Emirates
+## Below are all the Nations using English graphics for their tank designer
+## United Kingdom - United Kingdom, South Africa
 
-guiTypes = { #France
+guiTypes = { #United Kingdom
 	containerWindowType = {
-		name = "equipment_designer_mbt_hull_fra"
+		name = "equipment_designer_medium_tank_chassis_eng"
 		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 
 		iconType = {
 			name = "equipment_image_overlay"
-			spriteType = "GFX_TC_heavy_tank_chassis_fra"
+			spriteType = "GFX_TC_heavy_tank_chassis_eng"
 			position = { x=0 y=0 }
 		}
 
@@ -38,11 +38,17 @@ guiTypes = { #France
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_heavy_tank_chassis_main_armament_slot_fra"
+						spriteType = "GFX_TM_heavy_tank_chassis_main_armament_slot_eng"
 						position = { x=0 y=0 }
 					}
 				}
 
+			}
+
+			containerWindowType = {
+				name = "secondary_armament_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
 			}
 
 			################# MODULE SLOT: Turret #################
@@ -64,7 +70,7 @@ guiTypes = { #France
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_heavy_tank_chassis_turret_type_slot_fra"
+						spriteType = "GFX_TM_heavy_tank_chassis_turret_type_slot_eng"
 						position = { x=0 y=0 }
 					}
 				}
@@ -101,12 +107,17 @@ guiTypes = { #France
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
+				name = "battlestation_type_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+			}
+			containerWindowType = {
 				name = "special_type_slot_4"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 			}
 			containerWindowType = {
-				name = "special_type_slot_5"
+				name = "special_type_slot_6"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 			}
@@ -153,7 +164,7 @@ guiTypes = { #France
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_heavy_tank_chassis_suspension_type_slot_fra"
+						spriteType = "GFX_TM_heavy_tank_chassis_suspension_type_slot_eng"
 						position = { x=0 y=0 }
 					}
 				}
@@ -194,16 +205,16 @@ guiTypes = { #France
 	}
 }
 
-guiTypes = { #United Arab Emirates
+guiTypes = { #South Africa
 	containerWindowType = {
-		name = "equipment_designer_mbt_hull_uae"
+		name = "equipment_designer_medium_tank_chassis_saf"
 		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 
 		iconType = {
 			name = "equipment_image_overlay"
-			spriteType = "GFX_TC_heavy_tank_chassis_fra"
+			spriteType = "GFX_TC_heavy_tank_chassis_eng"
 			position = { x=0 y=0 }
 		}
 
@@ -231,7 +242,7 @@ guiTypes = { #United Arab Emirates
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_heavy_tank_chassis_main_armament_slot_fra"
+						spriteType = "GFX_TM_heavy_tank_chassis_main_armament_slot_eng"
 						position = { x=0 y=0 }
 					}
 				}
@@ -257,7 +268,7 @@ guiTypes = { #United Arab Emirates
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_heavy_tank_chassis_turret_type_slot_fra"
+						spriteType = "GFX_TM_heavy_tank_chassis_turret_type_slot_eng"
 						position = { x=0 y=0 }
 					}
 				}
@@ -294,12 +305,12 @@ guiTypes = { #United Arab Emirates
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
-				name = "special_type_slot_4"
+				name = "battlestation_type_slot"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 			}
 			containerWindowType = {
-				name = "special_type_slot_5"
+				name = "special_type_slot_4"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 			}
@@ -346,7 +357,7 @@ guiTypes = { #United Arab Emirates
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_heavy_tank_chassis_suspension_type_slot_fra"
+						spriteType = "GFX_TM_heavy_tank_chassis_suspension_type_slot_eng"
 						position = { x=0 y=0 }
 					}
 				}
