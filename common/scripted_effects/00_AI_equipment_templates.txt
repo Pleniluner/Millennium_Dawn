@@ -8,7 +8,7 @@ give_ai_mbt_template_0 = {
 		# it won't be any custom countries
 		create_equipment_variant = {
 			name = "MBT 1965"
-			type = mbt_hull_0
+			type = medium_tank_chassis_0
 			modules = {
 				main_armament_slot = tank_small_medium_cannon_2
 				turret_type_slot = tank_base_tank_turret
@@ -38,7 +38,7 @@ give_ai_mbt_template_1 = {
 		# it won't be any custom countries
 		create_equipment_variant = {
 			name = "MBT 1985"
-			type = mbt_hull_1
+			type = medium_tank_chassis_1
 			modules = {
 				main_armament_slot = tank_medium_cannon_2
 				turret_type_slot = tank_base_tank_turret
@@ -70,7 +70,7 @@ give_ai_mbt_template_2 = {
 		# it won't be any custom countries
 		create_equipment_variant = {
 			name = "MBT 1995"
-			type = mbt_hull_2
+			type = medium_tank_chassis_2
 			modules = {
 				main_armament_slot = tank_medium_cannon_2
 				turret_type_slot = tank_base_tank_turret
@@ -100,7 +100,7 @@ give_ai_mbt_template_3 = {
 			limit = { original_tag = SOV }
 			create_equipment_variant = {
 				name = "T-14 Armata"
-				type = mbt_hull_3
+				type = medium_tank_chassis_3
 				modules = {
 					main_armament_slot = tank_medium_cannon_3
 					turret_type_slot = tank_unmanned_turret
@@ -124,7 +124,7 @@ give_ai_mbt_template_3 = {
 			limit = { original_tag = USA }
 			create_equipment_variant = {
 				name = "M1A3 Schwarzkopf"
-				type = mbt_hull_3
+				type = medium_tank_chassis_3
 				modules = {
 					main_armament_slot = tank_medium_cannon_3
 					turret_type_slot = tank_unmanned_turret
@@ -148,7 +148,7 @@ give_ai_mbt_template_3 = {
 			limit = { original_tag = GER }
 			create_equipment_variant = {
 				name = "KF-51 Panther"
-				type = mbt_hull_3
+				type = medium_tank_chassis_3
 				modules = {
 					main_armament_slot = tank_large_cannon_2
 					turret_type_slot = tank_unmanned_turret
@@ -172,7 +172,7 @@ give_ai_mbt_template_3 = {
 			limit = { original_tag = ITA }
 			create_equipment_variant = {
 				name = "MBT Ariete AMV"
-				type = mbt_hull_3
+				type = medium_tank_chassis_3
 				modules = {
 					main_armament_slot = tank_medium_cannon_3
 					turret_type_slot = tank_unmanned_turret
@@ -196,7 +196,7 @@ give_ai_mbt_template_3 = {
 			limit = { original_tag = FRA }
 			create_equipment_variant = {
 				name = "EMBT"
-				type = mbt_hull_3
+				type = medium_tank_chassis_3
 				modules = {
 					main_armament_slot = tank_large_cannon_2
 					turret_type_slot = tank_base_tank_turret
@@ -220,7 +220,7 @@ give_ai_mbt_template_3 = {
 			limit = { original_tag = CHI }
 			create_equipment_variant = {
 				name = "ZTZ-26"
-				type = mbt_hull_3
+				type = medium_tank_chassis_3
 				modules = {
 					main_armament_slot = tank_medium_cannon_3
 					turret_type_slot = tank_soviet_turret
@@ -244,7 +244,7 @@ give_ai_mbt_template_3 = {
 			limit = { original_tag = JAP }
 			create_equipment_variant = {
 				name = "Type 10"
-				type = mbt_hull_3
+				type = medium_tank_chassis_3
 				modules = {
 					main_armament_slot = tank_medium_cannon_3
 					turret_type_slot = tank_base_tank_turret
@@ -268,7 +268,7 @@ give_ai_mbt_template_3 = {
 			limit = { original_tag = KOR }
 			create_equipment_variant = {
 				name = "K3"
-				type = mbt_hull_3
+				type = medium_tank_chassis_3
 				modules = {
 					main_armament_slot = tank_large_cannon_2
 					turret_type_slot = tank_unmanned_turret
@@ -292,7 +292,7 @@ give_ai_mbt_template_3 = {
 			limit = { original_tag = NKO }
 			create_equipment_variant = {
 				name = "Type-100"
-				type = mbt_hull_3
+				type = medium_tank_chassis_3
 				modules = {
 					main_armament_slot = tank_medium_cannon_3
 					turret_type_slot = tank_unmanned_turret
@@ -315,7 +315,7 @@ give_ai_mbt_template_3 = {
 		else = {
 			create_equipment_variant = {
 				name = "MBT 2025"
-				type = mbt_hull_3
+				type = medium_tank_chassis_3
 				modules = {
 					main_armament_slot = tank_medium_cannon_3
 					turret_type_slot = tank_unmanned_turret
@@ -346,7 +346,7 @@ give_ai_mbt_template_4 = {
 			limit = { original_tag = SOV }
 			create_equipment_variant = {
 				name = "T-24"
-				type = mbt_hull_4
+				type = medium_tank_chassis_4
 				modules = {
 					main_armament_slot = tank_very_large_cannon_3
 					turret_type_slot = tank_unmanned_turret
@@ -370,7 +370,7 @@ give_ai_mbt_template_4 = {
 			limit = { original_tag = USA }
 			create_equipment_variant = {
 				name = "M11 Frank"
-				type = mbt_hull_4
+				type = medium_tank_chassis_4
 				modules = {
 					main_armament_slot = tank_medium_cannon_4
 					turret_type_slot = tank_unmanned_turret
@@ -394,7 +394,7 @@ give_ai_mbt_template_4 = {
 			limit = { original_tag = GER }
 			create_equipment_variant = {
 				name = "MGBS Scorpion"
-				type = mbt_hull_4
+				type = medium_tank_chassis_4
 				modules = {
 					main_armament_slot = tank_large_cannon_3
 					turret_type_slot = tank_unmanned_turret
@@ -418,7 +418,7 @@ give_ai_mbt_template_4 = {
 			limit = { original_tag = ITA }
 			create_equipment_variant = {
 				name = "MBT Ariete AMV 2"
-				type = mbt_hull_4
+				type = medium_tank_chassis_4
 				modules = {
 					main_armament_slot = tank_very_large_cannon_3
 					turret_type_slot = tank_unmanned_turret
@@ -442,7 +442,7 @@ give_ai_mbt_template_4 = {
 			limit = { original_tag = FRA }
 			create_equipment_variant = {
 				name = "MGBS Scorpion"
-				type = mbt_hull_4
+				type = medium_tank_chassis_4
 				modules = {
 					main_armament_slot = tank_large_cannon_3
 					turret_type_slot = tank_unmanned_turret
@@ -466,7 +466,7 @@ give_ai_mbt_template_4 = {
 			limit = { original_tag = CHI }
 			create_equipment_variant = {
 				name = "ZTZ-36"
-				type = mbt_hull_4
+				type = medium_tank_chassis_4
 				modules = {
 					main_armament_slot = tank_large_cannon_3
 					turret_type_slot = tank_unmanned_turret
@@ -490,7 +490,7 @@ give_ai_mbt_template_4 = {
 			limit = { original_tag = JAP }
 			create_equipment_variant = {
 				name = "Kata Hagane"
-				type = mbt_hull_4
+				type = medium_tank_chassis_4
 				modules = {
 					main_armament_slot = tank_medium_cannon_4
 					turret_type_slot = tank_unmanned_turret
@@ -514,7 +514,7 @@ give_ai_mbt_template_4 = {
 			limit = { original_tag = KOR }
 			create_equipment_variant = {
 				name = "K4"
-				type = mbt_hull_4
+				type = medium_tank_chassis_4
 				modules = {
 					main_armament_slot = tank_very_large_cannon_3
 					turret_type_slot = tank_unmanned_turret
@@ -538,7 +538,7 @@ give_ai_mbt_template_4 = {
 			limit = { original_tag = NKO }
 			create_equipment_variant = {
 				name = "Type-200"
-				type = mbt_hull_4
+				type = medium_tank_chassis_4
 				modules = {
 					main_armament_slot = tank_very_large_cannon_3
 					turret_type_slot = tank_unmanned_turret
@@ -561,7 +561,7 @@ give_ai_mbt_template_4 = {
 		else = {
 			create_equipment_variant = {
 				name = "MBT 2035"
-				type = mbt_hull_4
+				type = medium_tank_chassis_4
 				modules = {
 					main_armament_slot = tank_medium_cannon_4
 					turret_type_slot = tank_unmanned_turret
@@ -594,7 +594,7 @@ give_ai_afv_template_0 = {
 		# it won't be any custom countries
 		create_equipment_variant = {
 			name = "APC 1965"
-			type = apc_hull_0
+			type = medium_tank_amphibious_chassis_0
 			modules = {
 				main_armament_slot = afv_machine_gun
 				turret_type_slot = afv_base_turret
@@ -610,12 +610,12 @@ give_ai_afv_template_0 = {
 			upgrades = {
 				afv_nsb_armor_upgrade = 2
 			}
-			icon = "GFX_apc_hull_1_a"
+			icon = "GFX_medium_tank_amphibious_chassis_1_a"
 		}
 
 		create_equipment_variant = {
 			name = "IFV 1965"
-			type = ifv_hull_0
+			type = medium_tank_flame_chassis_0
 			modules = {
 				main_armament_slot = small_autocannon
 				turret_type_slot = afv_base_turret
@@ -631,7 +631,7 @@ give_ai_afv_template_0 = {
 			upgrades = {
 				afv_nsb_armor_upgrade = 2
 			}
-			icon = "GFX_ifv_hull_0_b"
+			icon = "GFX_medium_tank_flame_chassis_0_b"
 		}
 	}
 }
@@ -646,7 +646,7 @@ give_ai_afv_template_1 = {
 		# it won't be any custom countries
 		create_equipment_variant = {
 			name = "APC 1985"
-			type = apc_hull_1
+			type = medium_tank_amphibious_chassis_1
 			modules = {
 				main_armament_slot = afv_machine_gun_2
 				turret_type_slot = afv_base_turret
@@ -662,12 +662,12 @@ give_ai_afv_template_1 = {
 			upgrades = {
 				afv_nsb_armor_upgrade = 3
 			}
-			icon = "GFX_apc_hull_1_a"
+			icon = "GFX_medium_tank_amphibious_chassis_1_a"
 		}
 
 		create_equipment_variant = {
 			name = "IFV 1985"
-			type = ifv_hull_1
+			type = medium_tank_flame_chassis_1
 			modules = {
 				main_armament_slot = small_autocannon_2
 				turret_type_slot = afv_base_turret
@@ -683,7 +683,7 @@ give_ai_afv_template_1 = {
 			upgrades = {
 				afv_nsb_armor_upgrade = 2
 			}
-			icon = "GFX_ifv_hull_1_a"
+			icon = "GFX_medium_tank_flame_chassis_1_a"
 		}
 	}
 }
@@ -698,7 +698,7 @@ give_ai_afv_template_2 = {
 		# it won't be any custom countries
 		create_equipment_variant = {
 			name = "APC 2005"
-			type = apc_hull_2
+			type = medium_tank_amphibious_chassis_2
 			modules = {
 				main_armament_slot = afv_machine_gun_3
 				turret_type_slot = afv_base_turret
@@ -714,7 +714,7 @@ give_ai_afv_template_2 = {
 			upgrades = {
 				afv_nsb_armor_upgrade = 3
 			}
-			icon = "GFX_apc_hull_2_a"
+			icon = "GFX_medium_tank_amphibious_chassis_2_a"
 		}
 
 		if = {
@@ -722,7 +722,7 @@ give_ai_afv_template_2 = {
 
 			create_equipment_variant = {
 				name = "BWP Borsuk"
-				type = ifv_hull_2
+				type = medium_tank_flame_chassis_2
 				modules = {
 					main_armament_slot = small_autocannon_2
 					turret_type_slot = afv_unmanned_turret
@@ -738,13 +738,13 @@ give_ai_afv_template_2 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 2
 				}
-				icon = "GFX_ifv_hull_2_b"
+				icon = "GFX_medium_tank_flame_chassis_2_b"
 			}
 		}
 		else = {
 			create_equipment_variant = {
 				name = "IFV 2005"
-				type = ifv_hull_2
+				type = medium_tank_flame_chassis_2
 				modules = {
 					main_armament_slot = small_autocannon_2
 					turret_type_slot = afv_unmanned_turret
@@ -760,7 +760,7 @@ give_ai_afv_template_2 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 2
 				}
-				icon = "GFX_ifv_hull_2_a"
+				icon = "GFX_medium_tank_flame_chassis_2_a"
 			}
 		}
 	}
@@ -774,7 +774,7 @@ give_ai_afv_template_3 = {
 
 			create_equipment_variant = {
 				name = "Kurganets-25"
-				type = apc_hull_3
+				type = medium_tank_amphibious_chassis_3
 				modules = {
 					main_armament_slot = afv_machine_gun_4
 					turret_type_slot = afv_unmanned_turret
@@ -790,12 +790,12 @@ give_ai_afv_template_3 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 3
 				}
-				icon = "GFX_apc_hull_3_a"
+				icon = "GFX_medium_tank_amphibious_chassis_3_a"
 			}
 
 			create_equipment_variant = {
 				name = "T-15"
-				type = ifv_hull_3
+				type = medium_tank_flame_chassis_3
 				modules = {
 					main_armament_slot = big_autocannon_3
 					turret_type_slot = afv_unmanned_turret
@@ -811,7 +811,7 @@ give_ai_afv_template_3 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_ifv_hull_3_a"
+				icon = "GFX_medium_tank_flame_chassis_3_a"
 			}
 		}
 		else_if = {
@@ -819,7 +819,7 @@ give_ai_afv_template_3 = {
 
 			create_equipment_variant = {
 				name = "Marshall"
-				type = apc_hull_3
+				type = medium_tank_amphibious_chassis_3
 				modules = {
 					main_armament_slot = apc_small_autocannon_3
 					turret_type_slot = afv_unmanned_turret
@@ -835,12 +835,12 @@ give_ai_afv_template_3 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 3
 				}
-				icon = "GFX_apc_hull_2_a"
+				icon = "GFX_medium_tank_amphibious_chassis_2_a"
 			}
 
 			create_equipment_variant = {
 				name = "Schwarzkopf"
-				type = ifv_hull_3
+				type = medium_tank_flame_chassis_3
 				modules = {
 					main_armament_slot = small_autocannon_3
 					turret_type_slot = afv_unmanned_turret
@@ -856,7 +856,7 @@ give_ai_afv_template_3 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_ifv_hull_3_a"
+				icon = "GFX_medium_tank_flame_chassis_3_a"
 			}
 		}
 		else_if = {
@@ -864,7 +864,7 @@ give_ai_afv_template_3 = {
 
 			create_equipment_variant = {
 				name = "Lowe"
-				type = apc_hull_3
+				type = medium_tank_amphibious_chassis_3
 				modules = {
 					main_armament_slot = apc_small_autocannon_3
 					turret_type_slot = afv_unmanned_turret
@@ -881,12 +881,12 @@ give_ai_afv_template_3 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 3
 				}
-				icon = "GFX_apc_hull_3_a"
+				icon = "GFX_medium_tank_amphibious_chassis_3_a"
 			}
 
 			create_equipment_variant = {
 				name = "Lynx"
-				type = ifv_hull_3
+				type = medium_tank_flame_chassis_3
 				modules = {
 					main_armament_slot = big_autocannon_3
 					turret_type_slot = afv_unmanned_turret
@@ -902,7 +902,7 @@ give_ai_afv_template_3 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_ifv_hull_3_a"
+				icon = "GFX_medium_tank_flame_chassis_3_a"
 			}
 		}
 		else_if = {
@@ -910,7 +910,7 @@ give_ai_afv_template_3 = {
 
 			create_equipment_variant = {
 				name = "VAB-15"
-				type = apc_hull_3
+				type = medium_tank_amphibious_chassis_3
 				modules = {
 					main_armament_slot = afv_machine_gun_4
 					turret_type_slot = afv_base_turret
@@ -926,12 +926,12 @@ give_ai_afv_template_3 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 3
 				}
-				icon = "GFX_apc_hull_3_a"
+				icon = "GFX_medium_tank_amphibious_chassis_3_a"
 			}
 
 			create_equipment_variant = {
 				name = "AMX-25"
-				type = ifv_hull_3
+				type = medium_tank_flame_chassis_3
 				modules = {
 					main_armament_slot = afv_assault_gun_3
 					turret_type_slot = afv_unmanned_turret
@@ -947,7 +947,7 @@ give_ai_afv_template_3 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_ifv_hull_3_a"
+				icon = "GFX_medium_tank_flame_chassis_3_a"
 			}
 		}
 		else_if = {
@@ -955,7 +955,7 @@ give_ai_afv_template_3 = {
 
 			create_equipment_variant = {
 				name = "Type-26"
-				type = apc_hull_3
+				type = medium_tank_amphibious_chassis_3
 				modules = {
 					main_armament_slot = apc_small_autocannon_3
 					turret_type_slot = afv_unmanned_turret
@@ -971,12 +971,12 @@ give_ai_afv_template_3 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 3
 				}
-				icon = "GFX_apc_hull_3_a"
+				icon = "GFX_medium_tank_amphibious_chassis_3_a"
 			}
 
 			create_equipment_variant = {
 				name = "Type-25"
-				type = ifv_hull_3
+				type = medium_tank_flame_chassis_3
 				modules = {
 					main_armament_slot = small_autocannon_3
 					turret_type_slot = afv_unmanned_turret
@@ -992,13 +992,13 @@ give_ai_afv_template_3 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_ifv_hull_3_a"
+				icon = "GFX_medium_tank_flame_chassis_3_a"
 			}
 		}
 		else = {
 			create_equipment_variant = {
 				name = "APC 2025"
-				type = apc_hull_3
+				type = medium_tank_amphibious_chassis_3
 				modules = {
 					main_armament_slot = apc_small_autocannon_3
 					turret_type_slot = afv_base_turret
@@ -1014,12 +1014,12 @@ give_ai_afv_template_3 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 3
 				}
-				icon = "GFX_apc_hull_3_a"
+				icon = "GFX_medium_tank_amphibious_chassis_3_a"
 			}
 
 			create_equipment_variant = {
 				name = "IFV 2025"
-				type = ifv_hull_3
+				type = medium_tank_flame_chassis_3
 				modules = {
 					main_armament_slot = small_autocannon_3
 					turret_type_slot = afv_unmanned_turret
@@ -1035,7 +1035,7 @@ give_ai_afv_template_3 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 2
 				}
-				icon = "GFX_ifv_hull_3_a"
+				icon = "GFX_medium_tank_flame_chassis_3_a"
 			}
 		}
 	}
@@ -1049,7 +1049,7 @@ give_ai_afv_template_4 = {
 
 			create_equipment_variant = {
 				name = "Kurganets-35"
-				type = apc_hull_4
+				type = medium_tank_amphibious_chassis_4
 				modules = {
 					main_armament_slot = apc_small_autocannon_4
 					turret_type_slot = afv_unmanned_turret
@@ -1065,12 +1065,12 @@ give_ai_afv_template_4 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_apc_hull_3_a"
+				icon = "GFX_medium_tank_amphibious_chassis_3_a"
 			}
 
 			create_equipment_variant = {
 				name = "T-25"
-				type = ifv_hull_4
+				type = medium_tank_flame_chassis_4
 				modules = {
 					main_armament_slot = big_autocannon_4
 					turret_type_slot = afv_unmanned_turret
@@ -1086,7 +1086,7 @@ give_ai_afv_template_4 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_ifv_hull_3_a"
+				icon = "GFX_medium_tank_flame_chassis_3_a"
 			}
 		}
 		else_if = {
@@ -1094,7 +1094,7 @@ give_ai_afv_template_4 = {
 
 			create_equipment_variant = {
 				name = "Rainey"
-				type = apc_hull_4
+				type = medium_tank_amphibious_chassis_4
 				modules = {
 					main_armament_slot = apc_small_autocannon_4
 					turret_type_slot = afv_unmanned_turret
@@ -1110,12 +1110,12 @@ give_ai_afv_template_4 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_apc_hull_3_a"
+				icon = "GFX_medium_tank_amphibious_chassis_3_a"
 			}
 
 			create_equipment_variant = {
 				name = "Milley"
-				type = ifv_hull_4
+				type = medium_tank_flame_chassis_4
 				modules = {
 					main_armament_slot = small_autocannon_4
 					turret_type_slot = afv_unmanned_turret
@@ -1131,7 +1131,7 @@ give_ai_afv_template_4 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_ifv_hull_3_a"
+				icon = "GFX_medium_tank_flame_chassis_3_a"
 			}
 		}
 		else_if = {
@@ -1139,7 +1139,7 @@ give_ai_afv_template_4 = {
 
 			create_equipment_variant = {
 				name = "Sabertooth"
-				type = apc_hull_4
+				type = medium_tank_amphibious_chassis_4
 				modules = {
 					main_armament_slot = apc_small_autocannon_4
 					turret_type_slot = afv_unmanned_turret
@@ -1156,12 +1156,12 @@ give_ai_afv_template_4 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 3
 				}
-				icon = "GFX_apc_hull_3_a"
+				icon = "GFX_medium_tank_amphibious_chassis_3_a"
 			}
 
 			create_equipment_variant = {
 				name = "Gepard"
-				type = ifv_hull_4
+				type = medium_tank_flame_chassis_4
 				modules = {
 					main_armament_slot = big_autocannon_4
 					turret_type_slot = afv_unmanned_turret
@@ -1177,7 +1177,7 @@ give_ai_afv_template_4 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_ifv_hull_3_a"
+				icon = "GFX_medium_tank_flame_chassis_3_a"
 			}
 		}
 		else_if = {
@@ -1185,7 +1185,7 @@ give_ai_afv_template_4 = {
 
 			create_equipment_variant = {
 				name = "VAB-15"
-				type = apc_hull_4
+				type = medium_tank_amphibious_chassis_4
 				modules = {
 					main_armament_slot = apc_small_autocannon_4
 					turret_type_slot = afv_base_turret
@@ -1201,12 +1201,12 @@ give_ai_afv_template_4 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_apc_hull_3_a"
+				icon = "GFX_medium_tank_amphibious_chassis_3_a"
 			}
 
 			create_equipment_variant = {
 				name = "AMX-25"
-				type = ifv_hull_4
+				type = medium_tank_flame_chassis_4
 				modules = {
 					main_armament_slot = afv_assault_gun_4
 					turret_type_slot = afv_unmanned_turret
@@ -1222,7 +1222,7 @@ give_ai_afv_template_4 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_ifv_hull_3_a"
+				icon = "GFX_medium_tank_flame_chassis_3_a"
 			}
 		}
 		else_if = {
@@ -1230,7 +1230,7 @@ give_ai_afv_template_4 = {
 
 			create_equipment_variant = {
 				name = "Type-26"
-				type = apc_hull_4
+				type = medium_tank_amphibious_chassis_4
 				modules = {
 					main_armament_slot = apc_small_autocannon_4
 					turret_type_slot = afv_unmanned_turret
@@ -1246,12 +1246,12 @@ give_ai_afv_template_4 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_apc_hull_3_a"
+				icon = "GFX_medium_tank_amphibious_chassis_3_a"
 			}
 
 			create_equipment_variant = {
 				name = "Type-25"
-				type = ifv_hull_4
+				type = medium_tank_flame_chassis_4
 				modules = {
 					main_armament_slot = small_autocannon_4
 					turret_type_slot = afv_unmanned_turret
@@ -1267,13 +1267,13 @@ give_ai_afv_template_4 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_ifv_hull_3_a"
+				icon = "GFX_medium_tank_flame_chassis_3_a"
 			}
 		}
 		else = {
 			create_equipment_variant = {
 				name = "APC 2035"
-				type = apc_hull_4
+				type = medium_tank_amphibious_chassis_4
 				modules = {
 					main_armament_slot = apc_small_autocannon_4
 					turret_type_slot = afv_base_turret
@@ -1289,12 +1289,12 @@ give_ai_afv_template_4 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_apc_hull_3_a"
+				icon = "GFX_medium_tank_amphibious_chassis_3_a"
 			}
 
 			create_equipment_variant = {
 				name = "IFV 2035"
-				type = ifv_hull_4
+				type = medium_tank_flame_chassis_4
 				modules = {
 					main_armament_slot = small_autocannon_4
 					turret_type_slot = afv_unmanned_turret
@@ -1310,7 +1310,7 @@ give_ai_afv_template_4 = {
 				upgrades = {
 					afv_nsb_armor_upgrade = 4
 				}
-				icon = "GFX_ifv_hull_3_a"
+				icon = "GFX_medium_tank_flame_chassis_3_a"
 			}
 		}
 	}
@@ -1322,7 +1322,7 @@ give_ai_spg_template_0 = {
 
 		create_equipment_variant = {
 			name = "SPART 1965"
-			type = spart_hull_0
+			type = medium_tank_artillery_chassis_0
 			modules = {
 				arty_main_armament_slot = art_small_gun_gen1
 				chassis_type_slot = chassis_afv_gen0
@@ -1334,7 +1334,7 @@ give_ai_spg_template_0 = {
 			upgrades = {
 				art_nsb_fire_upgrade = 2
 			}
-			icon = "GFX_spart_hull_0_a"
+			icon = "GFX_medium_tank_artillery_chassis_0_a"
 		}
 	}
 }
@@ -1345,7 +1345,7 @@ give_ai_spg_template_1 = {
 
 		create_equipment_variant = {
 			name = "SPART 1995"
-			type = spart_hull_1
+			type = medium_tank_artillery_chassis_1
 			modules = {
 				arty_main_armament_slot = art_med_gun_gen2
 				chassis_type_slot = chassis_afv_gen1
@@ -1359,7 +1359,7 @@ give_ai_spg_template_1 = {
 			upgrades = {
 				art_nsb_fire_upgrade = 2
 			}
-			icon = "GFX_spart_hull_2_t"
+			icon = "GFX_medium_tank_artillery_chassis_2_t"
 		}
 	}
 }
@@ -1372,7 +1372,7 @@ give_ai_spg_template_2 = {
 			limit = { original_tag = SOV }
 			create_equipment_variant = {
 				name = "2S33 Msta-SM2"
-				type = spart_hull_2
+				type = medium_tank_artillery_chassis_2
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen2
 					chassis_type_slot = chassis_tank_gen1
@@ -1386,14 +1386,14 @@ give_ai_spg_template_2 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 		else_if = {
 			limit = { original_tag = USA }
 			create_equipment_variant = {
 				name = "M109A6 Paladin"
-				type = spart_hull_2
+				type = medium_tank_artillery_chassis_2
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen2
 					chassis_type_slot = chassis_afv_gen2
@@ -1407,14 +1407,14 @@ give_ai_spg_template_2 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 3
 				}
-				icon = "GFX_USA_spart_hull_1_a"
+				icon = "GFX_USA_medium_tank_artillery_chassis_1_a"
 			}
 		}
 		else_if = {
 			limit = { original_tag = GER }
 			create_equipment_variant = {
 				name = "PZH 2005"
-				type = spart_hull_2
+				type = medium_tank_artillery_chassis_2
 				parent_version = 0
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen2
@@ -1429,14 +1429,14 @@ give_ai_spg_template_2 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 		else_if = {
 			limit = { original_tag = FRA }
 			create_equipment_variant = {
 				name = "Caesar"
-				type = spart_hull_2
+				type = medium_tank_artillery_chassis_2
 				parent_version = 0
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen2
@@ -1451,14 +1451,14 @@ give_ai_spg_template_2 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 2
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 		else_if = {
 			limit = { original_tag = CHI }
 			create_equipment_variant = {
 				name = "PLZ-05"
-				type = spart_hull_2
+				type = medium_tank_artillery_chassis_2
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen2
 					chassis_type_slot = chassis_afv_gen2
@@ -1472,13 +1472,13 @@ give_ai_spg_template_2 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 		else = {
 			create_equipment_variant = {
 				name = "SPART 2005"
-				type = spart_hull_2
+				type = medium_tank_artillery_chassis_2
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen2
 					chassis_type_slot = chassis_afv_gen2
@@ -1492,7 +1492,7 @@ give_ai_spg_template_2 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 2
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 	}
@@ -1506,7 +1506,7 @@ give_ai_spg_template_3 = {
 			limit = { original_tag = SOV }
 			create_equipment_variant = {
 				name = "2S35 Koalitsiya-SV"
-				type = spart_hull_3
+				type = medium_tank_artillery_chassis_3
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen3
 					chassis_type_slot = chassis_tank_gen2
@@ -1520,14 +1520,14 @@ give_ai_spg_template_3 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 		else_if = {
 			limit = { original_tag = USA }
 			create_equipment_variant = {
 				name = "M370"
-				type = spart_hull_3
+				type = medium_tank_artillery_chassis_3
 				modules = {
 					arty_main_armament_slot = art_med_rocket_gen3
 					chassis_type_slot = chassis_afv_gen2
@@ -1541,14 +1541,14 @@ give_ai_spg_template_3 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 2
 				}
-				icon = "GFX_USA_spart_hull_2_b"
+				icon = "GFX_USA_medium_tank_artillery_chassis_2_b"
 			}
 		}
 		else_if = {
 			limit = { original_tag = GER }
 			create_equipment_variant = {
 				name = "PZH 2025"
-				type = spart_hull_3
+				type = medium_tank_artillery_chassis_3
 				parent_version = 0
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen3
@@ -1563,14 +1563,14 @@ give_ai_spg_template_3 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 		else_if = {
 			limit = { original_tag = FRA }
 			create_equipment_variant = {
 				name = "Caesar 8x8"
-				type = spart_hull_3
+				type = medium_tank_artillery_chassis_3
 				parent_version = 0
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen3
@@ -1585,14 +1585,14 @@ give_ai_spg_template_3 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 2
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 		else_if = {
 			limit = { original_tag = CHI }
 			create_equipment_variant = {
 				name = "PLZ-25"
-				type = spart_hull_3
+				type = medium_tank_artillery_chassis_3
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen3
 					chassis_type_slot = chassis_afv_gen2
@@ -1606,13 +1606,13 @@ give_ai_spg_template_3 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 		else = {
 			create_equipment_variant = {
 				name = "SPART 2025"
-				type = spart_hull_3
+				type = medium_tank_artillery_chassis_3
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen3
 					chassis_type_slot = chassis_afv_gen2
@@ -1626,7 +1626,7 @@ give_ai_spg_template_3 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 	}
@@ -1640,7 +1640,7 @@ give_ai_spg_template_4 = {
 			limit = { original_tag = SOV }
 			create_equipment_variant = {
 				name = "2S35 Koalitsiya-SV2"
-				type = spart_hull_4
+				type = medium_tank_artillery_chassis_4
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen3
 					chassis_type_slot = chassis_tank_gen3
@@ -1654,14 +1654,14 @@ give_ai_spg_template_4 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 		else_if = {
 			limit = { original_tag = USA }
 			create_equipment_variant = {
 				name = "M400"
-				type = spart_hull_4
+				type = medium_tank_artillery_chassis_4
 				modules = {
 					arty_main_armament_slot = art_med_rocket_gen3
 					chassis_type_slot = chassis_afv_gen3
@@ -1675,14 +1675,14 @@ give_ai_spg_template_4 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 3
 				}
-				icon = "GFX_USA_spart_hull_2_b"
+				icon = "GFX_USA_medium_tank_artillery_chassis_2_b"
 			}
 		}
 		else_if = {
 			limit = { original_tag = GER }
 			create_equipment_variant = {
 				name = "PZH 2035"
-				type = spart_hull_4
+				type = medium_tank_artillery_chassis_4
 				parent_version = 0
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen3
@@ -1697,14 +1697,14 @@ give_ai_spg_template_4 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 		else_if = {
 			limit = { original_tag = FRA }
 			create_equipment_variant = {
 				name = "Caesar 2"
-				type = spart_hull_4
+				type = medium_tank_artillery_chassis_4
 				parent_version = 0
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen3
@@ -1719,14 +1719,14 @@ give_ai_spg_template_4 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 		else_if = {
 			limit = { original_tag = CHI }
 			create_equipment_variant = {
 				name = "PLZ-35"
-				type = spart_hull_4
+				type = medium_tank_artillery_chassis_4
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen3
 					chassis_type_slot = chassis_afv_gen3
@@ -1740,13 +1740,13 @@ give_ai_spg_template_4 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 		else = {
 			create_equipment_variant = {
 				name = "SPART 2035"
-				type = spart_hull_4
+				type = medium_tank_artillery_chassis_4
 				modules = {
 					arty_main_armament_slot = art_med_gun_gen3
 					chassis_type_slot = chassis_afv_gen3
@@ -1760,7 +1760,7 @@ give_ai_spg_template_4 = {
 				upgrades = {
 					art_nsb_fire_upgrade = 3
 				}
-				icon = "GFX_spart_hull_2_t"
+				icon = "GFX_medium_tank_artillery_chassis_2_t"
 			}
 		}
 	}
@@ -1911,7 +1911,7 @@ give_ai_light_tank_template_0 = {
 
 		create_equipment_variant = {
 			name = "Light Tank 1965"
-			type = light_tank_hull_0
+			type = medium_tank_destroyer_chassis_0
 			parent_version = 0
 			modules = {
 				main_armament_slot = tank_small_cannon
@@ -1940,7 +1940,7 @@ give_ai_light_tank_template_1 = {
 
 		create_equipment_variant = {
 			name = "Light Tank 1975"
-			type = light_tank_hull_1
+			type = medium_tank_destroyer_chassis_1
 			parent_version = 0
 			modules = {
 				main_armament_slot = light_tank_low_velocity_gun_2
@@ -1970,7 +1970,7 @@ give_ai_light_tank_template_2 = {
 
 		create_equipment_variant = {
 			name = "Light Tank 1995"
-			type = light_tank_hull_2
+			type = medium_tank_destroyer_chassis_2
 			parent_version = 0
 			modules = {
 				main_armament_slot = tank_medium_cannon_2
@@ -2000,7 +2000,7 @@ give_ai_light_tank_template_3 = {
 
 		create_equipment_variant = {
 			name = "Light Tank 2015"
-			type = light_tank_hull_3
+			type = medium_tank_destroyer_chassis_3
 			parent_version = 0
 			modules = {
 				main_armament_slot = tank_medium_cannon_3
@@ -2030,7 +2030,7 @@ give_ai_light_tank_template_4 = {
 
 		create_equipment_variant = {
 			name = "Light Tank 2035"
-			type = light_tank_hull_4
+			type = medium_tank_destroyer_chassis_4
 			parent_version = 0
 			modules = {
 				main_armament_slot = tank_medium_cannon_4
@@ -2061,7 +2061,7 @@ give_ai_spaa_template_0 = {
 
 		create_equipment_variant = {
 			name = "SPAA 1965"
-			type = spaa_hull_0
+			type = medium_tank_aa_chassis_0
 			parent_version = 0
 			modules = {
 				main_armament_slot = spaa_long_range_missiles_1
@@ -2089,7 +2089,7 @@ give_ai_spaa_template_1 = {
 
 		create_equipment_variant = {
 			name = "SPAA 1985"
-			type = spaa_hull_1
+			type = medium_tank_aa_chassis_1
 			parent_version = 0
 			modules = {
 				main_armament_slot = spaa_long_range_missiles_2
@@ -2117,7 +2117,7 @@ give_ai_spaa_template_2 = {
 
 		create_equipment_variant = {
 			name = "SPAA 2005"
-			type = spaa_hull_2
+			type = medium_tank_aa_chassis_2
 			parent_version = 0
 			modules = {
 				main_armament_slot = spaa_long_range_missiles_3
@@ -2145,7 +2145,7 @@ give_ai_spaa_template_3 = {
 
 		create_equipment_variant = {
 			name = "SPAA 2025"
-			type = spaa_hull_3
+			type = medium_tank_aa_chassis_3
 			parent_version = 0
 			modules = {
 				main_armament_slot = spaa_long_range_missiles_4
@@ -2173,7 +2173,7 @@ give_ai_spaa_template_4 = {
 
 		create_equipment_variant = {
 			name = "SPAA 2035"
-			type = spaa_hull_4
+			type = medium_tank_aa_chassis_4
 			parent_version = 0
 			modules = {
 				main_armament_slot = spaa_long_range_missiles_5

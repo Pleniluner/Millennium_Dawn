@@ -1,5 +1,5 @@
 equipments = {
-	mbt_hull = {
+	medium_tank_chassis = {
 		year = 1922
 		is_archetype = yes
 		is_buildable = no
@@ -175,12 +175,12 @@ equipments = {
 	}
 
 	# 1965 hulls
-	mbt_hull_0 = {
+	medium_tank_chassis_0 = {
 		abbreviation = "mbt0"
 		derived_variant_name = mbt_equipment_0
 		visual_level = 0
 		year = 1922
-		archetype = mbt_hull
+		archetype = medium_tank_chassis
 		priority = 2000
 		module_slots = inherit
 
@@ -190,13 +190,13 @@ equipments = {
 	}
 
 	#1975/80
-	mbt_hull_1 = {
+	medium_tank_chassis_1 = {
 		abbreviation = "mbt1"
 		derived_variant_name = mbt_equipment_1
 		visual_level = 1
 		year = 1922
-		archetype = mbt_hull
-		parent = mbt_hull_0
+		archetype = medium_tank_chassis
+		parent = medium_tank_chassis_0
 		priority = 2000
 		module_slots = inherit
 
@@ -214,13 +214,13 @@ equipments = {
 	}
 
 	# 1995-2000
-	mbt_hull_2 = {
+	medium_tank_chassis_2 = {
 		abbreviation = "mbt2"
 		derived_variant_name = mbt_equipment_2
 		visual_level = 2
 		year = 1922
-		archetype = mbt_hull
-		parent = mbt_hull_1
+		archetype = medium_tank_chassis
+		parent = medium_tank_chassis_1
 		priority = 2000
 		module_slots = inherit
 
@@ -236,13 +236,13 @@ equipments = {
 	}
 
 	#2015-2020
-	mbt_hull_3 = {
+	medium_tank_chassis_3 = {
 		abbreviation = "mbt3"
 		derived_variant_name = mbt_equipment_3
 		visual_level = 3
 		year = 1922
-		archetype = mbt_hull
-		parent = mbt_hull_2
+		archetype = medium_tank_chassis
+		parent = medium_tank_chassis_2
 		priority = 2000
 		module_slots = inherit
 
@@ -260,13 +260,13 @@ equipments = {
 	}
 
 	#2035
-	mbt_hull_4 = {
+	medium_tank_chassis_4 = {
 		abbreviation = "mbt4"
 		derived_variant_name = mbt_equipment_4
 		visual_level = 4
 		year = 1922
-		archetype = mbt_hull
-		parent = mbt_hull_3
+		archetype = medium_tank_chassis
+		parent = medium_tank_chassis_3
 		priority = 2000
 		module_slots = inherit
 
@@ -284,7 +284,7 @@ equipments = {
 	}
 
 	# APC dummy
-	apc_hull = {
+	medium_tank_amphibious_chassis = {
 		year = 1922
 		is_archetype = yes
 		is_buildable = no
@@ -459,19 +459,19 @@ equipments = {
 		manpower = 3
 	}
 
-	apc_hull_0 = {
+	medium_tank_amphibious_chassis_0 = {
 		abbreviation = "apc0"
 		derived_variant_name = apc_equipment_0
 		visual_level = 0
 		year = 1922
-		archetype = apc_hull
+		archetype = medium_tank_amphibious_chassis
 		priority = 2000
 		module_slots = inherit
 
 		#Space taken in convoy
 		lend_lease_cost = 3
 		can_convert_from = {
-			ifv_hull_0
+			medium_tank_flame_chassis_0
 		}
 
 		upgrades = {
@@ -479,19 +479,19 @@ equipments = {
 		}
 	}
 
-	apc_hull_1 = {
+	medium_tank_amphibious_chassis_1 = {
 		abbreviation = "apc1"
 		derived_variant_name = apc_equipment_1
 		visual_level = 0
 		year = 1922
-		archetype = apc_hull
-		parent = apc_hull_0
+		archetype = medium_tank_amphibious_chassis
+		parent = medium_tank_amphibious_chassis_0
 		priority = 2000
 		module_slots = inherit
 
 		lend_lease_cost = 3
 		can_convert_from = {
-			ifv_hull_1
+			medium_tank_flame_chassis_1
 		}
 
 		fuel_consumption = 0
@@ -506,19 +506,19 @@ equipments = {
 		}
 	}
 
-	apc_hull_2 = {
+	medium_tank_amphibious_chassis_2 = {
 		abbreviation = "apc2"
 		derived_variant_name = apc_equipment_2
 		visual_level = 0
 		year = 1922
-		archetype = apc_hull
-		parent = apc_hull_1
+		archetype = medium_tank_amphibious_chassis
+		parent = medium_tank_amphibious_chassis_1
 		priority = 2000
 		module_slots = inherit
 
 		lend_lease_cost = 3
 		can_convert_from = {
-			ifv_hull_2
+			medium_tank_flame_chassis_2
 		}
 
 		fuel_consumption = 0
@@ -538,18 +538,18 @@ equipments = {
 		}
 	}
 
-	apc_hull_3 = {
+	medium_tank_amphibious_chassis_3 = {
 		abbreviation = "apc3"
 		derived_variant_name = apc_equipment_3
 		visual_level = 0
 		year = 1922
-		archetype = apc_hull
-		parent = apc_hull_2
+		archetype = medium_tank_amphibious_chassis
+		parent = medium_tank_amphibious_chassis_2
 		priority = 2000
 		module_slots = inherit
 
 		can_convert_from = {
-			ifv_hull_3
+			medium_tank_flame_chassis_3
 		}
 
 		fuel_consumption = 0
@@ -564,18 +564,18 @@ equipments = {
 		}
 	}
 
-	apc_hull_4 = {
+	medium_tank_amphibious_chassis_4 = {
 		abbreviation = "apc4"
 		derived_variant_name = apc_equipment_4
 		visual_level = 0
 		year = 1922
-		archetype = apc_hull
-		parent = apc_hull_3
+		archetype = medium_tank_amphibious_chassis
+		parent = medium_tank_amphibious_chassis_3
 		priority = 2000
 		module_slots = inherit
 
 		can_convert_from = {
-			ifv_hull_4
+			medium_tank_flame_chassis_4
 		}
 
 		fuel_consumption = 0
@@ -596,7 +596,7 @@ equipments = {
 	}
 
 	# IFV hulls
-	ifv_hull = {
+	medium_tank_flame_chassis = {
 		year = 1922
 		is_archetype = yes
 		is_buildable = no
@@ -769,17 +769,17 @@ equipments = {
 		manpower = 3
 	}
 
-	ifv_hull_0 = {
+	medium_tank_flame_chassis_0 = {
 		abbreviation = "ifv0"
 		derived_variant_name = ifv_equipment_0
 		visual_level = 0
 		year = 1922
-		archetype = ifv_hull
+		archetype = medium_tank_flame_chassis
 		priority = 2000
 		module_slots = inherit
 		lend_lease_cost = 3
 		can_convert_from = {
-			apc_hull_0
+			medium_tank_amphibious_chassis_0
 		}
 
 		upgrades = {
@@ -787,18 +787,18 @@ equipments = {
 		}
 	}
 
-	ifv_hull_1 = {
+	medium_tank_flame_chassis_1 = {
 		abbreviation = "ifv1"
 		derived_variant_name = ifv_equipment_1
 		visual_level = 0
 		year = 1922
-		archetype = ifv_hull
+		archetype = medium_tank_flame_chassis
 		priority = 2000
-		parent = ifv_hull_0
+		parent = medium_tank_flame_chassis_0
 		module_slots = inherit
 
 		can_convert_from = {
-			apc_hull_1
+			medium_tank_amphibious_chassis_1
 		}
 		lend_lease_cost = 3
 		fuel_consumption = 0
@@ -813,18 +813,18 @@ equipments = {
 		}
 	}
 
-	ifv_hull_2 = {
+	medium_tank_flame_chassis_2 = {
 		abbreviation = "ifv2"
 		derived_variant_name = ifv_equipment_2
 		visual_level = 0
 		year = 1922
-		archetype = ifv_hull
+		archetype = medium_tank_flame_chassis
 		priority = 2000
-		parent = ifv_hull_1
+		parent = medium_tank_flame_chassis_1
 		module_slots = inherit
 
 		can_convert_from = {
-			apc_hull_2
+			medium_tank_amphibious_chassis_2
 		}
 
 		fuel_consumption = 0
@@ -844,18 +844,18 @@ equipments = {
 		}
 	}
 
-	ifv_hull_3 = {
+	medium_tank_flame_chassis_3 = {
 		abbreviation = "ifv3"
 		derived_variant_name = ifv_equipment_3
 		visual_level = 0
 		year = 1922
-		archetype = ifv_hull
+		archetype = medium_tank_flame_chassis
 		priority = 2000
-		parent = ifv_hull_2
+		parent = medium_tank_flame_chassis_2
 		module_slots = inherit
 
 		can_convert_from = {
-			apc_hull_3
+			medium_tank_amphibious_chassis_3
 		}
 
 		fuel_consumption = 0
@@ -870,18 +870,18 @@ equipments = {
 		}
 	}
 
-	ifv_hull_4 = {
+	medium_tank_flame_chassis_4 = {
 		abbreviation = "ifv4"
 		derived_variant_name = ifv_equipment_4
 		visual_level = 0
 		year = 1922
-		archetype = ifv_hull
+		archetype = medium_tank_flame_chassis
 		priority = 2000
-		parent = ifv_hull_3
+		parent = medium_tank_flame_chassis_3
 		module_slots = inherit
 
 		can_convert_from = {
-			apc_hull_4
+			medium_tank_amphibious_chassis_4
 		}
 
 		fuel_consumption = 0
@@ -901,7 +901,7 @@ equipments = {
 		}
 	}
 
-	spart_hull = {
+	medium_tank_artillery_chassis = {
 		year = 1922
 		is_archetype = yes
 		is_buildable = no
@@ -1201,12 +1201,12 @@ equipments = {
 		manpower = 3
 	}
 
-	spart_hull_0 = {
+	medium_tank_artillery_chassis_0 = {
 		abbreviation = "spart0"
 		derived_variant_name = spart_equipment_0
 		visual_level = 0
 		year = 1922
-		archetype = spart_hull
+		archetype = medium_tank_artillery_chassis
 		priority = 2000
 		module_slots = inherit
 
@@ -1222,13 +1222,13 @@ equipments = {
 		}
 	}
 
-	spart_hull_1 = {
+	medium_tank_artillery_chassis_1 = {
 		abbreviation = "spart1"
 		derived_variant_name = spart_equipment_1
 		visual_level = 0
-		parent = spart_hull_0
+		parent = medium_tank_artillery_chassis_0
 		year = 1922
-		archetype = spart_hull
+		archetype = medium_tank_artillery_chassis
 		priority = 2000
 		module_slots = inherit
 
@@ -1244,13 +1244,13 @@ equipments = {
 		}
 	}
 
-	spart_hull_2 = {
+	medium_tank_artillery_chassis_2 = {
 		abbreviation = "spart2"
 		derived_variant_name = spart_equipment_2
 		visual_level = 0
-		parent = spart_hull_1
+		parent = medium_tank_artillery_chassis_1
 		year = 1922
-		archetype = spart_hull
+		archetype = medium_tank_artillery_chassis
 		priority = 2000
 		module_slots = inherit
 
@@ -1266,13 +1266,13 @@ equipments = {
 		}
 	}
 
-	spart_hull_3 = {
+	medium_tank_artillery_chassis_3 = {
 		abbreviation = "spart3"
 		derived_variant_name = spart_equipment_3
 		visual_level = 0
-		parent = spart_hull_2
+		parent = medium_tank_artillery_chassis_2
 		year = 1922
-		archetype = spart_hull
+		archetype = medium_tank_artillery_chassis
 		priority = 2000
 		module_slots = inherit
 
@@ -1288,13 +1288,13 @@ equipments = {
 		}
 	}
 
-	spart_hull_4 = {
+	medium_tank_artillery_chassis_4 = {
 		abbreviation = "spart4"
 		derived_variant_name = spart_equipment_4
 		visual_level = 0
-		parent = spart_hull_3
+		parent = medium_tank_artillery_chassis_3
 		year = 1922
-		archetype = spart_hull
+		archetype = medium_tank_artillery_chassis
 		priority = 2000
 		module_slots = inherit
 
@@ -1311,7 +1311,7 @@ equipments = {
 	}
 
 	#light tank hulls
-	light_tank_hull = {
+	medium_tank_destroyer_chassis = {
 		year = 1922
 		is_archetype = yes
 		is_buildable = no
@@ -1504,12 +1504,12 @@ equipments = {
 		manpower = 3
 	}
 
-	light_tank_hull_0 = {
+	medium_tank_destroyer_chassis_0 = {
 		abbreviation = "lth0"
 		derived_variant_name = light_tank_equipment_0
 		visual_level = 0
 		year = 1965
-		archetype = light_tank_hull
+		archetype = medium_tank_destroyer_chassis
 		priority = 2000
 		module_slots = inherit
 
@@ -1518,14 +1518,14 @@ equipments = {
 		}
 	}
 
-	light_tank_hull_1 = {
+	medium_tank_destroyer_chassis_1 = {
 		abbreviation = "lth1"
 		derived_variant_name = light_tank_equipment_1
 		visual_level = 0
 		year = 1975
-		archetype = light_tank_hull
+		archetype = medium_tank_destroyer_chassis
 		priority = 2000
-		parent = light_tank_hull_0
+		parent = medium_tank_destroyer_chassis_0
 		module_slots = inherit
 
 		fuel_consumption = 0
@@ -1541,14 +1541,14 @@ equipments = {
 		}
 	}
 
-	light_tank_hull_2 = {
+	medium_tank_destroyer_chassis_2 = {
 		abbreviation = "lth2"
 		derived_variant_name = light_tank_equipment_2
 		visual_level = 0
 		year = 1995
-		archetype = light_tank_hull
+		archetype = medium_tank_destroyer_chassis
 		priority = 2000
-		parent = light_tank_hull_1
+		parent = medium_tank_destroyer_chassis_1
 		module_slots = inherit
 
 		fuel_consumption = 0
@@ -1569,14 +1569,14 @@ equipments = {
 		}
 	}
 
-	light_tank_hull_3 = {
+	medium_tank_destroyer_chassis_3 = {
 		abbreviation = "lth3"
 		derived_variant_name = light_tank_equipment_3
 		visual_level = 0
 		year = 2015
-		archetype = light_tank_hull
+		archetype = medium_tank_destroyer_chassis
 		priority = 2000
-		parent = light_tank_hull_2
+		parent = medium_tank_destroyer_chassis_2
 		module_slots = inherit
 
 		fuel_consumption = 0
@@ -1592,14 +1592,14 @@ equipments = {
 		}
 	}
 
-	light_tank_hull_4 = {
+	medium_tank_destroyer_chassis_4 = {
 		abbreviation = "lth4"
 		derived_variant_name = light_tank_equipment_4
 		visual_level = 0
 		year = 2035
-		archetype = light_tank_hull
+		archetype = medium_tank_destroyer_chassis
 		priority = 2000
-		parent = light_tank_hull_3
+		parent = medium_tank_destroyer_chassis_3
 		module_slots = inherit
 
 		fuel_consumption = 0
@@ -1620,7 +1620,7 @@ equipments = {
 		}
 	}
 
-	spaa_hull = {
+	medium_tank_aa_chassis = {
 		year = 1922
 		is_archetype = yes
 		is_buildable = no
@@ -1755,12 +1755,12 @@ equipments = {
 		manpower = 3
 	}
 
-	spaa_hull_0 = {
+	medium_tank_aa_chassis_0 = {
 		abbreviation = "spaa0"
 		derived_variant_name = spaa_equipment_0
 		visual_level = 0
 		year = 1922
-		archetype = spaa_hull
+		archetype = medium_tank_aa_chassis
 		priority = 2000
 		module_slots = inherit
 
@@ -1775,13 +1775,13 @@ equipments = {
 		}
 	}
 
-	spaa_hull_1 = {
+	medium_tank_aa_chassis_1 = {
 		abbreviation = "spaa1"
 		derived_variant_name = spaa_equipment_1
 		visual_level = 0
-		parent = spaa_hull_0
+		parent = medium_tank_aa_chassis_0
 		year = 1922
-		archetype = spaa_hull
+		archetype = medium_tank_aa_chassis
 		priority = 2000
 		module_slots = inherit
 
@@ -1798,13 +1798,13 @@ equipments = {
 		}
 	}
 
-	spaa_hull_2 = {
+	medium_tank_aa_chassis_2 = {
 		abbreviation = "spaa2"
 		derived_variant_name = spaa_equipment_2
 		visual_level = 0
-		parent = spaa_hull_1
+		parent = medium_tank_aa_chassis_1
 		year = 1922
-		archetype = spaa_hull
+		archetype = medium_tank_aa_chassis
 		priority = 2000
 		module_slots = inherit
 
@@ -1820,13 +1820,13 @@ equipments = {
 		}
 	}
 
-	spaa_hull_3 = {
+	medium_tank_aa_chassis_3 = {
 		abbreviation = "spaa3"
 		derived_variant_name = spaa_equipment_3
 		visual_level = 0
-		parent = spaa_hull_2
+		parent = medium_tank_aa_chassis_2
 		year = 1922
-		archetype = spaa_hull
+		archetype = medium_tank_aa_chassis
 		priority = 2000
 		module_slots = inherit
 
@@ -1842,13 +1842,13 @@ equipments = {
 		}
 	}
 
-	spaa_hull_4 = {
+	medium_tank_aa_chassis_4 = {
 		abbreviation = "spaa4"
 		derived_variant_name = spaa_equipment_4
 		visual_level = 0
-		parent = spaa_hull_3
+		parent = medium_tank_aa_chassis_3
 		year = 1922
-		archetype = spaa_hull
+		archetype = medium_tank_aa_chassis
 		priority = 2000
 		module_slots = inherit
 
