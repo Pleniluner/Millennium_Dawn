@@ -148,7 +148,7 @@
 		fuel_refining = 1
 		construction1 = 1
 
-		
+
 
 		transport_helicopter1 = 1
 	}
@@ -165,11 +165,11 @@
 			era_tech = 1
 			diesel_engine_tech = 1
 			diesel_engine_tech_2 = 1
-			afv_tech = 1
+
 			nsb_artillery_0 = 1
 			nsb_Anti_Air_0 = 1
 			nsb_SP_Anti_Air_0 = 1
-			light_tank_tech = 1
+
 			nsb_SP_arty_0 = 1
 		}
 		# create_equipment_variant = {
@@ -213,7 +213,7 @@
 		# 	icon = "gfx/interface/technologies/IRQ/LAND/BMP1.dds"
 		# 	model = "SOV_BMP1_entity"
 		# }
-	
+
 		complete_special_project = sp:sp_armoured_vehicle_project
 	}
 	if = {
@@ -420,7 +420,7 @@
 		corvette_1 = 1
 		diesel_attack_submarine_1 = 1
 
-		
+
 
 		landing_craft = 1
 

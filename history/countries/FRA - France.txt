@@ -227,8 +227,8 @@
 			mbt_tech = 1
 			mbt_tech_1 = 1
 			mbt_tech_2 = 1
-			afv_tech = 1
-			afv_tech_1 = 1
+
+
 			tank_components_tech = 1
 			tank_components_tech_2 = 1
 			tank_components_tech_3 = 1
@@ -265,9 +265,9 @@
 			nsb_SP_Anti_Air_0 = 1
 			nsb_SP_Anti_Air_1 = 1
 
-			light_tank_tech = 1
-			light_tank_tech_1 = 1
-			light_tank_tech_2 = 1
+
+
+
 			nsb_attack_helicopter_tech_1 = 1
 			nsb_attack_helicopter_tech_2 = 1
 		}
