@@ -347,7 +347,8 @@
 		set_oob = "SPR_2000_nsb"
 		set_technology = {
 			mbt_tech = 1
-			mbt_tech_1 = 1
+			mbt_tech_ops = 1
+            mbt_tech_1 = 1
 			tank_components_tech = 1
 			tank_components_tech_2 = 1
 			tank_components_tech_3 = 1
@@ -1225,7 +1226,8 @@
 		limit = { has_dlc = "No Step Back" }
 
 		set_technology = {
-			mbt_tech_1 = 1
+			mbt_tech_ops = 1
+            mbt_tech_1 = 1
 			tank_components_tech_2 = 1
 			tank_components_tech_3 = 1
 			small_medium_gun_tech = 1

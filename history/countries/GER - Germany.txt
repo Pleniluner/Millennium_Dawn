@@ -1177,7 +1177,8 @@
 			medium_gun_tech_2 = 1
 			large_gun_tech = 1
 			mbt_tech = 1
-			mbt_tech_1 = 1
+			mbt_tech_ops = 1
+            mbt_tech_1 = 1
 			mbt_tech_2 = 1
 			diesel_engine_tech = 1
 			diesel_engine_tech_2 = 1
