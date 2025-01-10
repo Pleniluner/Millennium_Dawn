@@ -1,6 +1,8 @@
 v1.11.2
 
  AI:
+  - Reworked how AI manages its spending - now mainly based on expected spending
+  - Reworked how AI manager its taxes - now uses simplified and more rigid model for more predictable results
   - Adjusted the AI for the United Kingdom, Italy, France to not immediately intervene in Afghanistan as soon as there is WT and instead focus there when they support the US or if it's past 2002.6.1
 
  Bugfix:
